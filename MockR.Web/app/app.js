@@ -3,10 +3,14 @@
 MockR.config(['$routeProvider',
 	function($routeProvider) {
 		$routeProvider.when('/', {
-				templateUrl: 'app/templates/index.html',
-				controller: 'homeCtrl'
-			}).
-			otherwise({
-				redirectTo: '/'
-		});
-	}]);
+			templateUrl: 'app/templates/index.html',
+			controller: 'homeCtrl'
+		}).
+		when('/sim', {
+			templateUrl: 'app/templates/sim.html',
+			controller: 'simCtrl'
+		}).
+		otherwise({
+			redirectTo: '/'
+	});
+}]);
