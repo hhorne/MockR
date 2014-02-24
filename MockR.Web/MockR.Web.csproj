@@ -84,12 +84,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\controllers.js" />
+    <Content Include="app\css\bootstrap.css" />
     <Content Include="app\css\Main.css">
       <DependentUpon>Main.less</DependentUpon>
     </Content>
     <Content Include="app\app.js" />
     <Content Include="app\js\angular-animate.js" />
     <Content Include="app\js\angular-route.js" />
+    <Content Include="app\js\angular-scrollglue.js" />
+    <Content Include="app\js\angular-ui-bootstrap-tpls-0.10.0.js" />
     <Content Include="app\js\angular.js" />
     <Content Include="app\templates\index.html" />
     <Content Include="app\templates\sim.html" />
@@ -125,8 +128,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\img\" />
     <Folder Include="app\models\" />
-    <Folder Include="Views\MockR\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
