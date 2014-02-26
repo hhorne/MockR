@@ -4,1351 +4,5872 @@
 			"round": 1,
 			"position": 1,
 			"overall": 1,
-			"teamID": 9
+			"team": {
+				"id": 9,
+				"city": "Houston",
+				"name": "Texans",
+				"shortName": "HOU",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"QB",
+					"OG",
+					"OLB",
+					"OT",
+					"RB",
+					"S",
+					"DE",
+					"OLB",
+					"WR",
+					"DT",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 2,
 			"overall": 2,
-			"teamID": 32
+			"team": {
+				"id": 32,
+				"city": "St. Louis",
+				"name": "Rams",
+				"shortName": "STL",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"OT",
+					"OLB",
+					"S",
+					"CB",
+					"WR",
+					"DT",
+					"QB",
+					"RB",
+					"OG",
+					"CB",
+					"ILB"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 3,
 			"overall": 3,
-			"teamID": 11
+			"team": {
+				"id": 11,
+				"city": "Jacksonville",
+				"name": "Jaguars",
+				"shortName": "JAX",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"QB",
+					"DE",
+					"RB",
+					"OT",
+					"TE",
+					"C",
+					"OG",
+					"WR",
+					"OLB",
+					"OG",
+					"RB",
+					"DT",
+					"CB",
+					"S",
+					"OLB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 4,
 			"overall": 4,
-			"teamID": 6
+			"team": {
+				"id": 6,
+				"city": "Cleveland",
+				"name": "Browns",
+				"shortName": "CLE",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"QB",
+					"WR",
+					"RB",
+					"OG",
+					"CB",
+					"S",
+					"OG",
+					"RB",
+					"C",
+					"OT",
+					"WR",
+					"FB",
+					"DT"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 5,
 			"overall": 5,
-			"teamID": 15
+			"team": {
+				"id": 15,
+				"city": "Oakland",
+				"name": "Raiders",
+				"shortName": "OAK",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"QB",
+					"DE",
+					"OLB",
+					"WR",
+					"OG",
+					"DT",
+					"CB",
+					"RB",
+					"OT",
+					"S",
+					"DT",
+					"RB",
+					"OG",
+					"WR",
+					"OLB",
+					"ILB",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 6,
 			"overall": 6,
-			"teamID": 25
+			"team": {
+				"id": 25,
+				"city": "Atlanta",
+				"name": "Falcons",
+				"shortName": "ATL",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"DE",
+					"OLB",
+					"DT",
+					"OG",
+					"TE",
+					"DE",
+					"RB",
+					"S",
+					"OT",
+					"OLB",
+					"CB",
+					"ILB",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 7,
 			"overall": 7,
-			"teamID": 28
+			"team": {
+				"id": 28,
+				"city": "Tampa Bay",
+				"name": "Buccaneers",
+				"shortName": "TAM",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"DE",
+					"TE",
+					"OLB",
+					"OG",
+					"WR",
+					"C",
+					"DE",
+					"DT",
+					"QB",
+					"CB",
+					"OT",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 8,
 			"overall": 8,
-			"teamID": 24
+			"team": {
+				"id": 24,
+				"city": "Minnesota",
+				"name": "Vikings",
+				"shortName": "MIN",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"QB",
+					"DT",
+					"WR",
+					"CB",
+					"DE",
+					"OLB",
+					"ILB",
+					"WR",
+					"CB",
+					"S",
+					"OG",
+					"RB"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 9,
 			"overall": 9,
-			"teamID": 1
+			"team": {
+				"id": 1,
+				"city": "Buffalo",
+				"name": "Bills",
+				"shortName": "BUF",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"S",
+					"OLB",
+					"OG",
+					"OT",
+					"TE",
+					"CB",
+					"DE",
+					"DT",
+					"ILB",
+					"C",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 10,
 			"overall": 10,
-			"teamID": 22
+			"team": {
+				"id": 22,
+				"city": "Detroit",
+				"name": "Lions",
+				"shortName": "DET",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"WR",
+					"OLB",
+					"S",
+					"WR",
+					"DE",
+					"TE",
+					"OG",
+					"CB",
+					"S",
+					"OT",
+					"TE",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 11,
 			"overall": 11,
-			"teamID": 12
+			"team": {
+				"id": 12,
+				"city": "Tennessee",
+				"name": "Titans",
+				"shortName": "TEN",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"OLB",
+					"S",
+					"QB",
+					"RB",
+					"DT",
+					"OT",
+					"CB",
+					"C",
+					"WR",
+					"ILB",
+					"RB",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 12,
 			"overall": 12,
-			"teamID": 18
+			"team": {
+				"id": 18,
+				"city": "New York",
+				"name": "Giants",
+				"shortName": "NYG",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"CB",
+					"OLB",
+					"ILB",
+					"OT",
+					"S",
+					"C",
+					"RB",
+					"CB",
+					"OG",
+					"WR",
+					"DE",
+					"TE"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 13,
 			"overall": 13,
-			"teamID": 32
+			"team": {
+				"id": 32,
+				"city": "St. Louis",
+				"name": "Rams",
+				"shortName": "STL",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"OT",
+					"OLB",
+					"S",
+					"CB",
+					"WR",
+					"DT",
+					"QB",
+					"RB",
+					"OG",
+					"CB",
+					"ILB"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 14,
 			"overall": 14,
-			"teamID": 21
+			"team": {
+				"id": 21,
+				"city": "Chicago",
+				"name": "Bears",
+				"shortName": "CHI",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"DT",
+					"S",
+					"OLB",
+					"CB",
+					"DT",
+					"DE",
+					"OG",
+					"CB",
+					"RB",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 15,
 			"overall": 15,
-			"teamID": 8
+			"team": {
+				"id": 8,
+				"city": "Pittsburgh",
+				"name": "Steelers",
+				"shortName": "PIT",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"OT",
+					"DT",
+					"DE",
+					"WR",
+					"OG",
+					"CB",
+					"S",
+					"OLB",
+					"ILB",
+					"RB",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 16,
-			"overall": 16,
-			"teamID": 17
+			"overall": 16
 		},
 		{
 			"round": 1,
 			"position": 17,
 			"overall": 17,
-			"teamID": 5
+			"team": {
+				"id": 5,
+				"city": "Baltimore",
+				"name": "Ravens",
+				"shortName": "BAL",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"WR",
+					"OT",
+					"TE",
+					"C",
+					"CB",
+					"WR",
+					"DT",
+					"RB",
+					"DE",
+					"S",
+					"TE",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 18,
 			"overall": 18,
-			"teamID": 3
+			"team": {
+				"id": 3,
+				"city": "New York",
+				"name": "Jets",
+				"shortName": "NYJ",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"WR",
+					"TE",
+					"S",
+					"OLB",
+					"WR",
+					"OG",
+					"RB",
+					"CB",
+					"OT",
+					"QB",
+					"OG",
+					"OLB"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 19,
 			"overall": 19,
-			"teamID": 2
+			"team": {
+				"id": 2,
+				"city": "Miami",
+				"name": "Dolphins",
+				"shortName": "MIA",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"OT",
+					"OG",
+					"OT",
+					"CB",
+					"RB",
+					"OG",
+					"OLB",
+					"S",
+					"TE",
+					"WR",
+					"DT"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 20,
 			"overall": 20,
-			"teamID": 29
+			"team": {
+				"id": 29,
+				"city": "Arizona",
+				"name": "Cardinals",
+				"shortName": "ARI",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"QB",
+					"OT",
+					"OLB",
+					"OT",
+					"RB",
+					"TE",
+					"OLB",
+					"C",
+					"ILB",
+					"S",
+					"CB",
+					"RB",
+					"OG"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 21,
 			"overall": 21,
-			"teamID": 23
+			"team": {
+				"id": 23,
+				"city": "Green Bay",
+				"name": "Packers",
+				"shortName": "GNB",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"TE",
+					"S",
+					"CB",
+					"OT",
+					"C",
+					"DE",
+					"OG",
+					"WR",
+					"DT",
+					"CB",
+					"QB"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 22,
 			"overall": 22,
-			"teamID": 19
+			"team": {
+				"id": 19,
+				"city": "Philadelphia",
+				"name": "Eagles",
+				"shortName": "PHI",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"OLB",
+					"S",
+					"ILB",
+					"CB",
+					"WR",
+					"DT",
+					"OG",
+					"RB",
+					"DE",
+					"CB",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 23,
 			"overall": 23,
-			"teamID": 14
+			"team": {
+				"id": 14,
+				"city": "Kansas City",
+				"name": "Chiefs",
+				"shortName": "KAN",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"TE",
+					"ILB",
+					"OT",
+					"WR",
+					"OG",
+					"DE",
+					"CB",
+					"OG",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 24,
 			"overall": 24,
-			"teamID": 7
+			"team": {
+				"id": 7,
+				"city": "Cincinnati",
+				"name": "Bengals",
+				"shortName": "CIN",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"S",
+					"OLB",
+					"WR",
+					"C",
+					"ILB",
+					"CB",
+					"DT",
+					"QB",
+					"RB",
+					"DE",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 25,
 			"overall": 25,
-			"teamID": 16
+			"team": {
+				"id": 16,
+				"city": "San Diego",
+				"name": "Chargers",
+				"shortName": "SDG",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"DT",
+					"CB",
+					"OT",
+					"OLB",
+					"OG",
+					"ILB",
+					"CB",
+					"RB",
+					"DT",
+					"WR",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 26,
 			"overall": 26,
-			"teamID": 6
+			"team": {
+				"id": 6,
+				"city": "Cleveland",
+				"name": "Browns",
+				"shortName": "CLE",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"QB",
+					"WR",
+					"RB",
+					"OG",
+					"CB",
+					"S",
+					"OG",
+					"RB",
+					"C",
+					"OT",
+					"WR",
+					"FB",
+					"DT"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 27,
 			"overall": 27,
-			"teamID": 27
+			"team": {
+				"id": 27,
+				"city": "New Orleans",
+				"name": "Saints",
+				"shortName": "NOR",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"OLB",
+					"ILB",
+					"CB",
+					"WR",
+					"OT",
+					"S",
+					"ILB",
+					"OLB",
+					"QB",
+					"TE",
+					"CB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 28,
 			"overall": 28,
-			"teamID": 26
+			"team": {
+				"id": 26,
+				"city": "Carolina",
+				"name": "Panthers",
+				"shortName": "CAR",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"WR",
+					"OT",
+					"CB",
+					"S",
+					"OG",
+					"WR",
+					"TE",
+					"S",
+					"OLB",
+					"CB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 29,
 			"overall": 29,
-			"teamID": 4
+			"team": {
+				"id": 4,
+				"city": "New England",
+				"name": "Patriots",
+				"shortName": "NWE",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"DT",
+					"TE",
+					"S",
+					"DT",
+					"OG",
+					"C",
+					"DE",
+					"WR",
+					"OLB",
+					"TE",
+					"QB"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 30,
 			"overall": 30,
-			"teamID": 31
+			"team": {
+				"id": 31,
+				"city": "San Francisco",
+				"name": "49ers",
+				"shortName": "SFO",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"CB",
+					"DT",
+					"WR",
+					"C",
+					"RB",
+					"S",
+					"DE",
+					"OG",
+					"TE",
+					"CB",
+					"ILB"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 31,
 			"overall": 31,
-			"teamID": 13
+			"team": {
+				"id": 13,
+				"city": "Denver",
+				"name": "Broncos",
+				"shortName": "DEN",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"CB",
+					"DE",
+					"WR",
+					"S",
+					"C",
+					"OT",
+					"CB",
+					"OG",
+					"OLB",
+					"ILB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 1,
 			"position": 32,
 			"overall": 32,
-			"teamID": 30
+			"team": {
+				"id": 30,
+				"city": "Seattle",
+				"name": "Seahawks",
+				"shortName": "SEA",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"OT",
+					"OG",
+					"CB",
+					"DE",
+					"WR",
+					"DT",
+					"OG",
+					"S",
+					"CB",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 1,
 			"overall": 33,
-			"teamID": 9
+			"team": {
+				"id": 9,
+				"city": "Houston",
+				"name": "Texans",
+				"shortName": "HOU",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"QB",
+					"OG",
+					"OLB",
+					"OT",
+					"RB",
+					"S",
+					"DE",
+					"OLB",
+					"WR",
+					"DT",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 2,
 			"overall": 34,
-			"teamID": 20
+			"team": {
+				"id": 20,
+				"city": "Washington",
+				"name": "Redtails",
+				"shortName": "WAS",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"OT",
+					"S",
+					"DT",
+					"ILB",
+					"OG",
+					"CB",
+					"S",
+					"WR",
+					"OG",
+					"C",
+					"ILB",
+					"DE",
+					"CB",
+					"WR",
+					"OLB",
+					"TE"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 3,
 			"overall": 35,
-			"teamID": 6
+			"team": {
+				"id": 6,
+				"city": "Cleveland",
+				"name": "Browns",
+				"shortName": "CLE",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"QB",
+					"WR",
+					"RB",
+					"OG",
+					"CB",
+					"S",
+					"OG",
+					"RB",
+					"C",
+					"OT",
+					"WR",
+					"FB",
+					"DT"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 4,
 			"overall": 36,
-			"teamID": 15
+			"team": {
+				"id": 15,
+				"city": "Oakland",
+				"name": "Raiders",
+				"shortName": "OAK",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"QB",
+					"DE",
+					"OLB",
+					"WR",
+					"OG",
+					"DT",
+					"CB",
+					"RB",
+					"OT",
+					"S",
+					"DT",
+					"RB",
+					"OG",
+					"WR",
+					"OLB",
+					"ILB",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 5,
 			"overall": 37,
-			"teamID": 25
+			"team": {
+				"id": 25,
+				"city": "Atlanta",
+				"name": "Falcons",
+				"shortName": "ATL",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"DE",
+					"OLB",
+					"DT",
+					"OG",
+					"TE",
+					"DE",
+					"RB",
+					"S",
+					"OT",
+					"OLB",
+					"CB",
+					"ILB",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 6,
 			"overall": 38,
-			"teamID": 28
+			"team": {
+				"id": 28,
+				"city": "Tampa Bay",
+				"name": "Buccaneers",
+				"shortName": "TAM",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"DE",
+					"TE",
+					"OLB",
+					"OG",
+					"WR",
+					"C",
+					"DE",
+					"DT",
+					"QB",
+					"CB",
+					"OT",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 7,
 			"overall": 39,
-			"teamID": 11
+			"team": {
+				"id": 11,
+				"city": "Jacksonville",
+				"name": "Jaguars",
+				"shortName": "JAX",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"QB",
+					"DE",
+					"RB",
+					"OT",
+					"TE",
+					"C",
+					"OG",
+					"WR",
+					"OLB",
+					"OG",
+					"RB",
+					"DT",
+					"CB",
+					"S",
+					"OLB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 8,
 			"overall": 40,
-			"teamID": 24
+			"team": {
+				"id": 24,
+				"city": "Minnesota",
+				"name": "Vikings",
+				"shortName": "MIN",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"QB",
+					"DT",
+					"WR",
+					"CB",
+					"DE",
+					"OLB",
+					"ILB",
+					"WR",
+					"CB",
+					"S",
+					"OG",
+					"RB"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 9,
 			"overall": 41,
-			"teamID": 1
+			"team": {
+				"id": 1,
+				"city": "Buffalo",
+				"name": "Bills",
+				"shortName": "BUF",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"S",
+					"OLB",
+					"OG",
+					"OT",
+					"TE",
+					"CB",
+					"DE",
+					"DT",
+					"ILB",
+					"C",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 10,
 			"overall": 42,
-			"teamID": 12
+			"team": {
+				"id": 12,
+				"city": "Tennessee",
+				"name": "Titans",
+				"shortName": "TEN",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"OLB",
+					"S",
+					"QB",
+					"RB",
+					"DT",
+					"OT",
+					"CB",
+					"C",
+					"WR",
+					"ILB",
+					"RB",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 11,
 			"overall": 43,
-			"teamID": 18
+			"team": {
+				"id": 18,
+				"city": "New York",
+				"name": "Giants",
+				"shortName": "NYG",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"CB",
+					"OLB",
+					"ILB",
+					"OT",
+					"S",
+					"C",
+					"RB",
+					"CB",
+					"OG",
+					"WR",
+					"DE",
+					"TE"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 12,
 			"overall": 44,
-			"teamID": 32
+			"team": {
+				"id": 32,
+				"city": "St. Louis",
+				"name": "Rams",
+				"shortName": "STL",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"OT",
+					"OLB",
+					"S",
+					"CB",
+					"WR",
+					"DT",
+					"QB",
+					"RB",
+					"OG",
+					"CB",
+					"ILB"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 13,
 			"overall": 45,
-			"teamID": 22
+			"team": {
+				"id": 22,
+				"city": "Detroit",
+				"name": "Lions",
+				"shortName": "DET",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"WR",
+					"OLB",
+					"S",
+					"WR",
+					"DE",
+					"TE",
+					"OG",
+					"CB",
+					"S",
+					"OT",
+					"TE",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 14,
 			"overall": 46,
-			"teamID": 8
+			"team": {
+				"id": 8,
+				"city": "Pittsburgh",
+				"name": "Steelers",
+				"shortName": "PIT",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"OT",
+					"DT",
+					"DE",
+					"WR",
+					"OG",
+					"CB",
+					"S",
+					"OLB",
+					"ILB",
+					"RB",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 15,
-			"overall": 47,
-			"teamID": 17
+			"overall": 47
 		},
 		{
 			"round": 2,
 			"position": 16,
 			"overall": 48,
-			"teamID": 5
+			"team": {
+				"id": 5,
+				"city": "Baltimore",
+				"name": "Ravens",
+				"shortName": "BAL",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"WR",
+					"OT",
+					"TE",
+					"C",
+					"CB",
+					"WR",
+					"DT",
+					"RB",
+					"DE",
+					"S",
+					"TE",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 17,
 			"overall": 49,
-			"teamID": 3
+			"team": {
+				"id": 3,
+				"city": "New York",
+				"name": "Jets",
+				"shortName": "NYJ",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"WR",
+					"TE",
+					"S",
+					"OLB",
+					"WR",
+					"OG",
+					"RB",
+					"CB",
+					"OT",
+					"QB",
+					"OG",
+					"OLB"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 18,
 			"overall": 50,
-			"teamID": 2
+			"team": {
+				"id": 2,
+				"city": "Miami",
+				"name": "Dolphins",
+				"shortName": "MIA",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"OT",
+					"OG",
+					"OT",
+					"CB",
+					"RB",
+					"OG",
+					"OLB",
+					"S",
+					"TE",
+					"WR",
+					"DT"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 19,
 			"overall": 51,
-			"teamID": 21
+			"team": {
+				"id": 21,
+				"city": "Chicago",
+				"name": "Bears",
+				"shortName": "CHI",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"DT",
+					"S",
+					"OLB",
+					"CB",
+					"DT",
+					"DE",
+					"OG",
+					"CB",
+					"RB",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 20,
 			"overall": 52,
-			"teamID": 29
+			"team": {
+				"id": 29,
+				"city": "Arizona",
+				"name": "Cardinals",
+				"shortName": "ARI",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"QB",
+					"OT",
+					"OLB",
+					"OT",
+					"RB",
+					"TE",
+					"OLB",
+					"C",
+					"ILB",
+					"S",
+					"CB",
+					"RB",
+					"OG"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 21,
 			"overall": 53,
-			"teamID": 23
+			"team": {
+				"id": 23,
+				"city": "Green Bay",
+				"name": "Packers",
+				"shortName": "GNB",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"TE",
+					"S",
+					"CB",
+					"OT",
+					"C",
+					"DE",
+					"OG",
+					"WR",
+					"DT",
+					"CB",
+					"QB"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 22,
 			"overall": 54,
-			"teamID": 19
+			"team": {
+				"id": 19,
+				"city": "Philadelphia",
+				"name": "Eagles",
+				"shortName": "PHI",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"OLB",
+					"S",
+					"ILB",
+					"CB",
+					"WR",
+					"DT",
+					"OG",
+					"RB",
+					"DE",
+					"CB",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 23,
 			"overall": 55,
-			"teamID": 7
+			"team": {
+				"id": 7,
+				"city": "Cincinnati",
+				"name": "Bengals",
+				"shortName": "CIN",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"S",
+					"OLB",
+					"WR",
+					"C",
+					"ILB",
+					"CB",
+					"DT",
+					"QB",
+					"RB",
+					"DE",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 24,
 			"overall": 56,
-			"teamID": 31
+			"team": {
+				"id": 31,
+				"city": "San Francisco",
+				"name": "49ers",
+				"shortName": "SFO",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"CB",
+					"DT",
+					"WR",
+					"C",
+					"RB",
+					"S",
+					"DE",
+					"OG",
+					"TE",
+					"CB",
+					"ILB"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 25,
 			"overall": 57,
-			"teamID": 16
+			"team": {
+				"id": 16,
+				"city": "San Diego",
+				"name": "Chargers",
+				"shortName": "SDG",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"DT",
+					"CB",
+					"OT",
+					"OLB",
+					"OG",
+					"ILB",
+					"CB",
+					"RB",
+					"DT",
+					"WR",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 26,
 			"overall": 58,
-			"teamID": 27
+			"team": {
+				"id": 27,
+				"city": "New Orleans",
+				"name": "Saints",
+				"shortName": "NOR",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"OLB",
+					"ILB",
+					"CB",
+					"WR",
+					"OT",
+					"S",
+					"ILB",
+					"OLB",
+					"QB",
+					"TE",
+					"CB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 27,
 			"overall": 59,
-			"teamID": 10
+			"team": {
+				"id": 10,
+				"city": "Indianapolis",
+				"name": "Colts",
+				"shortName": "IND",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"OG",
+					"ILB",
+					"C",
+					"WR",
+					"DE",
+					"RB",
+					"OG",
+					"DT",
+					"CB",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 28,
 			"overall": 60,
-			"teamID": 26
+			"team": {
+				"id": 26,
+				"city": "Carolina",
+				"name": "Panthers",
+				"shortName": "CAR",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"WR",
+					"OT",
+					"CB",
+					"S",
+					"OG",
+					"WR",
+					"TE",
+					"S",
+					"OLB",
+					"CB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 29,
 			"overall": 61,
-			"teamID": 31
+			"team": {
+				"id": 31,
+				"city": "San Francisco",
+				"name": "49ers",
+				"shortName": "SFO",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"CB",
+					"DT",
+					"WR",
+					"C",
+					"RB",
+					"S",
+					"DE",
+					"OG",
+					"TE",
+					"CB",
+					"ILB"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 30,
 			"overall": 62,
-			"teamID": 4
+			"team": {
+				"id": 4,
+				"city": "New England",
+				"name": "Patriots",
+				"shortName": "NWE",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"DT",
+					"TE",
+					"S",
+					"DT",
+					"OG",
+					"C",
+					"DE",
+					"WR",
+					"OLB",
+					"TE",
+					"QB"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 31,
 			"overall": 63,
-			"teamID": 13
+			"team": {
+				"id": 13,
+				"city": "Denver",
+				"name": "Broncos",
+				"shortName": "DEN",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"CB",
+					"DE",
+					"WR",
+					"S",
+					"C",
+					"OT",
+					"CB",
+					"OG",
+					"OLB",
+					"ILB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 2,
 			"position": 32,
 			"overall": 64,
-			"teamID": 30
+			"team": {
+				"id": 30,
+				"city": "Seattle",
+				"name": "Seahawks",
+				"shortName": "SEA",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"OT",
+					"OG",
+					"CB",
+					"DE",
+					"WR",
+					"DT",
+					"OG",
+					"S",
+					"CB",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 1,
 			"overall": 65,
-			"teamID": 9
+			"team": {
+				"id": 9,
+				"city": "Houston",
+				"name": "Texans",
+				"shortName": "HOU",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"QB",
+					"OG",
+					"OLB",
+					"OT",
+					"RB",
+					"S",
+					"DE",
+					"OLB",
+					"WR",
+					"DT",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 2,
 			"overall": 66,
-			"teamID": 20
+			"team": {
+				"id": 20,
+				"city": "Washington",
+				"name": "Redtails",
+				"shortName": "WAS",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"OT",
+					"S",
+					"DT",
+					"ILB",
+					"OG",
+					"CB",
+					"S",
+					"WR",
+					"OG",
+					"C",
+					"ILB",
+					"DE",
+					"CB",
+					"WR",
+					"OLB",
+					"TE"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 3,
 			"overall": 67,
-			"teamID": 15
+			"team": {
+				"id": 15,
+				"city": "Oakland",
+				"name": "Raiders",
+				"shortName": "OAK",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"QB",
+					"DE",
+					"OLB",
+					"WR",
+					"OG",
+					"DT",
+					"CB",
+					"RB",
+					"OT",
+					"S",
+					"DT",
+					"RB",
+					"OG",
+					"WR",
+					"OLB",
+					"ILB",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 4,
 			"overall": 68,
-			"teamID": 25
+			"team": {
+				"id": 25,
+				"city": "Atlanta",
+				"name": "Falcons",
+				"shortName": "ATL",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"DE",
+					"OLB",
+					"DT",
+					"OG",
+					"TE",
+					"DE",
+					"RB",
+					"S",
+					"OT",
+					"OLB",
+					"CB",
+					"ILB",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 5,
 			"overall": 69,
-			"teamID": 3
+			"team": {
+				"id": 3,
+				"city": "New York",
+				"name": "Jets",
+				"shortName": "NYJ",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"WR",
+					"TE",
+					"S",
+					"OLB",
+					"WR",
+					"OG",
+					"RB",
+					"CB",
+					"OT",
+					"QB",
+					"OG",
+					"OLB"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 6,
 			"overall": 70,
-			"teamID": 11
+			"team": {
+				"id": 11,
+				"city": "Jacksonville",
+				"name": "Jaguars",
+				"shortName": "JAX",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"QB",
+					"DE",
+					"RB",
+					"OT",
+					"TE",
+					"C",
+					"OG",
+					"WR",
+					"OLB",
+					"OG",
+					"RB",
+					"DT",
+					"CB",
+					"S",
+					"OLB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 7,
 			"overall": 71,
-			"teamID": 6
+			"team": {
+				"id": 6,
+				"city": "Cleveland",
+				"name": "Browns",
+				"shortName": "CLE",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"QB",
+					"WR",
+					"RB",
+					"OG",
+					"CB",
+					"S",
+					"OG",
+					"RB",
+					"C",
+					"OT",
+					"WR",
+					"FB",
+					"DT"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 8,
 			"overall": 72,
-			"teamID": 24
+			"team": {
+				"id": 24,
+				"city": "Minnesota",
+				"name": "Vikings",
+				"shortName": "MIN",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"QB",
+					"DT",
+					"WR",
+					"CB",
+					"DE",
+					"OLB",
+					"ILB",
+					"WR",
+					"CB",
+					"S",
+					"OG",
+					"RB"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 9,
 			"overall": 73,
-			"teamID": 1
+			"team": {
+				"id": 1,
+				"city": "Buffalo",
+				"name": "Bills",
+				"shortName": "BUF",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"S",
+					"OLB",
+					"OG",
+					"OT",
+					"TE",
+					"CB",
+					"DE",
+					"DT",
+					"ILB",
+					"C",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 10,
 			"overall": 74,
-			"teamID": 18
+			"team": {
+				"id": 18,
+				"city": "New York",
+				"name": "Giants",
+				"shortName": "NYG",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"CB",
+					"OLB",
+					"ILB",
+					"OT",
+					"S",
+					"C",
+					"RB",
+					"CB",
+					"OG",
+					"WR",
+					"DE",
+					"TE"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 11,
 			"overall": 75,
-			"teamID": 32
+			"team": {
+				"id": 32,
+				"city": "St. Louis",
+				"name": "Rams",
+				"shortName": "STL",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"OT",
+					"OLB",
+					"S",
+					"CB",
+					"WR",
+					"DT",
+					"QB",
+					"RB",
+					"OG",
+					"CB",
+					"ILB"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 12,
 			"overall": 76,
-			"teamID": 22
+			"team": {
+				"id": 22,
+				"city": "Detroit",
+				"name": "Lions",
+				"shortName": "DET",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"WR",
+					"OLB",
+					"S",
+					"WR",
+					"DE",
+					"TE",
+					"OG",
+					"CB",
+					"S",
+					"OT",
+					"TE",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 13,
 			"overall": 77,
-			"teamID": 31
+			"team": {
+				"id": 31,
+				"city": "San Francisco",
+				"name": "49ers",
+				"shortName": "SFO",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"CB",
+					"DT",
+					"WR",
+					"C",
+					"RB",
+					"S",
+					"DE",
+					"OG",
+					"TE",
+					"CB",
+					"ILB"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 14,
-			"overall": 78,
-			"teamID": 17
+			"overall": 78
 		},
 		{
 			"round": 3,
 			"position": 15,
 			"overall": 79,
-			"teamID": 5
+			"team": {
+				"id": 5,
+				"city": "Baltimore",
+				"name": "Ravens",
+				"shortName": "BAL",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"WR",
+					"OT",
+					"TE",
+					"C",
+					"CB",
+					"WR",
+					"DT",
+					"RB",
+					"DE",
+					"S",
+					"TE",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 16,
 			"overall": 80,
-			"teamID": 3
+			"team": {
+				"id": 3,
+				"city": "New York",
+				"name": "Jets",
+				"shortName": "NYJ",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"WR",
+					"TE",
+					"S",
+					"OLB",
+					"WR",
+					"OG",
+					"RB",
+					"CB",
+					"OT",
+					"QB",
+					"OG",
+					"OLB"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 17,
 			"overall": 81,
-			"teamID": 2
+			"team": {
+				"id": 2,
+				"city": "Miami",
+				"name": "Dolphins",
+				"shortName": "MIA",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"OT",
+					"OG",
+					"OT",
+					"CB",
+					"RB",
+					"OG",
+					"OLB",
+					"S",
+					"TE",
+					"WR",
+					"DT"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 18,
 			"overall": 82,
-			"teamID": 21
+			"team": {
+				"id": 21,
+				"city": "Chicago",
+				"name": "Bears",
+				"shortName": "CHI",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"DT",
+					"S",
+					"OLB",
+					"CB",
+					"DT",
+					"DE",
+					"OG",
+					"CB",
+					"RB",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 19,
 			"overall": 83,
-			"teamID": 6
+			"team": {
+				"id": 6,
+				"city": "Cleveland",
+				"name": "Browns",
+				"shortName": "CLE",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"QB",
+					"WR",
+					"RB",
+					"OG",
+					"CB",
+					"S",
+					"OG",
+					"RB",
+					"C",
+					"OT",
+					"WR",
+					"FB",
+					"DT"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 20,
 			"overall": 84,
-			"teamID": 29
+			"team": {
+				"id": 29,
+				"city": "Arizona",
+				"name": "Cardinals",
+				"shortName": "ARI",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"QB",
+					"OT",
+					"OLB",
+					"OT",
+					"RB",
+					"TE",
+					"OLB",
+					"C",
+					"ILB",
+					"S",
+					"CB",
+					"RB",
+					"OG"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 21,
 			"overall": 85,
-			"teamID": 23
+			"team": {
+				"id": 23,
+				"city": "Green Bay",
+				"name": "Packers",
+				"shortName": "GNB",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"TE",
+					"S",
+					"CB",
+					"OT",
+					"C",
+					"DE",
+					"OG",
+					"WR",
+					"DT",
+					"CB",
+					"QB"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 22,
 			"overall": 86,
-			"teamID": 19
+			"team": {
+				"id": 19,
+				"city": "Philadelphia",
+				"name": "Eagles",
+				"shortName": "PHI",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"OLB",
+					"S",
+					"ILB",
+					"CB",
+					"WR",
+					"DT",
+					"OG",
+					"RB",
+					"DE",
+					"CB",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 23,
 			"overall": 87,
-			"teamID": 14
+			"team": {
+				"id": 14,
+				"city": "Kansas City",
+				"name": "Chiefs",
+				"shortName": "KAN",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"TE",
+					"ILB",
+					"OT",
+					"WR",
+					"OG",
+					"DE",
+					"CB",
+					"OG",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 24,
 			"overall": 88,
-			"teamID": 7
+			"team": {
+				"id": 7,
+				"city": "Cincinnati",
+				"name": "Bengals",
+				"shortName": "CIN",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"S",
+					"OLB",
+					"WR",
+					"C",
+					"ILB",
+					"CB",
+					"DT",
+					"QB",
+					"RB",
+					"DE",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 25,
 			"overall": 89,
-			"teamID": 16
+			"team": {
+				"id": 16,
+				"city": "San Diego",
+				"name": "Chargers",
+				"shortName": "SDG",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"DT",
+					"CB",
+					"OT",
+					"OLB",
+					"OG",
+					"ILB",
+					"CB",
+					"RB",
+					"DT",
+					"WR",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 26,
 			"overall": 90,
-			"teamID": 10
+			"team": {
+				"id": 10,
+				"city": "Indianapolis",
+				"name": "Colts",
+				"shortName": "IND",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"OG",
+					"ILB",
+					"C",
+					"WR",
+					"DE",
+					"RB",
+					"OG",
+					"DT",
+					"CB",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 27,
 			"overall": 91,
-			"teamID": 27
+			"team": {
+				"id": 27,
+				"city": "New Orleans",
+				"name": "Saints",
+				"shortName": "NOR",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"OLB",
+					"ILB",
+					"CB",
+					"WR",
+					"OT",
+					"S",
+					"ILB",
+					"OLB",
+					"QB",
+					"TE",
+					"CB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 28,
 			"overall": 92,
-			"teamID": 26
+			"team": {
+				"id": 26,
+				"city": "Carolina",
+				"name": "Panthers",
+				"shortName": "CAR",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"WR",
+					"OT",
+					"CB",
+					"S",
+					"OG",
+					"WR",
+					"TE",
+					"S",
+					"OLB",
+					"CB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 29,
 			"overall": 93,
-			"teamID": 4
+			"team": {
+				"id": 4,
+				"city": "New England",
+				"name": "Patriots",
+				"shortName": "NWE",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"DT",
+					"TE",
+					"S",
+					"DT",
+					"OG",
+					"C",
+					"DE",
+					"WR",
+					"OLB",
+					"TE",
+					"QB"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 30,
 			"overall": 94,
-			"teamID": 31
+			"team": {
+				"id": 31,
+				"city": "San Francisco",
+				"name": "49ers",
+				"shortName": "SFO",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"CB",
+					"DT",
+					"WR",
+					"C",
+					"RB",
+					"S",
+					"DE",
+					"OG",
+					"TE",
+					"CB",
+					"ILB"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 31,
 			"overall": 95,
-			"teamID": 13
+			"team": {
+				"id": 13,
+				"city": "Denver",
+				"name": "Broncos",
+				"shortName": "DEN",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"CB",
+					"DE",
+					"WR",
+					"S",
+					"C",
+					"OT",
+					"CB",
+					"OG",
+					"OLB",
+					"ILB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 3,
 			"position": 32,
 			"overall": 96,
-			"teamID": 24
+			"team": {
+				"id": 24,
+				"city": "Minnesota",
+				"name": "Vikings",
+				"shortName": "MIN",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"QB",
+					"DT",
+					"WR",
+					"CB",
+					"DE",
+					"OLB",
+					"ILB",
+					"WR",
+					"CB",
+					"S",
+					"OG",
+					"RB"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 1,
 			"overall": 97,
-			"teamID": 9
+			"team": {
+				"id": 9,
+				"city": "Houston",
+				"name": "Texans",
+				"shortName": "HOU",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"QB",
+					"OG",
+					"OLB",
+					"OT",
+					"RB",
+					"S",
+					"DE",
+					"OLB",
+					"WR",
+					"DT",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 2,
 			"overall": 98,
-			"teamID": 20
+			"team": {
+				"id": 20,
+				"city": "Washington",
+				"name": "Redtails",
+				"shortName": "WAS",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"OT",
+					"S",
+					"DT",
+					"ILB",
+					"OG",
+					"CB",
+					"S",
+					"WR",
+					"OG",
+					"C",
+					"ILB",
+					"DE",
+					"CB",
+					"WR",
+					"OLB",
+					"TE"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 3,
 			"overall": 99,
-			"teamID": 25
+			"team": {
+				"id": 25,
+				"city": "Atlanta",
+				"name": "Falcons",
+				"shortName": "ATL",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"DE",
+					"OLB",
+					"DT",
+					"OG",
+					"TE",
+					"DE",
+					"RB",
+					"S",
+					"OT",
+					"OLB",
+					"CB",
+					"ILB",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 4,
 			"overall": 100,
-			"teamID": 28
+			"team": {
+				"id": 28,
+				"city": "Tampa Bay",
+				"name": "Buccaneers",
+				"shortName": "TAM",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"DE",
+					"TE",
+					"OLB",
+					"OG",
+					"WR",
+					"C",
+					"DE",
+					"DT",
+					"QB",
+					"CB",
+					"OT",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 5,
 			"overall": 101,
-			"teamID": 11
+			"team": {
+				"id": 11,
+				"city": "Jacksonville",
+				"name": "Jaguars",
+				"shortName": "JAX",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"QB",
+					"DE",
+					"RB",
+					"OT",
+					"TE",
+					"C",
+					"OG",
+					"WR",
+					"OLB",
+					"OG",
+					"RB",
+					"DT",
+					"CB",
+					"S",
+					"OLB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 6,
 			"overall": 102,
-			"teamID": 6
+			"team": {
+				"id": 6,
+				"city": "Cleveland",
+				"name": "Browns",
+				"shortName": "CLE",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"QB",
+					"WR",
+					"RB",
+					"OG",
+					"CB",
+					"S",
+					"OG",
+					"RB",
+					"C",
+					"OT",
+					"WR",
+					"FB",
+					"DT"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 7,
 			"overall": 103,
-			"teamID": 15
+			"team": {
+				"id": 15,
+				"city": "Oakland",
+				"name": "Raiders",
+				"shortName": "OAK",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"QB",
+					"DE",
+					"OLB",
+					"WR",
+					"OG",
+					"DT",
+					"CB",
+					"RB",
+					"OT",
+					"S",
+					"DT",
+					"RB",
+					"OG",
+					"WR",
+					"OLB",
+					"ILB",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 8,
 			"overall": 104,
-			"teamID": 24
+			"team": {
+				"id": 24,
+				"city": "Minnesota",
+				"name": "Vikings",
+				"shortName": "MIN",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"QB",
+					"DT",
+					"WR",
+					"CB",
+					"DE",
+					"OLB",
+					"ILB",
+					"WR",
+					"CB",
+					"S",
+					"OG",
+					"RB"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 9,
 			"overall": 105,
-			"teamID": 1
+			"team": {
+				"id": 1,
+				"city": "Buffalo",
+				"name": "Bills",
+				"shortName": "BUF",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"S",
+					"OLB",
+					"OG",
+					"OT",
+					"TE",
+					"CB",
+					"DE",
+					"DT",
+					"ILB",
+					"C",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 10,
 			"overall": 106,
-			"teamID": 32
+			"team": {
+				"id": 32,
+				"city": "St. Louis",
+				"name": "Rams",
+				"shortName": "STL",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"OT",
+					"OLB",
+					"S",
+					"CB",
+					"WR",
+					"DT",
+					"QB",
+					"RB",
+					"OG",
+					"CB",
+					"ILB"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 11,
 			"overall": 107,
-			"teamID": 22
+			"team": {
+				"id": 22,
+				"city": "Detroit",
+				"name": "Lions",
+				"shortName": "DET",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"WR",
+					"OLB",
+					"S",
+					"WR",
+					"DE",
+					"TE",
+					"OG",
+					"CB",
+					"S",
+					"OT",
+					"TE",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 12,
 			"overall": 108,
-			"teamID": 12
+			"team": {
+				"id": 12,
+				"city": "Tennessee",
+				"name": "Titans",
+				"shortName": "TEN",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"OLB",
+					"S",
+					"QB",
+					"RB",
+					"DT",
+					"OT",
+					"CB",
+					"C",
+					"WR",
+					"ILB",
+					"RB",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 13,
 			"overall": 109,
-			"teamID": 18
+			"team": {
+				"id": 18,
+				"city": "New York",
+				"name": "Giants",
+				"shortName": "NYG",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"CB",
+					"OLB",
+					"ILB",
+					"OT",
+					"S",
+					"C",
+					"RB",
+					"CB",
+					"OG",
+					"WR",
+					"DE",
+					"TE"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 14,
 			"overall": 110,
-			"teamID": 11
+			"team": {
+				"id": 11,
+				"city": "Jacksonville",
+				"name": "Jaguars",
+				"shortName": "JAX",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"QB",
+					"DE",
+					"RB",
+					"OT",
+					"TE",
+					"C",
+					"OG",
+					"WR",
+					"OLB",
+					"OG",
+					"RB",
+					"DT",
+					"CB",
+					"S",
+					"OLB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 15,
 			"overall": 111,
-			"teamID": 3
+			"team": {
+				"id": 3,
+				"city": "New York",
+				"name": "Jets",
+				"shortName": "NYJ",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"WR",
+					"TE",
+					"S",
+					"OLB",
+					"WR",
+					"OG",
+					"RB",
+					"CB",
+					"OT",
+					"QB",
+					"OG",
+					"OLB"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 16,
 			"overall": 112,
-			"teamID": 2
+			"team": {
+				"id": 2,
+				"city": "Miami",
+				"name": "Dolphins",
+				"shortName": "MIA",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"OT",
+					"OG",
+					"OT",
+					"CB",
+					"RB",
+					"OG",
+					"OLB",
+					"S",
+					"TE",
+					"WR",
+					"DT"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 17,
 			"overall": 113,
-			"teamID": 21
+			"team": {
+				"id": 21,
+				"city": "Chicago",
+				"name": "Bears",
+				"shortName": "CHI",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"DT",
+					"S",
+					"OLB",
+					"CB",
+					"DT",
+					"DE",
+					"OG",
+					"CB",
+					"RB",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 18,
 			"overall": 114,
-			"teamID": 8
+			"team": {
+				"id": 8,
+				"city": "Pittsburgh",
+				"name": "Steelers",
+				"shortName": "PIT",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"OT",
+					"DT",
+					"DE",
+					"WR",
+					"OG",
+					"CB",
+					"S",
+					"OLB",
+					"ILB",
+					"RB",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 19,
-			"overall": 115,
-			"teamID": 17
+			"overall": 115
 		},
 		{
 			"round": 4,
 			"position": 20,
 			"overall": 116,
-			"teamID": 29
+			"team": {
+				"id": 29,
+				"city": "Arizona",
+				"name": "Cardinals",
+				"shortName": "ARI",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"QB",
+					"OT",
+					"OLB",
+					"OT",
+					"RB",
+					"TE",
+					"OLB",
+					"C",
+					"ILB",
+					"S",
+					"CB",
+					"RB",
+					"OG"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 21,
 			"overall": 117,
-			"teamID": 23
+			"team": {
+				"id": 23,
+				"city": "Green Bay",
+				"name": "Packers",
+				"shortName": "GNB",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"TE",
+					"S",
+					"CB",
+					"OT",
+					"C",
+					"DE",
+					"OG",
+					"WR",
+					"DT",
+					"CB",
+					"QB"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 22,
 			"overall": 118,
-			"teamID": 19
+			"team": {
+				"id": 19,
+				"city": "Philadelphia",
+				"name": "Eagles",
+				"shortName": "PHI",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"OLB",
+					"S",
+					"ILB",
+					"CB",
+					"WR",
+					"DT",
+					"OG",
+					"RB",
+					"DE",
+					"CB",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 23,
 			"overall": 119,
-			"teamID": 7
+			"team": {
+				"id": 7,
+				"city": "Cincinnati",
+				"name": "Bengals",
+				"shortName": "CIN",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"S",
+					"OLB",
+					"WR",
+					"C",
+					"ILB",
+					"CB",
+					"DT",
+					"QB",
+					"RB",
+					"DE",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 24,
 			"overall": 120,
-			"teamID": 14
+			"team": {
+				"id": 14,
+				"city": "Kansas City",
+				"name": "Chiefs",
+				"shortName": "KAN",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"TE",
+					"ILB",
+					"OT",
+					"WR",
+					"OG",
+					"DE",
+					"CB",
+					"OG",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 25,
 			"overall": 121,
-			"teamID": 16
+			"team": {
+				"id": 16,
+				"city": "San Diego",
+				"name": "Chargers",
+				"shortName": "SDG",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"DT",
+					"CB",
+					"OT",
+					"OLB",
+					"OG",
+					"ILB",
+					"CB",
+					"RB",
+					"DT",
+					"WR",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 26,
 			"overall": 122,
-			"teamID": 27
+			"team": {
+				"id": 27,
+				"city": "New Orleans",
+				"name": "Saints",
+				"shortName": "NOR",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"OLB",
+					"ILB",
+					"CB",
+					"WR",
+					"OT",
+					"S",
+					"ILB",
+					"OLB",
+					"QB",
+					"TE",
+					"CB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 27,
 			"overall": 123,
-			"teamID": 6
+			"team": {
+				"id": 6,
+				"city": "Cleveland",
+				"name": "Browns",
+				"shortName": "CLE",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"QB",
+					"WR",
+					"RB",
+					"OG",
+					"CB",
+					"S",
+					"OG",
+					"RB",
+					"C",
+					"OT",
+					"WR",
+					"FB",
+					"DT"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 28,
 			"overall": 124,
-			"teamID": 26
+			"team": {
+				"id": 26,
+				"city": "Carolina",
+				"name": "Panthers",
+				"shortName": "CAR",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"WR",
+					"OT",
+					"CB",
+					"S",
+					"OG",
+					"WR",
+					"TE",
+					"S",
+					"OLB",
+					"CB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 29,
 			"overall": 125,
-			"teamID": 31
+			"team": {
+				"id": 31,
+				"city": "San Francisco",
+				"name": "49ers",
+				"shortName": "SFO",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"CB",
+					"DT",
+					"WR",
+					"C",
+					"RB",
+					"S",
+					"DE",
+					"OG",
+					"TE",
+					"CB",
+					"ILB"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 30,
 			"overall": 126,
-			"teamID": 4
+			"team": {
+				"id": 4,
+				"city": "New England",
+				"name": "Patriots",
+				"shortName": "NWE",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"DT",
+					"TE",
+					"S",
+					"DT",
+					"OG",
+					"C",
+					"DE",
+					"WR",
+					"OLB",
+					"TE",
+					"QB"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 31,
 			"overall": 127,
-			"teamID": 13
+			"team": {
+				"id": 13,
+				"city": "Denver",
+				"name": "Broncos",
+				"shortName": "DEN",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"CB",
+					"DE",
+					"WR",
+					"S",
+					"C",
+					"OT",
+					"CB",
+					"OG",
+					"OLB",
+					"ILB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 4,
 			"position": 32,
 			"overall": 128,
-			"teamID": 30
+			"team": {
+				"id": 30,
+				"city": "Seattle",
+				"name": "Seahawks",
+				"shortName": "SEA",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"OT",
+					"OG",
+					"CB",
+					"DE",
+					"WR",
+					"DT",
+					"OG",
+					"S",
+					"CB",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 1,
 			"overall": 129,
-			"teamID": 9
+			"team": {
+				"id": 9,
+				"city": "Houston",
+				"name": "Texans",
+				"shortName": "HOU",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"QB",
+					"OG",
+					"OLB",
+					"OT",
+					"RB",
+					"S",
+					"DE",
+					"OLB",
+					"WR",
+					"DT",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 2,
 			"overall": 130,
-			"teamID": 20
+			"team": {
+				"id": 20,
+				"city": "Washington",
+				"name": "Redtails",
+				"shortName": "WAS",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"OT",
+					"S",
+					"DT",
+					"ILB",
+					"OG",
+					"CB",
+					"S",
+					"WR",
+					"OG",
+					"C",
+					"ILB",
+					"DE",
+					"CB",
+					"WR",
+					"OLB",
+					"TE"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 3,
 			"overall": 131,
-			"teamID": 28
+			"team": {
+				"id": 28,
+				"city": "Tampa Bay",
+				"name": "Buccaneers",
+				"shortName": "TAM",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"DE",
+					"TE",
+					"OLB",
+					"OG",
+					"WR",
+					"C",
+					"DE",
+					"DT",
+					"QB",
+					"CB",
+					"OT",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 4,
 			"overall": 132,
-			"teamID": 11
+			"team": {
+				"id": 11,
+				"city": "Jacksonville",
+				"name": "Jaguars",
+				"shortName": "JAX",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"QB",
+					"DE",
+					"RB",
+					"OT",
+					"TE",
+					"C",
+					"OG",
+					"WR",
+					"OLB",
+					"OG",
+					"RB",
+					"DT",
+					"CB",
+					"S",
+					"OLB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 5,
 			"overall": 133,
-			"teamID": 6
+			"team": {
+				"id": 6,
+				"city": "Cleveland",
+				"name": "Browns",
+				"shortName": "CLE",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"QB",
+					"WR",
+					"RB",
+					"OG",
+					"CB",
+					"S",
+					"OG",
+					"RB",
+					"C",
+					"OT",
+					"WR",
+					"FB",
+					"DT"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 6,
 			"overall": 134,
-			"teamID": 30
+			"team": {
+				"id": 30,
+				"city": "Seattle",
+				"name": "Seahawks",
+				"shortName": "SEA",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"OT",
+					"OG",
+					"CB",
+					"DE",
+					"WR",
+					"DT",
+					"OG",
+					"S",
+					"CB",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 7,
 			"overall": 135,
-			"teamID": 25
+			"team": {
+				"id": 25,
+				"city": "Atlanta",
+				"name": "Falcons",
+				"shortName": "ATL",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"DE",
+					"OLB",
+					"DT",
+					"OG",
+					"TE",
+					"DE",
+					"RB",
+					"S",
+					"OT",
+					"OLB",
+					"CB",
+					"ILB",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 8,
 			"overall": 136,
-			"teamID": 24
+			"team": {
+				"id": 24,
+				"city": "Minnesota",
+				"name": "Vikings",
+				"shortName": "MIN",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"QB",
+					"DT",
+					"WR",
+					"CB",
+					"DE",
+					"OLB",
+					"ILB",
+					"WR",
+					"CB",
+					"S",
+					"OG",
+					"RB"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 9,
 			"overall": 137,
-			"teamID": 1
+			"team": {
+				"id": 1,
+				"city": "Buffalo",
+				"name": "Bills",
+				"shortName": "BUF",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"S",
+					"OLB",
+					"OG",
+					"OT",
+					"TE",
+					"CB",
+					"DE",
+					"DT",
+					"ILB",
+					"C",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 10,
 			"overall": 138,
-			"teamID": 11
+			"team": {
+				"id": 11,
+				"city": "Jacksonville",
+				"name": "Jaguars",
+				"shortName": "JAX",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"QB",
+					"DE",
+					"RB",
+					"OT",
+					"TE",
+					"C",
+					"OG",
+					"WR",
+					"OLB",
+					"OG",
+					"RB",
+					"DT",
+					"CB",
+					"S",
+					"OLB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 11,
 			"overall": 139,
-			"teamID": 12
+			"team": {
+				"id": 12,
+				"city": "Tennessee",
+				"name": "Titans",
+				"shortName": "TEN",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"OLB",
+					"S",
+					"QB",
+					"RB",
+					"DT",
+					"OT",
+					"CB",
+					"C",
+					"WR",
+					"ILB",
+					"RB",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 12,
 			"overall": 140,
-			"teamID": 18
+			"team": {
+				"id": 18,
+				"city": "New York",
+				"name": "Giants",
+				"shortName": "NYG",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"CB",
+					"OLB",
+					"ILB",
+					"OT",
+					"S",
+					"C",
+					"RB",
+					"CB",
+					"OG",
+					"WR",
+					"DE",
+					"TE"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 13,
 			"overall": 141,
-			"teamID": 32
+			"team": {
+				"id": 32,
+				"city": "St. Louis",
+				"name": "Rams",
+				"shortName": "STL",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"OT",
+					"OLB",
+					"S",
+					"CB",
+					"WR",
+					"DT",
+					"QB",
+					"RB",
+					"OG",
+					"CB",
+					"ILB"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 14,
 			"overall": 142,
-			"teamID": 3
+			"team": {
+				"id": 3,
+				"city": "New York",
+				"name": "Jets",
+				"shortName": "NYJ",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"WR",
+					"TE",
+					"S",
+					"OLB",
+					"WR",
+					"OG",
+					"RB",
+					"CB",
+					"OT",
+					"QB",
+					"OG",
+					"OLB"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 15,
 			"overall": 143,
-			"teamID": 2
+			"team": {
+				"id": 2,
+				"city": "Miami",
+				"name": "Dolphins",
+				"shortName": "MIA",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"OT",
+					"OG",
+					"OT",
+					"CB",
+					"RB",
+					"OG",
+					"OLB",
+					"S",
+					"TE",
+					"WR",
+					"DT"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 16,
 			"overall": 144,
-			"teamID": 21
+			"team": {
+				"id": 21,
+				"city": "Chicago",
+				"name": "Bears",
+				"shortName": "CHI",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"DT",
+					"S",
+					"OLB",
+					"CB",
+					"DT",
+					"DE",
+					"OG",
+					"CB",
+					"RB",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 17,
 			"overall": 145,
-			"teamID": 8
+			"team": {
+				"id": 8,
+				"city": "Pittsburgh",
+				"name": "Steelers",
+				"shortName": "PIT",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"OT",
+					"DT",
+					"DE",
+					"WR",
+					"OG",
+					"CB",
+					"S",
+					"OLB",
+					"ILB",
+					"RB",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 18,
-			"overall": 146,
-			"teamID": 17
+			"overall": 146
 		},
 		{
 			"round": 5,
 			"position": 19,
 			"overall": 147,
-			"teamID": 11
+			"team": {
+				"id": 11,
+				"city": "Jacksonville",
+				"name": "Jaguars",
+				"shortName": "JAX",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"QB",
+					"DE",
+					"RB",
+					"OT",
+					"TE",
+					"C",
+					"OG",
+					"WR",
+					"OLB",
+					"OG",
+					"RB",
+					"DT",
+					"CB",
+					"S",
+					"OLB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 20,
 			"overall": 148,
-			"teamID": 29
+			"team": {
+				"id": 29,
+				"city": "Arizona",
+				"name": "Cardinals",
+				"shortName": "ARI",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"QB",
+					"OT",
+					"OLB",
+					"OT",
+					"RB",
+					"TE",
+					"OLB",
+					"C",
+					"ILB",
+					"S",
+					"CB",
+					"RB",
+					"OG"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 21,
 			"overall": 149,
-			"teamID": 23
+			"team": {
+				"id": 23,
+				"city": "Green Bay",
+				"name": "Packers",
+				"shortName": "GNB",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"TE",
+					"S",
+					"CB",
+					"OT",
+					"C",
+					"DE",
+					"OG",
+					"WR",
+					"DT",
+					"CB",
+					"QB"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 22,
 			"overall": 150,
-			"teamID": 19
+			"team": {
+				"id": 19,
+				"city": "Philadelphia",
+				"name": "Eagles",
+				"shortName": "PHI",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"OLB",
+					"S",
+					"ILB",
+					"CB",
+					"WR",
+					"DT",
+					"OG",
+					"RB",
+					"DE",
+					"CB",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 23,
 			"overall": 151,
-			"teamID": 14
+			"team": {
+				"id": 14,
+				"city": "Kansas City",
+				"name": "Chiefs",
+				"shortName": "KAN",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"TE",
+					"ILB",
+					"OT",
+					"WR",
+					"OG",
+					"DE",
+					"CB",
+					"OG",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 24,
 			"overall": 152,
-			"teamID": 7
+			"team": {
+				"id": 7,
+				"city": "Cincinnati",
+				"name": "Bengals",
+				"shortName": "CIN",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"S",
+					"OLB",
+					"WR",
+					"C",
+					"ILB",
+					"CB",
+					"DT",
+					"QB",
+					"RB",
+					"DE",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 25,
 			"overall": 153,
-			"teamID": 16
+			"team": {
+				"id": 16,
+				"city": "San Diego",
+				"name": "Chargers",
+				"shortName": "SDG",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"DT",
+					"CB",
+					"OT",
+					"OLB",
+					"OG",
+					"ILB",
+					"CB",
+					"RB",
+					"DT",
+					"WR",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 26,
 			"overall": 154,
-			"teamID": 10
+			"team": {
+				"id": 10,
+				"city": "Indianapolis",
+				"name": "Colts",
+				"shortName": "IND",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"OG",
+					"ILB",
+					"C",
+					"WR",
+					"DE",
+					"RB",
+					"OG",
+					"DT",
+					"CB",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 27,
 			"overall": 155,
-			"teamID": 27
+			"team": {
+				"id": 27,
+				"city": "New Orleans",
+				"name": "Saints",
+				"shortName": "NOR",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"OLB",
+					"ILB",
+					"CB",
+					"WR",
+					"OT",
+					"S",
+					"ILB",
+					"OLB",
+					"QB",
+					"TE",
+					"CB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 28,
 			"overall": 156,
-			"teamID": 26
+			"team": {
+				"id": 26,
+				"city": "Carolina",
+				"name": "Panthers",
+				"shortName": "CAR",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"WR",
+					"OT",
+					"CB",
+					"S",
+					"OG",
+					"WR",
+					"TE",
+					"S",
+					"OLB",
+					"CB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 29,
 			"overall": 157,
-			"teamID": 19
+			"team": {
+				"id": 19,
+				"city": "Philadelphia",
+				"name": "Eagles",
+				"shortName": "PHI",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"OLB",
+					"S",
+					"ILB",
+					"CB",
+					"WR",
+					"DT",
+					"OG",
+					"RB",
+					"DE",
+					"CB",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 30,
 			"overall": 158,
-			"teamID": 31
+			"team": {
+				"id": 31,
+				"city": "San Francisco",
+				"name": "49ers",
+				"shortName": "SFO",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"CB",
+					"DT",
+					"WR",
+					"C",
+					"RB",
+					"S",
+					"DE",
+					"OG",
+					"TE",
+					"CB",
+					"ILB"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 31,
 			"overall": 159,
-			"teamID": 13
+			"team": {
+				"id": 13,
+				"city": "Denver",
+				"name": "Broncos",
+				"shortName": "DEN",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"CB",
+					"DE",
+					"WR",
+					"S",
+					"C",
+					"OT",
+					"CB",
+					"OG",
+					"OLB",
+					"ILB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 5,
 			"position": 32,
 			"overall": 160,
-			"teamID": 30
+			"team": {
+				"id": 30,
+				"city": "Seattle",
+				"name": "Seahawks",
+				"shortName": "SEA",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"OT",
+					"OG",
+					"CB",
+					"DE",
+					"WR",
+					"DT",
+					"OG",
+					"S",
+					"CB",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 1,
 			"overall": 161,
-			"teamID": 9
+			"team": {
+				"id": 9,
+				"city": "Houston",
+				"name": "Texans",
+				"shortName": "HOU",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"QB",
+					"OG",
+					"OLB",
+					"OT",
+					"RB",
+					"S",
+					"DE",
+					"OLB",
+					"WR",
+					"DT",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 2,
 			"overall": 162,
-			"teamID": 20
+			"team": {
+				"id": 20,
+				"city": "Washington",
+				"name": "Redtails",
+				"shortName": "WAS",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"OT",
+					"S",
+					"DT",
+					"ILB",
+					"OG",
+					"CB",
+					"S",
+					"WR",
+					"OG",
+					"C",
+					"ILB",
+					"DE",
+					"CB",
+					"WR",
+					"OLB",
+					"TE"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 3,
 			"overall": 163,
-			"teamID": 11
+			"team": {
+				"id": 11,
+				"city": "Jacksonville",
+				"name": "Jaguars",
+				"shortName": "JAX",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"QB",
+					"DE",
+					"RB",
+					"OT",
+					"TE",
+					"C",
+					"OG",
+					"WR",
+					"OLB",
+					"OG",
+					"RB",
+					"DT",
+					"CB",
+					"S",
+					"OLB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 4,
 			"overall": 164,
-			"teamID": 6
+			"team": {
+				"id": 6,
+				"city": "Cleveland",
+				"name": "Browns",
+				"shortName": "CLE",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"QB",
+					"WR",
+					"RB",
+					"OG",
+					"CB",
+					"S",
+					"OG",
+					"RB",
+					"C",
+					"OT",
+					"WR",
+					"FB",
+					"DT"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 5,
 			"overall": 165,
-			"teamID": 15
+			"team": {
+				"id": 15,
+				"city": "Oakland",
+				"name": "Raiders",
+				"shortName": "OAK",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"QB",
+					"DE",
+					"OLB",
+					"WR",
+					"OG",
+					"DT",
+					"CB",
+					"RB",
+					"OT",
+					"S",
+					"DT",
+					"RB",
+					"OG",
+					"WR",
+					"OLB",
+					"ILB",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 6,
 			"overall": 166,
-			"teamID": 25
+			"team": {
+				"id": 25,
+				"city": "Atlanta",
+				"name": "Falcons",
+				"shortName": "ATL",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"DE",
+					"OLB",
+					"DT",
+					"OG",
+					"TE",
+					"DE",
+					"RB",
+					"S",
+					"OT",
+					"OLB",
+					"CB",
+					"ILB",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 7,
 			"overall": 167,
-			"teamID": 21
+			"team": {
+				"id": 21,
+				"city": "Chicago",
+				"name": "Bears",
+				"shortName": "CHI",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"DT",
+					"S",
+					"OLB",
+					"CB",
+					"DT",
+					"DE",
+					"OG",
+					"CB",
+					"RB",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 8,
 			"overall": 168,
-			"teamID": 24
+			"team": {
+				"id": 24,
+				"city": "Minnesota",
+				"name": "Vikings",
+				"shortName": "MIN",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"QB",
+					"DT",
+					"WR",
+					"CB",
+					"DE",
+					"OLB",
+					"ILB",
+					"WR",
+					"CB",
+					"S",
+					"OG",
+					"RB"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 9,
 			"overall": 169,
-			"teamID": 1
+			"team": {
+				"id": 1,
+				"city": "Buffalo",
+				"name": "Bills",
+				"shortName": "BUF",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"S",
+					"OLB",
+					"OG",
+					"OT",
+					"TE",
+					"CB",
+					"DE",
+					"DT",
+					"ILB",
+					"C",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 10,
 			"overall": 170,
-			"teamID": 12
+			"team": {
+				"id": 12,
+				"city": "Tennessee",
+				"name": "Titans",
+				"shortName": "TEN",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"OLB",
+					"S",
+					"QB",
+					"RB",
+					"DT",
+					"OT",
+					"CB",
+					"C",
+					"WR",
+					"ILB",
+					"RB",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 11,
 			"overall": 171,
-			"teamID": 18
+			"team": {
+				"id": 18,
+				"city": "New York",
+				"name": "Giants",
+				"shortName": "NYG",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"CB",
+					"OLB",
+					"ILB",
+					"OT",
+					"S",
+					"C",
+					"RB",
+					"CB",
+					"OG",
+					"WR",
+					"DE",
+					"TE"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 12,
 			"overall": 172,
-			"teamID": 32
+			"team": {
+				"id": 32,
+				"city": "St. Louis",
+				"name": "Rams",
+				"shortName": "STL",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"OT",
+					"OLB",
+					"S",
+					"CB",
+					"WR",
+					"DT",
+					"QB",
+					"RB",
+					"OG",
+					"CB",
+					"ILB"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 13,
 			"overall": 173,
-			"teamID": 22
+			"team": {
+				"id": 22,
+				"city": "Detroit",
+				"name": "Lions",
+				"shortName": "DET",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"WR",
+					"OLB",
+					"S",
+					"WR",
+					"DE",
+					"TE",
+					"OG",
+					"CB",
+					"S",
+					"OT",
+					"TE",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 14,
 			"overall": 174,
-			"teamID": 2
+			"team": {
+				"id": 2,
+				"city": "Miami",
+				"name": "Dolphins",
+				"shortName": "MIA",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"OT",
+					"OG",
+					"OT",
+					"CB",
+					"RB",
+					"OG",
+					"OLB",
+					"S",
+					"TE",
+					"WR",
+					"DT"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 15,
 			"overall": 175,
-			"teamID": 21
+			"team": {
+				"id": 21,
+				"city": "Chicago",
+				"name": "Bears",
+				"shortName": "CHI",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"DT",
+					"S",
+					"OLB",
+					"CB",
+					"DT",
+					"DE",
+					"OG",
+					"CB",
+					"RB",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 16,
 			"overall": 176,
-			"teamID": 8
+			"team": {
+				"id": 8,
+				"city": "Pittsburgh",
+				"name": "Steelers",
+				"shortName": "PIT",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"OT",
+					"DT",
+					"DE",
+					"WR",
+					"OG",
+					"CB",
+					"S",
+					"OLB",
+					"ILB",
+					"RB",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 17,
 			"overall": 177,
-			"teamID": 14
+			"team": {
+				"id": 14,
+				"city": "Kansas City",
+				"name": "Chiefs",
+				"shortName": "KAN",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"TE",
+					"ILB",
+					"OT",
+					"WR",
+					"OG",
+					"DE",
+					"CB",
+					"OG",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 18,
 			"overall": 178,
-			"teamID": 5
+			"team": {
+				"id": 5,
+				"city": "Baltimore",
+				"name": "Ravens",
+				"shortName": "BAL",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"WR",
+					"OT",
+					"TE",
+					"C",
+					"CB",
+					"WR",
+					"DT",
+					"RB",
+					"DE",
+					"S",
+					"TE",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 19,
 			"overall": 179,
-			"teamID": 3
+			"team": {
+				"id": 3,
+				"city": "New York",
+				"name": "Jets",
+				"shortName": "NYJ",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"WR",
+					"TE",
+					"S",
+					"OLB",
+					"WR",
+					"OG",
+					"RB",
+					"CB",
+					"OT",
+					"QB",
+					"OG",
+					"OLB"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 20,
 			"overall": 180,
-			"teamID": 29
+			"team": {
+				"id": 29,
+				"city": "Arizona",
+				"name": "Cardinals",
+				"shortName": "ARI",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"QB",
+					"OT",
+					"OLB",
+					"OT",
+					"RB",
+					"TE",
+					"OLB",
+					"C",
+					"ILB",
+					"S",
+					"CB",
+					"RB",
+					"OG"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 21,
 			"overall": 181,
-			"teamID": 23
+			"team": {
+				"id": 23,
+				"city": "Green Bay",
+				"name": "Packers",
+				"shortName": "GNB",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"TE",
+					"S",
+					"CB",
+					"OT",
+					"C",
+					"DE",
+					"OG",
+					"WR",
+					"DT",
+					"CB",
+					"QB"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 22,
 			"overall": 182,
-			"teamID": 4
+			"team": {
+				"id": 4,
+				"city": "New England",
+				"name": "Patriots",
+				"shortName": "NWE",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"DT",
+					"TE",
+					"S",
+					"DT",
+					"OG",
+					"C",
+					"DE",
+					"WR",
+					"OLB",
+					"TE",
+					"QB"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 23,
 			"overall": 183,
-			"teamID": 7
+			"team": {
+				"id": 7,
+				"city": "Cincinnati",
+				"name": "Bengals",
+				"shortName": "CIN",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"S",
+					"OLB",
+					"WR",
+					"C",
+					"ILB",
+					"CB",
+					"DT",
+					"QB",
+					"RB",
+					"DE",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 24,
 			"overall": 184,
-			"teamID": 14
+			"team": {
+				"id": 14,
+				"city": "Kansas City",
+				"name": "Chiefs",
+				"shortName": "KAN",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"TE",
+					"ILB",
+					"OT",
+					"WR",
+					"OG",
+					"DE",
+					"CB",
+					"OG",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 25,
 			"overall": 185,
-			"teamID": 16
+			"team": {
+				"id": 16,
+				"city": "San Diego",
+				"name": "Chargers",
+				"shortName": "SDG",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"DT",
+					"CB",
+					"OT",
+					"OLB",
+					"OG",
+					"ILB",
+					"CB",
+					"RB",
+					"DT",
+					"WR",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 26,
 			"overall": 186,
-			"teamID": 27
+			"team": {
+				"id": 27,
+				"city": "New Orleans",
+				"name": "Saints",
+				"shortName": "NOR",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"OLB",
+					"ILB",
+					"CB",
+					"WR",
+					"OT",
+					"S",
+					"ILB",
+					"OLB",
+					"QB",
+					"TE",
+					"CB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 27,
 			"overall": 187,
-			"teamID": 10
+			"team": {
+				"id": 10,
+				"city": "Indianapolis",
+				"name": "Colts",
+				"shortName": "IND",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"OG",
+					"ILB",
+					"C",
+					"WR",
+					"DE",
+					"RB",
+					"OG",
+					"DT",
+					"CB",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 28,
 			"overall": 188,
-			"teamID": 26
+			"team": {
+				"id": 26,
+				"city": "Carolina",
+				"name": "Panthers",
+				"shortName": "CAR",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"WR",
+					"OT",
+					"CB",
+					"S",
+					"OG",
+					"WR",
+					"TE",
+					"S",
+					"OLB",
+					"CB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 29,
 			"overall": 189,
-			"teamID": 31
+			"team": {
+				"id": 31,
+				"city": "San Francisco",
+				"name": "49ers",
+				"shortName": "SFO",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"CB",
+					"DT",
+					"WR",
+					"C",
+					"RB",
+					"S",
+					"DE",
+					"OG",
+					"TE",
+					"CB",
+					"ILB"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 30,
 			"overall": 190,
-			"teamID": 4
+			"team": {
+				"id": 4,
+				"city": "New England",
+				"name": "Patriots",
+				"shortName": "NWE",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"DT",
+					"TE",
+					"S",
+					"DT",
+					"OG",
+					"C",
+					"DE",
+					"WR",
+					"OLB",
+					"TE",
+					"QB"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 31,
 			"overall": 191,
-			"teamID": 13
+			"team": {
+				"id": 13,
+				"city": "Denver",
+				"name": "Broncos",
+				"shortName": "DEN",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"CB",
+					"DE",
+					"WR",
+					"S",
+					"C",
+					"OT",
+					"CB",
+					"OG",
+					"OLB",
+					"ILB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 6,
 			"position": 32,
 			"overall": 192,
-			"teamID": 30
+			"team": {
+				"id": 30,
+				"city": "Seattle",
+				"name": "Seahawks",
+				"shortName": "SEA",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"OT",
+					"OG",
+					"CB",
+					"DE",
+					"WR",
+					"DT",
+					"OG",
+					"S",
+					"CB",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 1,
 			"overall": 193,
-			"teamID": 9
+			"team": {
+				"id": 9,
+				"city": "Houston",
+				"name": "Texans",
+				"shortName": "HOU",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"QB",
+					"OG",
+					"OLB",
+					"OT",
+					"RB",
+					"S",
+					"DE",
+					"OLB",
+					"WR",
+					"DT",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 2,
 			"overall": 194,
-			"teamID": 20
+			"team": {
+				"id": 20,
+				"city": "Washington",
+				"name": "Redtails",
+				"shortName": "WAS",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"OT",
+					"S",
+					"DT",
+					"ILB",
+					"OG",
+					"CB",
+					"S",
+					"WR",
+					"OG",
+					"C",
+					"ILB",
+					"DE",
+					"CB",
+					"WR",
+					"OLB",
+					"TE"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 3,
 			"overall": 195,
-			"teamID": 6
+			"team": {
+				"id": 6,
+				"city": "Cleveland",
+				"name": "Browns",
+				"shortName": "CLE",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"QB",
+					"WR",
+					"RB",
+					"OG",
+					"CB",
+					"S",
+					"OG",
+					"RB",
+					"C",
+					"OT",
+					"WR",
+					"FB",
+					"DT"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 4,
 			"overall": 196,
-			"teamID": 15
+			"team": {
+				"id": 15,
+				"city": "Oakland",
+				"name": "Raiders",
+				"shortName": "OAK",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"QB",
+					"DE",
+					"OLB",
+					"WR",
+					"OG",
+					"DT",
+					"CB",
+					"RB",
+					"OT",
+					"S",
+					"DT",
+					"RB",
+					"OG",
+					"WR",
+					"OLB",
+					"ILB",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 5,
 			"overall": 197,
-			"teamID": 25
+			"team": {
+				"id": 25,
+				"city": "Atlanta",
+				"name": "Falcons",
+				"shortName": "ATL",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"DE",
+					"OLB",
+					"DT",
+					"OG",
+					"TE",
+					"DE",
+					"RB",
+					"S",
+					"OT",
+					"OLB",
+					"CB",
+					"ILB",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 6,
 			"overall": 198,
-			"teamID": 28
+			"team": {
+				"id": 28,
+				"city": "Tampa Bay",
+				"name": "Buccaneers",
+				"shortName": "TAM",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"DE",
+					"TE",
+					"OLB",
+					"OG",
+					"WR",
+					"C",
+					"DE",
+					"DT",
+					"QB",
+					"CB",
+					"OT",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 7,
 			"overall": 199,
-			"teamID": 11
+			"team": {
+				"id": 11,
+				"city": "Jacksonville",
+				"name": "Jaguars",
+				"shortName": "JAX",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"QB",
+					"DE",
+					"RB",
+					"OT",
+					"TE",
+					"C",
+					"OG",
+					"WR",
+					"OLB",
+					"OG",
+					"RB",
+					"DT",
+					"CB",
+					"S",
+					"OLB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 8,
 			"overall": 200,
-			"teamID": 24
+			"team": {
+				"id": 24,
+				"city": "Minnesota",
+				"name": "Vikings",
+				"shortName": "MIN",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"QB",
+					"DT",
+					"WR",
+					"CB",
+					"DE",
+					"OLB",
+					"ILB",
+					"WR",
+					"CB",
+					"S",
+					"OG",
+					"RB"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 9,
 			"overall": 201,
-			"teamID": 1
+			"team": {
+				"id": 1,
+				"city": "Buffalo",
+				"name": "Bills",
+				"shortName": "BUF",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"S",
+					"OLB",
+					"OG",
+					"OT",
+					"TE",
+					"CB",
+					"DE",
+					"DT",
+					"ILB",
+					"C",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 10,
 			"overall": 202,
-			"teamID": 26
+			"team": {
+				"id": 26,
+				"city": "Carolina",
+				"name": "Panthers",
+				"shortName": "CAR",
+				"conference": "NFC",
+				"division": "South",
+				"needs": [
+					"WR",
+					"OT",
+					"CB",
+					"S",
+					"OG",
+					"WR",
+					"TE",
+					"S",
+					"OLB",
+					"CB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 11,
 			"overall": 203,
-			"teamID": 32
+			"team": {
+				"id": 32,
+				"city": "St. Louis",
+				"name": "Rams",
+				"shortName": "STL",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"OT",
+					"OLB",
+					"S",
+					"CB",
+					"WR",
+					"DT",
+					"QB",
+					"RB",
+					"OG",
+					"CB",
+					"ILB"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 12,
 			"overall": 204,
-			"teamID": 22
+			"team": {
+				"id": 22,
+				"city": "Detroit",
+				"name": "Lions",
+				"shortName": "DET",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"WR",
+					"OLB",
+					"S",
+					"WR",
+					"DE",
+					"TE",
+					"OG",
+					"CB",
+					"S",
+					"OT",
+					"TE",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 13,
 			"overall": 205,
-			"teamID": 12
+			"team": {
+				"id": 12,
+				"city": "Tennessee",
+				"name": "Titans",
+				"shortName": "TEN",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"OLB",
+					"S",
+					"QB",
+					"RB",
+					"DT",
+					"OT",
+					"CB",
+					"C",
+					"WR",
+					"ILB",
+					"RB",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 14,
-			"overall": 206,
-			"teamID": 17
+			"overall": 206
 		},
 		{
 			"round": 7,
 			"position": 15,
 			"overall": 207,
-			"teamID": 8
+			"team": {
+				"id": 8,
+				"city": "Pittsburgh",
+				"name": "Steelers",
+				"shortName": "PIT",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"OT",
+					"DT",
+					"DE",
+					"WR",
+					"OG",
+					"CB",
+					"S",
+					"OLB",
+					"ILB",
+					"RB",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 16,
-			"overall": 208,
-			"teamID": 17
+			"overall": 208
 		},
 		{
 			"round": 7,
 			"position": 17,
 			"overall": 209,
-			"teamID": 10
+			"team": {
+				"id": 10,
+				"city": "Indianapolis",
+				"name": "Colts",
+				"shortName": "IND",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"OG",
+					"ILB",
+					"C",
+					"WR",
+					"DE",
+					"RB",
+					"OG",
+					"DT",
+					"CB",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 18,
 			"overall": 210,
-			"teamID": 3
+			"team": {
+				"id": 3,
+				"city": "New York",
+				"name": "Jets",
+				"shortName": "NYJ",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"WR",
+					"TE",
+					"S",
+					"OLB",
+					"WR",
+					"OG",
+					"RB",
+					"CB",
+					"OT",
+					"QB",
+					"OG",
+					"OLB"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 19,
 			"overall": 211,
-			"teamID": 2
+			"team": {
+				"id": 2,
+				"city": "Miami",
+				"name": "Dolphins",
+				"shortName": "MIA",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"OT",
+					"OG",
+					"OT",
+					"CB",
+					"RB",
+					"OG",
+					"OLB",
+					"S",
+					"TE",
+					"WR",
+					"DT"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 20,
 			"overall": 212,
-			"teamID": 15
+			"team": {
+				"id": 15,
+				"city": "Oakland",
+				"name": "Raiders",
+				"shortName": "OAK",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"QB",
+					"DE",
+					"OLB",
+					"WR",
+					"OG",
+					"DT",
+					"CB",
+					"RB",
+					"OT",
+					"S",
+					"DT",
+					"RB",
+					"OG",
+					"WR",
+					"OLB",
+					"ILB",
+					"CB"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 21,
 			"overall": 213,
-			"teamID": 23
+			"team": {
+				"id": 23,
+				"city": "Green Bay",
+				"name": "Packers",
+				"shortName": "GNB",
+				"conference": "NFC",
+				"division": "North",
+				"needs": [
+					"TE",
+					"S",
+					"CB",
+					"OT",
+					"C",
+					"DE",
+					"OG",
+					"WR",
+					"DT",
+					"CB",
+					"QB"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 22,
 			"overall": 214,
-			"teamID": 19
+			"team": {
+				"id": 19,
+				"city": "Philadelphia",
+				"name": "Eagles",
+				"shortName": "PHI",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"OLB",
+					"S",
+					"ILB",
+					"CB",
+					"WR",
+					"DT",
+					"OG",
+					"RB",
+					"DE",
+					"CB",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 23,
-			"overall": 215,
-			"teamID": 17
+			"overall": 215
 		},
 		{
 			"round": 7,
 			"position": 24,
 			"overall": 216,
-			"teamID": 7
+			"team": {
+				"id": 7,
+				"city": "Cincinnati",
+				"name": "Bengals",
+				"shortName": "CIN",
+				"conference": "AFC",
+				"division": "North",
+				"needs": [
+					"S",
+					"OLB",
+					"WR",
+					"C",
+					"ILB",
+					"CB",
+					"DT",
+					"QB",
+					"RB",
+					"DE",
+					"OT"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 25,
 			"overall": 217,
-			"teamID": 16
+			"team": {
+				"id": 16,
+				"city": "San Diego",
+				"name": "Chargers",
+				"shortName": "SDG",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"DT",
+					"CB",
+					"OT",
+					"OLB",
+					"OG",
+					"ILB",
+					"CB",
+					"RB",
+					"DT",
+					"WR",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 26,
 			"overall": 218,
-			"teamID": 10
+			"team": {
+				"id": 10,
+				"city": "Indianapolis",
+				"name": "Colts",
+				"shortName": "IND",
+				"conference": "AFC",
+				"division": "South",
+				"needs": [
+					"OG",
+					"ILB",
+					"C",
+					"WR",
+					"DE",
+					"RB",
+					"OG",
+					"DT",
+					"CB",
+					"S"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 27,
 			"overall": 219,
-			"teamID": 31
+			"team": {
+				"id": 31,
+				"city": "San Francisco",
+				"name": "49ers",
+				"shortName": "SFO",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"CB",
+					"DT",
+					"WR",
+					"C",
+					"RB",
+					"S",
+					"DE",
+					"OG",
+					"TE",
+					"CB",
+					"ILB"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 28,
 			"overall": 220,
-			"teamID": 31
+			"team": {
+				"id": 31,
+				"city": "San Francisco",
+				"name": "49ers",
+				"shortName": "SFO",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"CB",
+					"DT",
+					"WR",
+					"C",
+					"RB",
+					"S",
+					"DE",
+					"OG",
+					"TE",
+					"CB",
+					"ILB"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 29,
 			"overall": 221,
-			"teamID": 4
+			"team": {
+				"id": 4,
+				"city": "New England",
+				"name": "Patriots",
+				"shortName": "NWE",
+				"conference": "AFC",
+				"division": "East",
+				"needs": [
+					"DT",
+					"TE",
+					"S",
+					"DT",
+					"OG",
+					"C",
+					"DE",
+					"WR",
+					"OLB",
+					"TE",
+					"QB"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 30,
 			"overall": 222,
-			"teamID": 31
+			"team": {
+				"id": 31,
+				"city": "San Francisco",
+				"name": "49ers",
+				"shortName": "SFO",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"CB",
+					"DT",
+					"WR",
+					"C",
+					"RB",
+					"S",
+					"DE",
+					"OG",
+					"TE",
+					"CB",
+					"ILB"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 31,
 			"overall": 223,
-			"teamID": 13
+			"team": {
+				"id": 13,
+				"city": "Denver",
+				"name": "Broncos",
+				"shortName": "DEN",
+				"conference": "AFC",
+				"division": "West",
+				"needs": [
+					"CB",
+					"DE",
+					"WR",
+					"S",
+					"C",
+					"OT",
+					"CB",
+					"OG",
+					"OLB",
+					"ILB",
+					"DE"
+				]
+			}
 		},
 		{
 			"round": 7,
 			"position": 32,
 			"overall": 224,
-			"teamID": 30
+			"team": {
+				"id": 30,
+				"city": "Seattle",
+				"name": "Seahawks",
+				"shortName": "SEA",
+				"conference": "NFC",
+				"division": "West",
+				"needs": [
+					"WR",
+					"OT",
+					"OG",
+					"CB",
+					"DE",
+					"WR",
+					"DT",
+					"OG",
+					"S",
+					"CB",
+					"OT"
+				]
+			}
 		}
 	],
 	"prospects": [
 		{
 			"college": "South Carolina",
-			"ranking": "1",
+			"ranking": 1,
 			"firstName": "Jadeveon",
 			"lastName": "Clowney",
 			"position": {
@@ -1360,7 +5881,7 @@
 		},
 		{
 			"college": "Louisville",
-			"ranking": "2",
+			"ranking": 2,
 			"firstName": "Teddy",
 			"lastName": "Bridgewater",
 			"position": {
@@ -1372,7 +5893,7 @@
 		},
 		{
 			"college": "Clemson",
-			"ranking": "3",
+			"ranking": 3,
 			"firstName": "Sammy",
 			"lastName": "Watkins",
 			"position": {
@@ -1384,7 +5905,7 @@
 		},
 		{
 			"college": "Auburn",
-			"ranking": "4",
+			"ranking": 4,
 			"firstName": "Greg",
 			"lastName": "Robinson",
 			"position": {
@@ -1396,7 +5917,7 @@
 		},
 		{
 			"college": "Buffalo",
-			"ranking": "5",
+			"ranking": 5,
 			"firstName": "Khalil",
 			"lastName": "Mack",
 			"position": {
@@ -1408,7 +5929,7 @@
 		},
 		{
 			"college": "Central Florida",
-			"ranking": "6",
+			"ranking": 6,
 			"firstName": "Blake",
 			"lastName": "Bortles",
 			"position": {
@@ -1420,7 +5941,7 @@
 		},
 		{
 			"college": "Texas A&M",
-			"ranking": "7",
+			"ranking": 7,
 			"firstName": "Jake",
 			"lastName": "Matthews",
 			"position": {
@@ -1432,7 +5953,7 @@
 		},
 		{
 			"college": "Alabama",
-			"ranking": "8",
+			"ranking": 8,
 			"firstName": "C.J.",
 			"lastName": "Mosley",
 			"position": {
@@ -1444,7 +5965,7 @@
 		},
 		{
 			"college": "UCLA",
-			"ranking": "9",
+			"ranking": 9,
 			"firstName": "Anthony",
 			"lastName": "Barr",
 			"position": {
@@ -1456,7 +5977,7 @@
 		},
 		{
 			"college": "Texas A&M",
-			"ranking": "10",
+			"ranking": 10,
 			"firstName": "Mike",
 			"lastName": "Evans",
 			"position": {
@@ -1468,7 +5989,7 @@
 		},
 		{
 			"college": "Fresno State",
-			"ranking": "11",
+			"ranking": 11,
 			"firstName": "Derek",
 			"lastName": "Carr",
 			"position": {
@@ -1480,7 +6001,7 @@
 		},
 		{
 			"college": "Michigan State",
-			"ranking": "12",
+			"ranking": 12,
 			"firstName": "Darqueze",
 			"lastName": "Dennard",
 			"position": {
@@ -1492,7 +6013,7 @@
 		},
 		{
 			"college": "Texas A&M",
-			"ranking": "13",
+			"ranking": 13,
 			"firstName": "Johnny",
 			"lastName": "Manziel",
 			"position": {
@@ -1504,7 +6025,7 @@
 		},
 		{
 			"college": "UNC",
-			"ranking": "14",
+			"ranking": 14,
 			"firstName": "Eric",
 			"lastName": "Ebron",
 			"position": {
@@ -1516,7 +6037,7 @@
 		},
 		{
 			"college": "Michigan",
-			"ranking": "15",
+			"ranking": 15,
 			"firstName": "Taylor",
 			"lastName": "Lewan",
 			"position": {
@@ -1528,7 +6049,7 @@
 		},
 		{
 			"college": "Missouri",
-			"ranking": "16",
+			"ranking": 16,
 			"firstName": "Kony",
 			"lastName": "Ealy",
 			"position": {
@@ -1540,7 +6061,7 @@
 		},
 		{
 			"college": "Notre Dame",
-			"ranking": "17",
+			"ranking": 17,
 			"firstName": "Zack",
 			"lastName": "Martin",
 			"position": {
@@ -1552,7 +6073,7 @@
 		},
 		{
 			"college": "Oklahoma State",
-			"ranking": "18",
+			"ranking": 18,
 			"firstName": "Justin",
 			"lastName": "Gilbert",
 			"position": {
@@ -1564,7 +6085,7 @@
 		},
 		{
 			"college": "Notre Dame",
-			"ranking": "19",
+			"ranking": 19,
 			"firstName": "Louis",
 			"lastName": "Nix",
 			"position": {
@@ -1576,7 +6097,7 @@
 		},
 		{
 			"college": "Auburn",
-			"ranking": "20",
+			"ranking": 20,
 			"firstName": "Dee",
 			"lastName": "Ford",
 			"position": {
@@ -1588,7 +6109,7 @@
 		},
 		{
 			"college": "Pittsburgh",
-			"ranking": "21",
+			"ranking": 21,
 			"firstName": "Aaron",
 			"lastName": "Donald",
 			"position": {
@@ -1600,7 +6121,7 @@
 		},
 		{
 			"college": "Florida State",
-			"ranking": "22",
+			"ranking": 22,
 			"firstName": "Timmy",
 			"lastName": "Jernigan",
 			"position": {
@@ -1612,7 +6133,7 @@
 		},
 		{
 			"college": "USC",
-			"ranking": "23",
+			"ranking": 23,
 			"firstName": "Marqise",
 			"lastName": "Lee",
 			"position": {
@@ -1624,7 +6145,7 @@
 		},
 		{
 			"college": "Alabama",
-			"ranking": "24",
+			"ranking": 24,
 			"firstName": "Cyrus",
 			"lastName": "Kouandjio",
 			"position": {
@@ -1636,7 +6157,7 @@
 		},
 		{
 			"college": "Texas Tech",
-			"ranking": "25",
+			"ranking": 25,
 			"firstName": "Jace",
 			"lastName": "Amaro",
 			"position": {
@@ -1648,7 +6169,7 @@
 		},
 		{
 			"college": "Louisville",
-			"ranking": "26",
+			"ranking": 26,
 			"firstName": "Calvin",
 			"lastName": "Pryor",
 			"position": {
@@ -1660,7 +6181,7 @@
 		},
 		{
 			"college": "Stanford",
-			"ranking": "27",
+			"ranking": 27,
 			"firstName": "Trent",
 			"lastName": "Murphy",
 			"position": {
@@ -1672,7 +6193,7 @@
 		},
 		{
 			"college": "Stanford",
-			"ranking": "28",
+			"ranking": 28,
 			"firstName": "David",
 			"lastName": "Yankey",
 			"position": {
@@ -1684,7 +6205,7 @@
 		},
 		{
 			"college": "Florida State",
-			"ranking": "29",
+			"ranking": 29,
 			"firstName": "Kelvin",
 			"lastName": "Benjamin",
 			"position": {
@@ -1696,7 +6217,7 @@
 		},
 		{
 			"college": "BYU",
-			"ranking": "30",
+			"ranking": 30,
 			"firstName": "Kyle",
 			"lastName": "Van",
 			"position": {
@@ -1708,7 +6229,7 @@
 		},
 		{
 			"college": "Notre Dame",
-			"ranking": "31",
+			"ranking": 31,
 			"firstName": "Stephon",
 			"lastName": "Tuitt",
 			"position": {
@@ -1720,7 +6241,7 @@
 		},
 		{
 			"college": "Alabama",
-			"ranking": "32",
+			"ranking": 32,
 			"firstName": "Ha’Sean",
 			"lastName": "Clinton-Dix",
 			"position": {
@@ -1732,7 +6253,7 @@
 		},
 		{
 			"college": "Minnesota",
-			"ranking": "33",
+			"ranking": 33,
 			"firstName": "Ra’Shede",
 			"lastName": "Hageman",
 			"position": {
@@ -1744,7 +6265,7 @@
 		},
 		{
 			"college": "LSU",
-			"ranking": "34",
+			"ranking": 34,
 			"firstName": "Odell",
 			"lastName": "Beckham",
 			"position": {
@@ -1756,7 +6277,7 @@
 		},
 		{
 			"college": "Oregon State",
-			"ranking": "35",
+			"ranking": 35,
 			"firstName": "Scott",
 			"lastName": "Crichton",
 			"position": {
@@ -1768,7 +6289,7 @@
 		},
 		{
 			"college": "Ohio State",
-			"ranking": "36",
+			"ranking": 36,
 			"firstName": "Ryan",
 			"lastName": "Shazier",
 			"position": {
@@ -1780,7 +6301,7 @@
 		},
 		{
 			"college": "TCU",
-			"ranking": "37",
+			"ranking": 37,
 			"firstName": "Jason",
 			"lastName": "Verrett",
 			"position": {
@@ -1792,7 +6313,7 @@
 		},
 		{
 			"college": "Washington",
-			"ranking": "38",
+			"ranking": 38,
 			"firstName": "Austin",
 			"lastName": "Seferian-Jenkins",
 			"position": {
@@ -1804,7 +6325,7 @@
 		},
 		{
 			"college": "Florida State",
-			"ranking": "39",
+			"ranking": 39,
 			"firstName": "Lamarcus",
 			"lastName": "Joyner",
 			"position": {
@@ -1816,7 +6337,7 @@
 		},
 		{
 			"college": "UCLA",
-			"ranking": "40",
+			"ranking": 40,
 			"firstName": "Xavier",
 			"lastName": "Su’a-Filo",
 			"position": {
@@ -1828,7 +6349,7 @@
 		},
 		{
 			"college": "Florida",
-			"ranking": "41",
+			"ranking": 41,
 			"firstName": "Marcus",
 			"lastName": "Roberson",
 			"position": {
@@ -1840,7 +6361,7 @@
 		},
 		{
 			"college": "Arkansas",
-			"ranking": "42",
+			"ranking": 42,
 			"firstName": "Travis",
 			"lastName": "Swanson",
 			"position": {
@@ -1852,7 +6373,7 @@
 		},
 		{
 			"college": "Tennessee",
-			"ranking": "43",
+			"ranking": 43,
 			"firstName": "Antonio",
 			"lastName": "Richardson",
 			"position": {
@@ -1864,7 +6385,7 @@
 		},
 		{
 			"college": "Vanderbilt",
-			"ranking": "44",
+			"ranking": 44,
 			"firstName": "Jordan",
 			"lastName": "Matthews",
 			"position": {
@@ -1876,7 +6397,7 @@
 		},
 		{
 			"college": "Auburn",
-			"ranking": "45",
+			"ranking": 45,
 			"firstName": "Tre",
 			"lastName": "Mason",
 			"position": {
@@ -1888,7 +6409,7 @@
 		},
 		{
 			"college": "Fresno State",
-			"ranking": "46",
+			"ranking": 46,
 			"firstName": "Davante",
 			"lastName": "Adams",
 			"position": {
@@ -1900,7 +6421,7 @@
 		},
 		{
 			"college": "Virginia",
-			"ranking": "47",
+			"ranking": 47,
 			"firstName": "Morgan",
 			"lastName": "Moses",
 			"position": {
@@ -1912,7 +6433,7 @@
 		},
 		{
 			"college": "Penn State",
-			"ranking": "48",
+			"ranking": 48,
 			"firstName": "Allen",
 			"lastName": "Robinson",
 			"position": {
@@ -1924,7 +6445,7 @@
 		},
 		{
 			"college": "Arizona",
-			"ranking": "49",
+			"ranking": 49,
 			"firstName": "Ka’Deem",
 			"lastName": "Carey",
 			"position": {
@@ -1936,7 +6457,7 @@
 		},
 		{
 			"college": "Arkansas",
-			"ranking": "50",
+			"ranking": 50,
 			"firstName": "Chris",
 			"lastName": "Smith",
 			"position": {
@@ -1948,7 +6469,7 @@
 		},
 		{
 			"college": "Arizona State",
-			"ranking": "51",
+			"ranking": 51,
 			"firstName": "Will",
 			"lastName": "Sutton",
 			"position": {
@@ -1960,7 +6481,7 @@
 		},
 		{
 			"college": "Oregon State",
-			"ranking": "52",
+			"ranking": 52,
 			"firstName": "Brandin",
 			"lastName": "Cooks",
 			"position": {
@@ -1972,7 +6493,7 @@
 		},
 		{
 			"college": "Florida",
-			"ranking": "53",
+			"ranking": 53,
 			"firstName": "Loucheiz",
 			"lastName": "Purifoy",
 			"position": {
@@ -1984,7 +6505,7 @@
 		},
 		{
 			"college": "Wisconsin",
-			"ranking": "54",
+			"ranking": 54,
 			"firstName": "Chris",
 			"lastName": "Borland",
 			"position": {
@@ -1996,7 +6517,7 @@
 		},
 		{
 			"college": "Georgia Tech",
-			"ranking": "55",
+			"ranking": 55,
 			"firstName": "Jeremiah",
 			"lastName": "Attaochu",
 			"position": {
@@ -2008,7 +6529,7 @@
 		},
 		{
 			"college": "Virginia Tech",
-			"ranking": "56",
+			"ranking": 56,
 			"firstName": "Kyle",
 			"lastName": "Fuller",
 			"position": {
@@ -2020,7 +6541,7 @@
 		},
 		{
 			"college": "Mississippi State",
-			"ranking": "57",
+			"ranking": 57,
 			"firstName": "Gabe",
 			"lastName": "Jackson",
 			"position": {
@@ -2032,7 +6553,7 @@
 		},
 		{
 			"college": "Utah",
-			"ranking": "58",
+			"ranking": 58,
 			"firstName": "Trevor",
 			"lastName": "Reilly",
 			"position": {
@@ -2044,7 +6565,7 @@
 		},
 		{
 			"college": "Stanford",
-			"ranking": "59",
+			"ranking": 59,
 			"firstName": "Shayne",
 			"lastName": "Skov",
 			"position": {
@@ -2056,7 +6577,7 @@
 		},
 		{
 			"college": "Ohio State",
-			"ranking": "60",
+			"ranking": 60,
 			"firstName": "Bradley",
 			"lastName": "Roby",
 			"position": {
@@ -2068,7 +6589,7 @@
 		},
 		{
 			"college": "Florida",
-			"ranking": "61",
+			"ranking": 61,
 			"firstName": "Dominique",
 			"lastName": "Easley",
 			"position": {
@@ -2080,7 +6601,7 @@
 		},
 		{
 			"college": "Florida State",
-			"ranking": "62",
+			"ranking": 62,
 			"firstName": "Christian",
 			"lastName": "Jones",
 			"position": {
@@ -2092,7 +6613,7 @@
 		},
 		{
 			"college": "Missouri",
-			"ranking": "63",
+			"ranking": 63,
 			"firstName": "Michael",
 			"lastName": "Sam",
 			"position": {
@@ -2104,7 +6625,7 @@
 		},
 		{
 			"college": "LSU",
-			"ranking": "64",
+			"ranking": 64,
 			"firstName": "Jarvis",
 			"lastName": "Landry",
 			"position": {
@@ -2116,7 +6637,7 @@
 		},
 		{
 			"college": "Texas",
-			"ranking": "65",
+			"ranking": 65,
 			"firstName": "Jackson",
 			"lastName": "Jeffcoat",
 			"position": {
@@ -2128,7 +6649,7 @@
 		},
 		{
 			"college": "Tennessee",
-			"ranking": "66",
+			"ranking": 66,
 			"firstName": "Ja’Wuan",
 			"lastName": "James",
 			"position": {
@@ -2140,7 +6661,7 @@
 		},
 		{
 			"college": "Washington State",
-			"ranking": "67",
+			"ranking": 67,
 			"firstName": "Deone",
 			"lastName": "Bucannon",
 			"position": {
@@ -2152,7 +6673,7 @@
 		},
 		{
 			"college": "South Carolina",
-			"ranking": "68",
+			"ranking": 68,
 			"firstName": "Kelcy",
 			"lastName": "Quarles",
 			"position": {
@@ -2164,7 +6685,7 @@
 		},
 		{
 			"college": "Missouri",
-			"ranking": "69",
+			"ranking": 69,
 			"firstName": "E.J.",
 			"lastName": "Gaines",
 			"position": {
@@ -2176,7 +6697,7 @@
 		},
 		{
 			"college": "Arizona State",
-			"ranking": "70",
+			"ranking": 70,
 			"firstName": "Carl",
 			"lastName": "Bradford",
 			"position": {
@@ -2188,7 +6709,7 @@
 		},
 		{
 			"college": "Nebraska",
-			"ranking": "71",
+			"ranking": 71,
 			"firstName": "Stanley",
 			"lastName": "Jean-",
 			"position": {
@@ -2200,7 +6721,7 @@
 		},
 		{
 			"college": "Baylor",
-			"ranking": "72",
+			"ranking": 72,
 			"firstName": "Lache",
 			"lastName": "Seastrunk",
 			"position": {
@@ -2212,7 +6733,7 @@
 		},
 		{
 			"college": "Baylor",
-			"ranking": "73",
+			"ranking": 73,
 			"firstName": "Cyril",
 			"lastName": "Richardson",
 			"position": {
@@ -2224,7 +6745,7 @@
 		},
 		{
 			"college": "Louisville",
-			"ranking": "74",
+			"ranking": 74,
 			"firstName": "Marcus",
 			"lastName": "Smith",
 			"position": {
@@ -2236,7 +6757,7 @@
 		},
 		{
 			"college": "Wisconsin",
-			"ranking": "75",
+			"ranking": 75,
 			"firstName": "Jared",
 			"lastName": "Abbrederis",
 			"position": {
@@ -2248,7 +6769,7 @@
 		},
 		{
 			"college": "Stanford",
-			"ranking": "76",
+			"ranking": 76,
 			"firstName": "Cameron",
 			"lastName": "Fleming",
 			"position": {
@@ -2260,7 +6781,7 @@
 		},
 		{
 			"college": "Notre Dame",
-			"ranking": "77",
+			"ranking": 77,
 			"firstName": "Troy",
 			"lastName": "Niklas",
 			"position": {
@@ -2272,7 +6793,7 @@
 		},
 		{
 			"college": "LSU",
-			"ranking": "78",
+			"ranking": 78,
 			"firstName": "Zach",
 			"lastName": "Mettenberger",
 			"position": {
@@ -2284,7 +6805,7 @@
 		},
 		{
 			"college": "LSU",
-			"ranking": "79",
+			"ranking": 79,
 			"firstName": "Ego",
 			"lastName": "Ferguson",
 			"position": {
@@ -2296,7 +6817,7 @@
 		},
 		{
 			"college": "Colorado State",
-			"ranking": "80",
+			"ranking": 80,
 			"firstName": "Weston",
 			"lastName": "Richburg",
 			"position": {
@@ -2308,7 +6829,7 @@
 		},
 		{
 			"college": "Clemson",
-			"ranking": "81",
+			"ranking": 81,
 			"firstName": "Brandon",
 			"lastName": "Thomas",
 			"position": {
@@ -2320,7 +6841,7 @@
 		},
 		{
 			"college": "Colorado",
-			"ranking": "82",
+			"ranking": 82,
 			"firstName": "Paul",
 			"lastName": "Richardson",
 			"position": {
@@ -2332,7 +6853,7 @@
 		},
 		{
 			"college": "Florida",
-			"ranking": "83",
+			"ranking": 83,
 			"firstName": "Jaylen",
 			"lastName": "Watkins",
 			"position": {
@@ -2344,7 +6865,7 @@
 		},
 		{
 			"college": "Uconn",
-			"ranking": "84",
+			"ranking": 84,
 			"firstName": "Yawin",
 			"lastName": "Smallwood",
 			"position": {
@@ -2356,7 +6877,7 @@
 		},
 		{
 			"college": "Ohio State",
-			"ranking": "85",
+			"ranking": 85,
 			"firstName": "Carlos",
 			"lastName": "Hyde",
 			"position": {
@@ -2368,7 +6889,7 @@
 		},
 		{
 			"college": "Stanford",
-			"ranking": "86",
+			"ranking": 86,
 			"firstName": "Ed",
 			"lastName": "Reynolds",
 			"position": {
@@ -2380,7 +6901,7 @@
 		},
 		{
 			"college": "Nevada",
-			"ranking": "87",
+			"ranking": 87,
 			"firstName": "Joel",
 			"lastName": "Bitonio",
 			"position": {
@@ -2392,7 +6913,7 @@
 		},
 		{
 			"college": "Mississippi",
-			"ranking": "88",
+			"ranking": 88,
 			"firstName": "Donte",
 			"lastName": "Moncrief",
 			"position": {
@@ -2404,7 +6925,7 @@
 		},
 		{
 			"college": "Alabama",
-			"ranking": "89",
+			"ranking": 89,
 			"firstName": "Anthony",
 			"lastName": "Steen",
 			"position": {
@@ -2416,7 +6937,7 @@
 		},
 		{
 			"college": "Penn State",
-			"ranking": "90",
+			"ranking": 90,
 			"firstName": "Daquan",
 			"lastName": "Jones",
 			"position": {
@@ -2428,7 +6949,7 @@
 		},
 		{
 			"college": "Florida State",
-			"ranking": "91",
+			"ranking": 91,
 			"firstName": "Telvin",
 			"lastName": "Smith",
 			"position": {
@@ -2440,7 +6961,7 @@
 		},
 		{
 			"college": "Towson",
-			"ranking": "92",
+			"ranking": 92,
 			"firstName": "Terrance",
 			"lastName": "West",
 			"position": {
@@ -2452,7 +6973,7 @@
 		},
 		{
 			"college": "Baylor",
-			"ranking": "93",
+			"ranking": 93,
 			"firstName": "Ahmad",
 			"lastName": "Dixon",
 			"position": {
@@ -2464,7 +6985,7 @@
 		},
 		{
 			"college": "Oregon",
-			"ranking": "94",
+			"ranking": 94,
 			"firstName": "Terrance",
 			"lastName": "Mitchell",
 			"position": {
@@ -2476,7 +6997,7 @@
 		},
 		{
 			"college": "Georgia",
-			"ranking": "95",
+			"ranking": 95,
 			"firstName": "Arthur",
 			"lastName": "Lynch",
 			"position": {
@@ -2488,7 +7009,7 @@
 		},
 		{
 			"college": "Clemson",
-			"ranking": "96",
+			"ranking": 96,
 			"firstName": "Bashaud",
 			"lastName": "Breeland",
 			"position": {
@@ -2500,7 +7021,7 @@
 		},
 		{
 			"college": "Ohio State",
-			"ranking": "97",
+			"ranking": 97,
 			"firstName": "Jack",
 			"lastName": "Mewhort",
 			"position": {
@@ -2512,7 +7033,7 @@
 		},
 		{
 			"college": "WVU",
-			"ranking": "98",
+			"ranking": 98,
 			"firstName": "Charles",
 			"lastName": "Sims",
 			"position": {
@@ -2524,7 +7045,7 @@
 		},
 		{
 			"college": "USC",
-			"ranking": "99",
+			"ranking": 99,
 			"firstName": "Morgan",
 			"lastName": "Breslin",
 			"position": {
@@ -2536,7 +7057,7 @@
 		},
 		{
 			"college": "Eastern Illinois",
-			"ranking": "100",
+			"ranking": 100,
 			"firstName": "Jimmy",
 			"lastName": "Garoppolo",
 			"position": {
@@ -2548,7 +7069,7 @@
 		},
 		{
 			"college": "LSU",
-			"ranking": "101",
+			"ranking": 101,
 			"firstName": "Anthony",
 			"lastName": "Johnson",
 			"position": {
@@ -2560,7 +7081,7 @@
 		},
 		{
 			"college": "Furman",
-			"ranking": "102",
+			"ranking": 102,
 			"firstName": "Dakota",
 			"lastName": "Dozier",
 			"position": {
@@ -2572,7 +7093,7 @@
 		},
 		{
 			"college": "Boise State",
-			"ranking": "103",
+			"ranking": 103,
 			"firstName": "Demarcus",
 			"lastName": "Lawrence",
 			"position": {
@@ -2584,7 +7105,7 @@
 		},
 		{
 			"college": "Northern Illinois",
-			"ranking": "104",
+			"ranking": 104,
 			"firstName": "Jimmie",
 			"lastName": "Ward",
 			"position": {
@@ -2596,7 +7117,7 @@
 		},
 		{
 			"college": "Iowa",
-			"ranking": "105",
+			"ranking": 105,
 			"firstName": "Christian",
 			"lastName": "Kirksey",
 			"position": {
@@ -2608,7 +7129,7 @@
 		},
 		{
 			"college": "Wyoming",
-			"ranking": "106",
+			"ranking": 106,
 			"firstName": "Robert",
 			"lastName": "Herron",
 			"position": {
@@ -2620,7 +7141,7 @@
 		},
 		{
 			"college": "Boston College",
-			"ranking": "107",
+			"ranking": 107,
 			"firstName": "Andre",
 			"lastName": "Williams",
 			"position": {
@@ -2632,7 +7153,7 @@
 		},
 		{
 			"college": "Iowa",
-			"ranking": "108",
+			"ranking": 108,
 			"firstName": "C.J.",
 			"lastName": "Fiedorowicz",
 			"position": {
@@ -2644,7 +7165,7 @@
 		},
 		{
 			"college": "Florida State",
-			"ranking": "109",
+			"ranking": 109,
 			"firstName": "Terrence",
 			"lastName": "Brooks",
 			"position": {
@@ -2656,7 +7177,7 @@
 		},
 		{
 			"college": "Louisiana Tech",
-			"ranking": "110",
+			"ranking": 110,
 			"firstName": "Justin",
 			"lastName": "Ellis",
 			"position": {
@@ -2668,7 +7189,7 @@
 		},
 		{
 			"college": "USC",
-			"ranking": "111",
+			"ranking": 111,
 			"firstName": "Marcus",
 			"lastName": "Martin",
 			"position": {
@@ -2680,7 +7201,7 @@
 		},
 		{
 			"college": "Clemson",
-			"ranking": "112",
+			"ranking": 112,
 			"firstName": "Martavis",
 			"lastName": "Bryant",
 			"position": {
@@ -2692,7 +7213,7 @@
 		},
 		{
 			"college": "North Dakota State",
-			"ranking": "113",
+			"ranking": 113,
 			"firstName": "Billy",
 			"lastName": "Turner",
 			"position": {
@@ -2704,7 +7225,7 @@
 		},
 		{
 			"college": "Lindenwood",
-			"ranking": "114",
+			"ranking": 114,
 			"firstName": "Pierre",
 			"lastName": "Desir",
 			"position": {
@@ -2716,7 +7237,7 @@
 		},
 		{
 			"college": "Arizona State",
-			"ranking": "115",
+			"ranking": 115,
 			"firstName": "Marion",
 			"lastName": "Grice",
 			"position": {
@@ -2728,7 +7249,7 @@
 		},
 		{
 			"college": "Rutgers",
-			"ranking": "116",
+			"ranking": 116,
 			"firstName": "Brandon",
 			"lastName": "Coleman",
 			"position": {
@@ -2740,7 +7261,7 @@
 		},
 		{
 			"college": "Florida State",
-			"ranking": "117",
+			"ranking": 117,
 			"firstName": "Bryan",
 			"lastName": "Stork",
 			"position": {
@@ -2752,7 +7273,7 @@
 		},
 		{
 			"college": "Washington",
-			"ranking": "118",
+			"ranking": 118,
 			"firstName": "Bishop",
 			"lastName": "Sankey",
 			"position": {
@@ -2764,7 +7285,7 @@
 		},
 		{
 			"college": "LSU",
-			"ranking": "119",
+			"ranking": 119,
 			"firstName": "Jeremy",
 			"lastName": "Hill",
 			"position": {
@@ -2776,7 +7297,7 @@
 		},
 		{
 			"college": "South Carolina",
-			"ranking": "120",
+			"ranking": 120,
 			"firstName": "Victor",
 			"lastName": "Hampton",
 			"position": {
@@ -2788,7 +7309,7 @@
 		},
 		{
 			"college": "USC",
-			"ranking": "121",
+			"ranking": 121,
 			"firstName": "George",
 			"lastName": "Uko",
 			"position": {
@@ -2800,7 +7321,7 @@
 		},
 		{
 			"college": "Pittsburgh",
-			"ranking": "122",
+			"ranking": 122,
 			"firstName": "Devin",
 			"lastName": "Street",
 			"position": {
@@ -2812,7 +7333,7 @@
 		},
 		{
 			"college": "Utah",
-			"ranking": "123",
+			"ranking": 123,
 			"firstName": "Keith",
 			"lastName": "McGill",
 			"position": {
@@ -2824,7 +7345,7 @@
 		},
 		{
 			"college": "LSU",
-			"ranking": "124",
+			"ranking": 124,
 			"firstName": "Craig",
 			"lastName": "Loston",
 			"position": {
@@ -2836,7 +7357,7 @@
 		},
 		{
 			"college": "Georgia",
-			"ranking": "125",
+			"ranking": 125,
 			"firstName": "Aaron",
 			"lastName": "Murray",
 			"position": {
@@ -2848,7 +7369,7 @@
 		},
 		{
 			"college": "Wisconsin",
-			"ranking": "126",
+			"ranking": 126,
 			"firstName": "James",
 			"lastName": "White",
 			"position": {
@@ -2860,7 +7381,7 @@
 		},
 		{
 			"college": "Princeton",
-			"ranking": "127",
+			"ranking": 127,
 			"firstName": "Caraun",
 			"lastName": "Reid",
 			"position": {
@@ -2872,7 +7393,7 @@
 		},
 		{
 			"college": "Virginia Tech",
-			"ranking": "128",
+			"ranking": 128,
 			"firstName": "James",
 			"lastName": "Gayle",
 			"position": {
@@ -2884,7 +7405,7 @@
 		},
 		{
 			"college": "Duke",
-			"ranking": "129",
+			"ranking": 129,
 			"firstName": "Ross",
 			"lastName": "Cockrell",
 			"position": {
@@ -2896,7 +7417,7 @@
 		},
 		{
 			"college": "USC",
-			"ranking": "130",
+			"ranking": 130,
 			"firstName": "Dion",
 			"lastName": "Bailey",
 			"position": {
@@ -2908,7 +7429,7 @@
 		},
 		{
 			"college": "Alabama",
-			"ranking": "131",
+			"ranking": 131,
 			"firstName": "Ed",
 			"lastName": "Stinson",
 			"position": {
@@ -2920,7 +7441,7 @@
 		},
 		{
 			"college": "Wyoming",
-			"ranking": "132",
+			"ranking": 132,
 			"firstName": "Brett",
 			"lastName": "Smith",
 			"position": {
@@ -2932,7 +7453,7 @@
 		},
 		{
 			"college": "Montana",
-			"ranking": "133",
+			"ranking": 133,
 			"firstName": "Jordan",
 			"lastName": "Tripp",
 			"position": {
@@ -2944,7 +7465,7 @@
 		},
 		{
 			"college": "Oregon",
-			"ranking": "134",
+			"ranking": 134,
 			"firstName": "Josh",
 			"lastName": "Huff",
 			"position": {
@@ -2956,7 +7477,7 @@
 		},
 		{
 			"college": "LSU",
-			"ranking": "135",
+			"ranking": 135,
 			"firstName": "Lamin",
 			"lastName": "Barrow",
 			"position": {
@@ -2968,7 +7489,7 @@
 		},
 		{
 			"college": "Virignia Tech",
-			"ranking": "136",
+			"ranking": 136,
 			"firstName": "Antone",
 			"lastName": "Exum",
 			"position": {
@@ -2980,7 +7501,7 @@
 		},
 		{
 			"college": "Tennessee",
-			"ranking": "137",
+			"ranking": 137,
 			"firstName": "Daniel",
 			"lastName": "McCullers",
 			"position": {
@@ -2992,7 +7513,7 @@
 		},
 		{
 			"college": "North Carolina",
-			"ranking": "138",
+			"ranking": 138,
 			"firstName": "Kareem",
 			"lastName": "Martin",
 			"position": {
@@ -3004,7 +7525,7 @@
 		},
 		{
 			"college": "Vanderbilt",
-			"ranking": "139",
+			"ranking": 139,
 			"firstName": "Wesley",
 			"lastName": "Johnson",
 			"position": {
@@ -3016,7 +7537,7 @@
 		},
 		{
 			"college": "Michigan State",
-			"ranking": "140",
+			"ranking": 140,
 			"firstName": "Max",
 			"lastName": "Bullough",
 			"position": {
@@ -3028,7 +7549,7 @@
 		},
 		{
 			"college": "UNC",
-			"ranking": "141",
+			"ranking": 141,
 			"firstName": "James",
 			"lastName": "Hurst",
 			"position": {
@@ -3040,7 +7561,7 @@
 		},
 		{
 			"college": "Alabama",
-			"ranking": "142",
+			"ranking": 142,
 			"firstName": "A.J.",
 			"lastName": "McCarron",
 			"position": {
@@ -3052,7 +7573,7 @@
 		},
 		{
 			"college": "Oregon State",
-			"ranking": "143",
+			"ranking": 143,
 			"firstName": "Rashaad",
 			"lastName": "Reynolds",
 			"position": {
@@ -3064,7 +7585,7 @@
 		},
 		{
 			"college": "Ohio State",
-			"ranking": "144",
+			"ranking": 144,
 			"firstName": "C.J.",
 			"lastName": "Barnett",
 			"position": {
@@ -3076,7 +7597,7 @@
 		},
 		{
 			"college": "Wisconsin",
-			"ranking": "145",
+			"ranking": 145,
 			"firstName": "Jacob",
 			"lastName": "Pedersen",
 			"position": {
@@ -3088,7 +7609,7 @@
 		},
 		{
 			"college": "Notre Dame",
-			"ranking": "146",
+			"ranking": 146,
 			"firstName": "Chris",
 			"lastName": "Watt",
 			"position": {
@@ -3100,7 +7621,7 @@
 		},
 		{
 			"college": "UCLA",
-			"ranking": "147",
+			"ranking": 147,
 			"firstName": "Jordan",
 			"lastName": "Zumwalt",
 			"position": {
@@ -3112,7 +7633,7 @@
 		},
 		{
 			"college": "San Jose State",
-			"ranking": "148",
+			"ranking": 148,
 			"firstName": "David",
 			"lastName": "Fales",
 			"position": {
@@ -3124,7 +7645,7 @@
 		},
 		{
 			"college": "Fresno State",
-			"ranking": "149",
+			"ranking": 149,
 			"firstName": "Austin",
 			"lastName": "Wentworth",
 			"position": {
@@ -3136,7 +7657,7 @@
 		},
 		{
 			"college": "Oregon",
-			"ranking": "150",
+			"ranking": 150,
 			"firstName": "Taylor",
 			"lastName": "Hart",
 			"position": {
@@ -3148,7 +7669,7 @@
 		},
 		{
 			"college": "Alabama",
-			"ranking": "151",
+			"ranking": 151,
 			"firstName": "Deion",
 			"lastName": "Belue",
 			"position": {
@@ -3160,7 +7681,7 @@
 		},
 		{
 			"college": "Utah State",
-			"ranking": "152",
+			"ranking": 152,
 			"firstName": "Tyler",
 			"lastName": "Larsen",
 			"position": {
@@ -3172,7 +7693,7 @@
 		},
 		{
 			"college": "Florida State",
-			"ranking": "153",
+			"ranking": 153,
 			"firstName": "Devonta",
 			"lastName": "Freeman",
 			"position": {
@@ -3184,7 +7705,7 @@
 		},
 		{
 			"college": "South Carolina",
-			"ranking": "154",
+			"ranking": 154,
 			"firstName": "Bruce",
 			"lastName": "Ellington",
 			"position": {
@@ -3196,7 +7717,7 @@
 		},
 		{
 			"college": "California",
-			"ranking": "155",
+			"ranking": 155,
 			"firstName": "Deandre",
 			"lastName": "Coleman",
 			"position": {
@@ -3208,7 +7729,7 @@
 		},
 		{
 			"college": "Alabama",
-			"ranking": "156",
+			"ranking": 156,
 			"firstName": "Adrian",
 			"lastName": "Hubbard",
 			"position": {
@@ -3220,7 +7741,7 @@
 		},
 		{
 			"college": "Arizona",
-			"ranking": "157",
+			"ranking": 157,
 			"firstName": "Shaquille",
 			"lastName": "Richardson",
 			"position": {
@@ -3232,7 +7753,7 @@
 		},
 		{
 			"college": "Oregon",
-			"ranking": "158",
+			"ranking": 158,
 			"firstName": "De’Anthony",
 			"lastName": "Thomas",
 			"position": {
@@ -3244,7 +7765,7 @@
 		},
 		{
 			"college": "Virginia",
-			"ranking": "159",
+			"ranking": 159,
 			"firstName": "Brent",
 			"lastName": "Urban",
 			"position": {
@@ -3256,7 +7777,7 @@
 		},
 		{
 			"college": "Miami",
-			"ranking": "160",
+			"ranking": 160,
 			"firstName": "Seantrel",
 			"lastName": "Henderson",
 			"position": {
@@ -3268,7 +7789,7 @@
 		},
 		{
 			"college": "WVU",
-			"ranking": "161",
+			"ranking": 161,
 			"firstName": "Will",
 			"lastName": "Clarke",
 			"position": {
@@ -3280,7 +7801,7 @@
 		},
 		{
 			"college": "Florida State",
-			"ranking": "162",
+			"ranking": 162,
 			"firstName": "James",
 			"lastName": "Wilder",
 			"position": {
@@ -3292,7 +7813,7 @@
 		},
 		{
 			"college": "Louisville",
-			"ranking": "163",
+			"ranking": 163,
 			"firstName": "Hakeem",
 			"lastName": "Smith",
 			"position": {
@@ -3304,7 +7825,7 @@
 		},
 		{
 			"college": "Virginia Tech",
-			"ranking": "164",
+			"ranking": 164,
 			"firstName": "Logan",
 			"lastName": "Thomas",
 			"position": {
@@ -3316,7 +7837,7 @@
 		},
 		{
 			"college": "UCF",
-			"ranking": "165",
+			"ranking": 165,
 			"firstName": "Storm",
 			"lastName": "Johnson",
 			"position": {
@@ -3328,7 +7849,7 @@
 		},
 		{
 			"college": "Stanford",
-			"ranking": "166",
+			"ranking": 166,
 			"firstName": "Josh",
 			"lastName": "Mauro",
 			"position": {
@@ -3340,7 +7861,7 @@
 		},
 		{
 			"college": "Notre Dame",
-			"ranking": "167",
+			"ranking": 167,
 			"firstName": "Bennett",
 			"lastName": "Jackson",
 			"position": {
@@ -3352,7 +7873,7 @@
 		},
 		{
 			"college": "Tulane",
-			"ranking": "168",
+			"ranking": 168,
 			"firstName": "Ryan",
 			"lastName": "Grant",
 			"position": {
@@ -3364,7 +7885,7 @@
 		},
 		{
 			"college": "Auburn",
-			"ranking": "169",
+			"ranking": 169,
 			"firstName": "Chris",
 			"lastName": "Davis",
 			"position": {
@@ -3376,7 +7897,7 @@
 		},
 		{
 			"college": "Vanderbilt",
-			"ranking": "170",
+			"ranking": 170,
 			"firstName": "Kenny",
 			"lastName": "Ladler",
 			"position": {
@@ -3388,7 +7909,7 @@
 		},
 		{
 			"college": "Notre Dame",
-			"ranking": "171",
+			"ranking": 171,
 			"firstName": "T.J.",
 			"lastName": "Jones",
 			"position": {
@@ -3400,7 +7921,7 @@
 		},
 		{
 			"college": "North Carolina",
-			"ranking": "172",
+			"ranking": 172,
 			"firstName": "Tre",
 			"lastName": "Boston",
 			"position": {
@@ -3412,7 +7933,7 @@
 		},
 		{
 			"college": "Wake Forrest",
-			"ranking": "173",
+			"ranking": 173,
 			"firstName": "Michael",
 			"lastName": "Campanaro",
 			"position": {
@@ -3424,7 +7945,7 @@
 		},
 		{
 			"college": "LSU",
-			"ranking": "174",
+			"ranking": 174,
 			"firstName": "Trai",
 			"lastName": "Turner",
 			"position": {
@@ -3436,7 +7957,7 @@
 		},
 		{
 			"college": "Clemson",
-			"ranking": "175",
+			"ranking": 175,
 			"firstName": "Tajh",
 			"lastName": "Boyd",
 			"position": {
@@ -3448,7 +7969,7 @@
 		},
 		{
 			"college": "Saginaw Valley State",
-			"ranking": "176",
+			"ranking": 176,
 			"firstName": "Jeff",
 			"lastName": "Janis",
 			"position": {
@@ -3460,7 +7981,7 @@
 		},
 		{
 			"college": "South Florida",
-			"ranking": "177",
+			"ranking": 177,
 			"firstName": "DeDe",
 			"lastName": "Lattimore",
 			"position": {
@@ -3472,7 +7993,7 @@
 		},
 		{
 			"college": "Notre Dame",
-			"ranking": "178",
+			"ranking": 178,
 			"firstName": "Prince",
 			"lastName": "Shembo",
 			"position": {
@@ -3484,7 +8005,7 @@
 		},
 		{
 			"college": "Texas",
-			"ranking": "179",
+			"ranking": 179,
 			"firstName": "Mike",
 			"lastName": "Davis",
 			"position": {
@@ -3496,7 +8017,7 @@
 		},
 		{
 			"college": "Kansas State",
-			"ranking": "180",
+			"ranking": 180,
 			"firstName": "Ty",
 			"lastName": "Zimmerman",
 			"position": {
@@ -3508,7 +8029,7 @@
 		},
 		{
 			"college": "Boston College",
-			"ranking": "181",
+			"ranking": 181,
 			"firstName": "Kasim",
 			"lastName": "Edebali",
 			"position": {
@@ -3520,7 +8041,7 @@
 		},
 		{
 			"college": "Baylor",
-			"ranking": "182",
+			"ranking": 182,
 			"firstName": "Tevin",
 			"lastName": "Reese",
 			"position": {
@@ -3532,7 +8053,7 @@
 		},
 		{
 			"college": "Vanderbilt",
-			"ranking": "183",
+			"ranking": 183,
 			"firstName": "Andre",
 			"lastName": "Hal",
 			"position": {
@@ -3544,7 +8065,7 @@
 		},
 		{
 			"college": "Colorado State",
-			"ranking": "184",
+			"ranking": 184,
 			"firstName": "Crockett",
 			"lastName": "Gilmore",
 			"position": {
@@ -3556,7 +8077,7 @@
 		},
 		{
 			"college": "Arkansas State",
-			"ranking": "185",
+			"ranking": 185,
 			"firstName": "Ryan",
 			"lastName": "Carrethers",
 			"position": {
@@ -3568,7 +8089,7 @@
 		},
 		{
 			"college": "North Carolina",
-			"ranking": "186",
+			"ranking": 186,
 			"firstName": "Russell",
 			"lastName": "Bodine",
 			"position": {
@@ -3580,7 +8101,7 @@
 		},
 		{
 			"college": "Alabama",
-			"ranking": "187",
+			"ranking": 187,
 			"firstName": "Jeoffrey",
 			"lastName": "Pagan",
 			"position": {
@@ -3592,7 +8113,7 @@
 		},
 		{
 			"college": "Kansas State",
-			"ranking": "188",
+			"ranking": 188,
 			"firstName": "Cornelius",
 			"lastName": "Lucas",
 			"position": {
@@ -3604,7 +8125,7 @@
 		},
 		{
 			"college": "Western Kentucky",
-			"ranking": "189",
+			"ranking": 189,
 			"firstName": "Antonio",
 			"lastName": "Andrews",
 			"position": {
@@ -3616,7 +8137,7 @@
 		},
 		{
 			"college": "Dixie State",
-			"ranking": "190",
+			"ranking": 190,
 			"firstName": "Joe",
 			"lastName": "Don",
 			"position": {
@@ -3628,7 +8149,7 @@
 		},
 		{
 			"college": "Florida",
-			"ranking": "191",
+			"ranking": 191,
 			"firstName": "Ron",
 			"lastName": "Powell",
 			"position": {
@@ -3640,7 +8161,7 @@
 		},
 		{
 			"college": "USF",
-			"ranking": "192",
+			"ranking": 192,
 			"firstName": "Aaron",
 			"lastName": "Lynch",
 			"position": {
@@ -3652,7 +8173,7 @@
 		},
 		{
 			"college": "Coastal Carolina",
-			"ranking": "193",
+			"ranking": 193,
 			"firstName": "Matt",
 			"lastName": "Hazel",
 			"position": {
@@ -3664,7 +8185,7 @@
 		},
 		{
 			"college": "Liberty",
-			"ranking": "194",
+			"ranking": 194,
 			"firstName": "Walt",
 			"lastName": "Aikens",
 			"position": {
@@ -3676,7 +8197,7 @@
 		},
 		{
 			"college": "Syracuse",
-			"ranking": "195",
+			"ranking": 195,
 			"firstName": "Jay",
 			"lastName": "Bromley",
 			"position": {
@@ -3688,7 +8209,7 @@
 		},
 		{
 			"college": "Tennessee State",
-			"ranking": "196",
+			"ranking": 196,
 			"firstName": "Kadeem",
 			"lastName": "Edwards",
 			"position": {
@@ -3700,7 +8221,7 @@
 		},
 		{
 			"college": "Colorado State",
-			"ranking": "197",
+			"ranking": 197,
 			"firstName": "Kapri",
 			"lastName": "Bibbs",
 			"position": {
@@ -3712,7 +8233,7 @@
 		},
 		{
 			"college": "Alabama",
-			"ranking": "198",
+			"ranking": 198,
 			"firstName": "Vinnie",
 			"lastName": "Sunseri",
 			"position": {
@@ -3724,7 +8245,7 @@
 		},
 		{
 			"college": "Utah",
-			"ranking": "199",
+			"ranking": 199,
 			"firstName": "Jake",
 			"lastName": "Murphy",
 			"position": {
@@ -3736,7 +8257,7 @@
 		},
 		{
 			"college": "Indiana",
-			"ranking": "200",
+			"ranking": 200,
 			"firstName": "Cody",
 			"lastName": "Latimer",
 			"position": {
@@ -3748,7 +8269,7 @@
 		},
 		{
 			"college": "Iowa State",
-			"ranking": "201",
+			"ranking": 201,
 			"firstName": "Jeremiah",
 			"lastName": "George",
 			"position": {
@@ -3760,7 +8281,7 @@
 		},
 		{
 			"college": "Tennessee",
-			"ranking": "202",
+			"ranking": 202,
 			"firstName": "Rajion",
 			"lastName": "Neal",
 			"position": {
@@ -3772,7 +8293,7 @@
 		},
 		{
 			"college": "Ball State",
-			"ranking": "203",
+			"ranking": 203,
 			"firstName": "Keith",
 			"lastName": "Wenning",
 			"position": {
@@ -3784,7 +8305,7 @@
 		},
 		{
 			"college": "Utah State",
-			"ranking": "204",
+			"ranking": 204,
 			"firstName": "Nevin",
 			"lastName": "Lawson",
 			"position": {
@@ -3796,7 +8317,7 @@
 		},
 		{
 			"college": "Oklahoma",
-			"ranking": "205",
+			"ranking": 205,
 			"firstName": "Jalen",
 			"lastName": "Saunders",
 			"position": {
@@ -3808,7 +8329,7 @@
 		},
 		{
 			"college": "Washington",
-			"ranking": "206",
+			"ranking": 206,
 			"firstName": "Sean",
 			"lastName": "Parker",
 			"position": {
@@ -3820,7 +8341,7 @@
 		},
 		{
 			"college": "Georgia Southern",
-			"ranking": "207",
+			"ranking": 207,
 			"firstName": "Lavelle",
 			"lastName": "Westbrooks",
 			"position": {
@@ -3832,7 +8353,7 @@
 		},
 		{
 			"college": "Miami",
-			"ranking": "208",
+			"ranking": 208,
 			"firstName": "Brandon",
 			"lastName": "Linder",
 			"position": {
@@ -3844,7 +8365,7 @@
 		},
 		{
 			"college": "UCLA",
-			"ranking": "209",
+			"ranking": 209,
 			"firstName": "Cassius",
 			"lastName": "Marsh",
 			"position": {
@@ -3856,7 +8377,7 @@
 		},
 		{
 			"college": "Oklahoma State",
-			"ranking": "210",
+			"ranking": 210,
 			"firstName": "Calvin",
 			"lastName": "Barnett",
 			"position": {
@@ -3868,7 +8389,7 @@
 		},
 		{
 			"college": "Missouri",
-			"ranking": "211",
+			"ranking": 211,
 			"firstName": "Henry",
 			"lastName": "Josey",
 			"position": {
@@ -3880,7 +8401,7 @@
 		},
 		{
 			"college": "San Jose State",
-			"ranking": "212",
+			"ranking": 212,
 			"firstName": "Bene",
 			"lastName": "Benwikere",
 			"position": {
@@ -3892,7 +8413,7 @@
 		},
 		{
 			"college": "UAB",
-			"ranking": "213",
+			"ranking": 213,
 			"firstName": "Darrin",
 			"lastName": "Reeves",
 			"position": {
@@ -3904,7 +8425,7 @@
 		},
 		{
 			"college": "Oklahoma",
-			"ranking": "214",
+			"ranking": 214,
 			"firstName": "Aaron",
 			"lastName": "Colvin",
 			"position": {
@@ -3916,7 +8437,7 @@
 		},
 		{
 			"college": "Florida",
-			"ranking": "215",
+			"ranking": 215,
 			"firstName": "Jon",
 			"lastName": "Halapio",
 			"position": {
@@ -3928,7 +8449,7 @@
 		},
 		{
 			"college": "USC",
-			"ranking": "216",
+			"ranking": 216,
 			"firstName": "Devon",
 			"lastName": "Kennard",
 			"position": {
@@ -3940,7 +8461,7 @@
 		},
 		{
 			"college": "Uconn",
-			"ranking": "217",
+			"ranking": 217,
 			"firstName": "Shamar",
 			"lastName": "Stephen",
 			"position": {
@@ -3952,7 +8473,7 @@
 		},
 		{
 			"college": "South Carolina",
-			"ranking": "218",
+			"ranking": 218,
 			"firstName": "Connor",
 			"lastName": "Shaw",
 			"position": {
@@ -3964,7 +8485,7 @@
 		},
 		{
 			"college": "UCLA",
-			"ranking": "219",
+			"ranking": 219,
 			"firstName": "Shaq",
 			"lastName": "Evans",
 			"position": {
@@ -3976,7 +8497,7 @@
 		},
 		{
 			"college": "Tennessee",
-			"ranking": "220",
+			"ranking": 220,
 			"firstName": "James",
 			"lastName": "Stone",
 			"position": {
@@ -3988,7 +8509,7 @@
 		},
 		{
 			"college": "Wisconsin",
-			"ranking": "221",
+			"ranking": 221,
 			"firstName": "Dezmen",
 			"lastName": "Southward",
 			"position": {
@@ -4000,7 +8521,7 @@
 		},
 		{
 			"college": "Mississippi State",
-			"ranking": "222",
+			"ranking": 222,
 			"firstName": "Nickoe",
 			"lastName": "Whitley",
 			"position": {
@@ -4012,7 +8533,7 @@
 		},
 		{
 			"college": "Stanford",
-			"ranking": "223",
+			"ranking": 223,
 			"firstName": "Tyler",
 			"lastName": "Gaffney",
 			"position": {
@@ -4024,7 +8545,7 @@
 		},
 		{
 			"college": "West Texas A&M",
-			"ranking": "224",
+			"ranking": 224,
 			"firstName": "Ethan",
 			"lastName": "Westbrooks",
 			"position": {
@@ -4036,7 +8557,7 @@
 		},
 		{
 			"college": "Purdue",
-			"ranking": "225",
+			"ranking": 225,
 			"firstName": "Ricardo",
 			"lastName": "Allen",
 			"position": {
@@ -4048,7 +8569,7 @@
 		},
 		{
 			"college": "Michigan",
-			"ranking": "226",
+			"ranking": 226,
 			"firstName": "Michael",
 			"lastName": "Schofield",
 			"position": {
@@ -4060,7 +8581,7 @@
 		},
 		{
 			"college": "Michigan State",
-			"ranking": "227",
+			"ranking": 227,
 			"firstName": "Denicos",
 			"lastName": "Allen",
 			"position": {
@@ -4072,7 +8593,7 @@
 		},
 		{
 			"college": "Kent State",
-			"ranking": "228",
+			"ranking": 228,
 			"firstName": "Dri",
 			"lastName": "Archer",
 			"position": {
@@ -4084,7 +8605,7 @@
 		},
 		{
 			"college": "USC",
-			"ranking": "229",
+			"ranking": 229,
 			"firstName": "Xavier",
 			"lastName": "Grimble",
 			"position": {
@@ -4096,7 +8617,7 @@
 		},
 		{
 			"college": "Missouri",
-			"ranking": "230",
+			"ranking": 230,
 			"firstName": "Justin",
 			"lastName": "Britt",
 			"position": {
@@ -4108,7 +8629,7 @@
 		},
 		{
 			"college": "South Dakota",
-			"ranking": "231",
+			"ranking": 231,
 			"firstName": "Tyler",
 			"lastName": "Starr",
 			"position": {
@@ -4120,7 +8641,7 @@
 		},
 		{
 			"college": "Texas Tech",
-			"ranking": "232",
+			"ranking": 232,
 			"firstName": "Kerry",
 			"lastName": "Hyder",
 			"position": {
@@ -4132,7 +8653,7 @@
 		},
 		{
 			"college": "New Mexico State",
-			"ranking": "233",
+			"ranking": 233,
 			"firstName": "Austin",
 			"lastName": "Franklin",
 			"position": {
@@ -4144,7 +8665,7 @@
 		},
 		{
 			"college": "Baylor",
-			"ranking": "234",
+			"ranking": 234,
 			"firstName": "Jordan",
 			"lastName": "Najvar",
 			"position": {
@@ -4156,7 +8677,7 @@
 		},
 		{
 			"college": "North Carolina State",
-			"ranking": "235",
+			"ranking": 235,
 			"firstName": "Dontae",
 			"lastName": "Johnson",
 			"position": {
@@ -4168,7 +8689,7 @@
 		},
 		{
 			"college": "Georgia Southern",
-			"ranking": "236",
+			"ranking": 236,
 			"firstName": "Jerick",
 			"lastName": "McKinnon",
 			"position": {
@@ -4180,7 +8701,7 @@
 		},
 		{
 			"college": "California",
-			"ranking": "237",
+			"ranking": 237,
 			"firstName": "Villiami",
 			"lastName": "Moala",
 			"position": {
@@ -4192,7 +8713,7 @@
 		},
 		{
 			"college": "LSU",
-			"ranking": "238",
+			"ranking": 238,
 			"firstName": "J.C.",
 			"lastName": "Copeland",
 			"position": {
@@ -4204,7 +8725,7 @@
 		},
 		{
 			"college": "BYU",
-			"ranking": "239",
+			"ranking": 239,
 			"firstName": "Cody",
 			"lastName": "Hoffman",
 			"position": {
@@ -4216,7 +8737,7 @@
 		},
 		{
 			"college": "Boston College",
-			"ranking": "240",
+			"ranking": 240,
 			"firstName": "Matt",
 			"lastName": "Patchan",
 			"position": {
@@ -4228,7 +8749,7 @@
 		},
 		{
 			"college": "Mississippi State",
-			"ranking": "241",
+			"ranking": 241,
 			"firstName": "LaDarius",
 			"lastName": "Perkins",
 			"position": {
@@ -4240,7 +8761,7 @@
 		},
 		{
 			"college": "Toledo",
-			"ranking": "242",
+			"ranking": 242,
 			"firstName": "David",
 			"lastName": "Fluellen",
 			"position": {
@@ -4252,7 +8773,7 @@
 		},
 		{
 			"college": "Fresno State",
-			"ranking": "243",
+			"ranking": 243,
 			"firstName": "Marcel",
 			"lastName": "Jensen",
 			"position": {
@@ -4264,7 +8785,7 @@
 		},
 		{
 			"college": "Missouri",
-			"ranking": "244",
+			"ranking": 244,
 			"firstName": "L’Damian",
 			"lastName": "Washington",
 			"position": {
@@ -4276,7 +8797,7 @@
 		},
 		{
 			"college": "Texas",
-			"ranking": "245",
+			"ranking": 245,
 			"firstName": "Carrington",
 			"lastName": "Byndom",
 			"position": {
@@ -4288,7 +8809,7 @@
 		},
 		{
 			"college": "Western Kentucky",
-			"ranking": "246",
+			"ranking": 246,
 			"firstName": "Andrew",
 			"lastName": "Jackson",
 			"position": {
@@ -4300,7 +8821,7 @@
 		},
 		{
 			"college": "Oklahoma",
-			"ranking": "247",
+			"ranking": 247,
 			"firstName": "Trey",
 			"lastName": "Millard",
 			"position": {
@@ -4312,7 +8833,7 @@
 		},
 		{
 			"college": "Texas Tech",
-			"ranking": "248",
+			"ranking": 248,
 			"firstName": "Eric",
 			"lastName": "Ward",
 			"position": {
@@ -4324,7 +8845,7 @@
 		},
 		{
 			"college": "Auburn",
-			"ranking": "249",
+			"ranking": 249,
 			"firstName": "Jay",
 			"lastName": "Prosch",
 			"position": {
@@ -4336,7 +8857,7 @@
 		},
 		{
 			"college": "North Carolina State",
-			"ranking": "250",
+			"ranking": 250,
 			"firstName": "Asa",
 			"lastName": "Watson",
 			"position": {
@@ -4348,7 +8869,7 @@
 		},
 		{
 			"college": "Louisville",
-			"ranking": "251",
+			"ranking": 251,
 			"firstName": "Damian",
 			"lastName": "Copeland",
 			"position": {
@@ -4360,7 +8881,7 @@
 		},
 		{
 			"college": "Wyoming",
-			"ranking": "252",
+			"ranking": 252,
 			"firstName": "Marqueston",
 			"lastName": "Huff",
 			"position": {
@@ -4372,7 +8893,7 @@
 		},
 		{
 			"college": "California",
-			"ranking": "253",
+			"ranking": 253,
 			"firstName": "Richard",
 			"lastName": "Rodgers",
 			"position": {
@@ -4384,7 +8905,7 @@
 		},
 		{
 			"college": "Georgia",
-			"ranking": "254",
+			"ranking": 254,
 			"firstName": "Chris",
 			"lastName": "Burnette",
 			"position": {
@@ -4396,7 +8917,7 @@
 		},
 		{
 			"college": "Bloomsburg",
-			"ranking": "255",
+			"ranking": 255,
 			"firstName": "Larry",
 			"lastName": "Webster",
 			"position": {
@@ -4408,7 +8929,7 @@
 		},
 		{
 			"college": "Georgia Tech",
-			"ranking": "256",
+			"ranking": 256,
 			"firstName": "Jamea",
 			"lastName": "Thomas",
 			"position": {
@@ -4420,7 +8941,7 @@
 		},
 		{
 			"college": "California",
-			"ranking": "257",
+			"ranking": 257,
 			"firstName": "Khairi",
 			"lastName": "Fortt",
 			"position": {
@@ -4432,7 +8953,7 @@
 		},
 		{
 			"college": "Tennessee",
-			"ranking": "258",
+			"ranking": 258,
 			"firstName": "Zach",
 			"lastName": "Fulton",
 			"position": {
@@ -4444,7 +8965,7 @@
 		},
 		{
 			"college": "Arizona State",
-			"ranking": "259",
+			"ranking": 259,
 			"firstName": "Chris",
 			"lastName": "Coyle",
 			"position": {
@@ -4456,7 +8977,7 @@
 		},
 		{
 			"college": "Rice",
-			"ranking": "260",
+			"ranking": 260,
 			"firstName": "Phillip",
 			"lastName": "Gaines",
 			"position": {
@@ -4468,7 +8989,7 @@
 		},
 		{
 			"college": "Delaware",
-			"ranking": "261",
+			"ranking": 261,
 			"firstName": "Zack",
 			"lastName": "Kerr",
 			"position": {
@@ -4480,7 +9001,7 @@
 		},
 		{
 			"college": "Louisville",
-			"ranking": "262",
+			"ranking": 262,
 			"firstName": "Preston",
 			"lastName": "Brown",
 			"position": {
@@ -4492,7 +9013,7 @@
 		},
 		{
 			"college": "Alabama",
-			"ranking": "263",
+			"ranking": 263,
 			"firstName": "Kevin",
 			"lastName": "Norwood",
 			"position": {
@@ -4504,7 +9025,7 @@
 		},
 		{
 			"college": "WVU",
-			"ranking": "264",
+			"ranking": 264,
 			"firstName": "Darwin",
 			"lastName": "Cook",
 			"position": {
@@ -4516,7 +9037,7 @@
 		},
 		{
 			"college": "Toledo",
-			"ranking": "265",
+			"ranking": 265,
 			"firstName": "Bernard",
 			"lastName": "Reedy",
 			"position": {
@@ -4528,7 +9049,7 @@
 		},
 		{
 			"college": "Pittsburgh",
-			"ranking": "266",
+			"ranking": 266,
 			"firstName": "Tom",
 			"lastName": "Savage",
 			"position": {
@@ -4540,7 +9061,7 @@
 		},
 		{
 			"college": "Bowling Green",
-			"ranking": "267",
+			"ranking": 267,
 			"firstName": "Alex",
 			"lastName": "Bayer",
 			"position": {
@@ -4552,7 +9073,7 @@
 		},
 		{
 			"college": "Northwestern",
-			"ranking": "268",
+			"ranking": 268,
 			"firstName": "Kain",
 			"lastName": "Colter",
 			"position": {
@@ -4564,7 +9085,7 @@
 		},
 		{
 			"college": "Boston College",
-			"ranking": "269",
+			"ranking": 269,
 			"firstName": "Kevin",
 			"lastName": "Pierre-Louis",
 			"position": {
@@ -4576,7 +9097,7 @@
 		},
 		{
 			"college": "Texas",
-			"ranking": "270",
+			"ranking": 270,
 			"firstName": "Donald",
 			"lastName": "Hawkins",
 			"position": {
@@ -4588,7 +9109,7 @@
 		},
 		{
 			"college": "Michigan State",
-			"ranking": "271",
+			"ranking": 271,
 			"firstName": "Isaiah",
 			"lastName": "Lewis",
 			"position": {
@@ -4600,7 +9121,7 @@
 		},
 		{
 			"college": "Ball State",
-			"ranking": "272",
+			"ranking": 272,
 			"firstName": "Willie",
 			"lastName": "Snead",
 			"position": {
@@ -4612,7 +9133,7 @@
 		},
 		{
 			"college": "LSU",
-			"ranking": "273",
+			"ranking": 273,
 			"firstName": "Alfred",
 			"lastName": "Blue",
 			"position": {
@@ -4624,7 +9145,7 @@
 		},
 		{
 			"college": "Stanford",
-			"ranking": "274",
+			"ranking": 274,
 			"firstName": "Ryan",
 			"lastName": "Hewitt",
 			"position": {
@@ -4636,7 +9157,7 @@
 		},
 		{
 			"college": "Cornell",
-			"ranking": "275",
+			"ranking": 275,
 			"firstName": "Jeff",
 			"lastName": "Mathews",
 			"position": {
@@ -4648,7 +9169,7 @@
 		},
 		{
 			"college": "Oregon",
-			"ranking": "276",
+			"ranking": 276,
 			"firstName": "Boseko",
 			"lastName": "Lokombo",
 			"position": {
@@ -4660,7 +9181,7 @@
 		},
 		{
 			"college": "Oregon",
-			"ranking": "277",
+			"ranking": 277,
 			"firstName": "Colt",
 			"lastName": "Lyerla",
 			"position": {
@@ -4672,7 +9193,7 @@
 		},
 		{
 			"college": "New Haven",
-			"ranking": "278",
+			"ranking": 278,
 			"firstName": "Michael",
 			"lastName": "Flacco",
 			"position": {
@@ -4684,7 +9205,7 @@
 		},
 		{
 			"college": "Sam Houston State",
-			"ranking": "279",
+			"ranking": 279,
 			"firstName": "Tim",
 			"lastName": "Flanders",
 			"position": {
@@ -4696,7 +9217,7 @@
 		},
 		{
 			"college": "Umass",
-			"ranking": "280",
+			"ranking": 280,
 			"firstName": "Rob",
 			"lastName": "Blanchflower",
 			"position": {
@@ -4708,7 +9229,7 @@
 		},
 		{
 			"college": "Jacksonville State",
-			"ranking": "281",
+			"ranking": 281,
 			"firstName": "Pierre",
 			"lastName": "Warren",
 			"position": {
@@ -4720,7 +9241,7 @@
 		},
 		{
 			"college": "Oklahoma",
-			"ranking": "282",
+			"ranking": 282,
 			"firstName": "Damien",
 			"lastName": "Williams",
 			"position": {
@@ -4732,7 +9253,7 @@
 		},
 		{
 			"college": "Syracuse",
-			"ranking": "283",
+			"ranking": 283,
 			"firstName": "Jerome",
 			"lastName": "Smith",
 			"position": {
@@ -4744,7 +9265,7 @@
 		},
 		{
 			"college": "USC",
-			"ranking": "284",
+			"ranking": 284,
 			"firstName": "Kevin",
 			"lastName": "Graf",
 			"position": {
@@ -4756,7 +9277,7 @@
 		},
 		{
 			"college": "Illinois",
-			"ranking": "285",
+			"ranking": 285,
 			"firstName": "Jonathan",
 			"lastName": "Brown",
 			"position": {
@@ -4768,7 +9289,7 @@
 		},
 		{
 			"college": "Western Kentucky",
-			"ranking": "286",
+			"ranking": 286,
 			"firstName": "Jonathan",
 			"lastName": "Dowling",
 			"position": {
@@ -4780,7 +9301,7 @@
 		},
 		{
 			"college": "Kentucky",
-			"ranking": "287",
+			"ranking": 287,
 			"firstName": "Avery",
 			"lastName": "Williamson",
 			"position": {
@@ -4792,7 +9313,7 @@
 		},
 		{
 			"college": "Texas A&M",
-			"ranking": "288",
+			"ranking": 288,
 			"firstName": "Ben",
 			"lastName": "Malena",
 			"position": {
@@ -4804,7 +9325,7 @@
 		},
 		{
 			"college": "Michigan",
-			"ranking": "289",
+			"ranking": 289,
 			"firstName": "Jeremy",
 			"lastName": "Gallon",
 			"position": {
@@ -4816,7 +9337,7 @@
 		},
 		{
 			"college": "West Texas A&M",
-			"ranking": "290",
+			"ranking": 290,
 			"firstName": "Dustin",
 			"lastName": "Vaughan",
 			"position": {
@@ -4828,7 +9349,7 @@
 		},
 		{
 			"college": "Notre Dame",
-			"ranking": "291",
+			"ranking": 291,
 			"firstName": "George",
 			"lastName": "Atkinson",
 			"position": {
@@ -4840,7 +9361,7 @@
 		},
 		{
 			"college": "Nebraska",
-			"ranking": "292",
+			"ranking": 292,
 			"firstName": "Jeremiah",
 			"lastName": "Sirles",
 			"position": {
@@ -4852,7 +9373,7 @@
 		},
 		{
 			"college": "Iowa",
-			"ranking": "293",
+			"ranking": 293,
 			"firstName": "James",
 			"lastName": "Morris",
 			"position": {
@@ -4864,7 +9385,7 @@
 		},
 		{
 			"college": "Oklahoma",
-			"ranking": "294",
+			"ranking": 294,
 			"firstName": "Gabe",
 			"lastName": "Ikard",
 			"position": {
@@ -4876,7 +9397,7 @@
 		},
 		{
 			"college": "Colorado State",
-			"ranking": "295",
+			"ranking": 295,
 			"firstName": "Shaquil",
 			"lastName": "Barrett",
 			"position": {
@@ -4888,7 +9409,7 @@
 		},
 		{
 			"college": "Alabama State",
-			"ranking": "296",
+			"ranking": 296,
 			"firstName": "Isaiah",
 			"lastName": "Crowell",
 			"position": {
@@ -4900,7 +9421,7 @@
 		},
 		{
 			"college": "Purdue",
-			"ranking": "297",
+			"ranking": 297,
 			"firstName": "Bruce",
 			"lastName": "Gaston",
 			"position": {
@@ -4912,7 +9433,7 @@
 		},
 		{
 			"college": "South Carolina",
-			"ranking": "298",
+			"ranking": 298,
 			"firstName": "Chaz",
 			"lastName": "Sutton",
 			"position": {
@@ -4924,7 +9445,7 @@
 		},
 		{
 			"college": "Florida State",
-			"ranking": "299",
+			"ranking": 299,
 			"firstName": "Kenny",
 			"lastName": "Shaw",
 			"position": {
@@ -4936,7 +9457,7 @@
 		},
 		{
 			"college": "BYU",
-			"ranking": "300",
+			"ranking": 300,
 			"firstName": "Eathyn",
 			"lastName": "Manumaleuna",
 			"position": {
@@ -4948,7 +9469,7 @@
 		},
 		{
 			"college": "Oklahoma State",
-			"ranking": "301",
+			"ranking": 301,
 			"firstName": "Josh",
 			"lastName": "Stewart",
 			"position": {
@@ -4960,7 +9481,7 @@
 		},
 		{
 			"college": "USC",
-			"ranking": "302",
+			"ranking": 302,
 			"firstName": "Silas",
 			"lastName": "Redd",
 			"position": {
@@ -4972,7 +9493,7 @@
 		},
 		{
 			"college": "Tulane",
-			"ranking": "303",
+			"ranking": 303,
 			"firstName": "Cairo",
 			"lastName": "Santos",
 			"position": {
@@ -4984,7 +9505,7 @@
 		},
 		{
 			"college": "Nebraska",
-			"ranking": "304",
+			"ranking": 304,
 			"firstName": "Spencer",
 			"lastName": "Long",
 			"position": {
@@ -4996,7 +9517,7 @@
 		},
 		{
 			"college": "Miami",
-			"ranking": "305",
+			"ranking": 305,
 			"firstName": "Stephen",
 			"lastName": "Morris",
 			"position": {
@@ -5008,7 +9529,7 @@
 		},
 		{
 			"college": "Indiana",
-			"ranking": "306",
+			"ranking": 306,
 			"firstName": "Ted",
 			"lastName": "Bolser",
 			"position": {
@@ -5020,7 +9541,7 @@
 		},
 		{
 			"college": "Oklahoma State",
-			"ranking": "307",
+			"ranking": 307,
 			"firstName": "Tracy",
 			"lastName": "Moore",
 			"position": {
@@ -5032,7 +9553,7 @@
 		},
 		{
 			"college": "Ohio State",
-			"ranking": "308",
+			"ranking": 308,
 			"firstName": "Corey",
 			"lastName": "Linsley",
 			"position": {
@@ -5044,7 +9565,7 @@
 		},
 		{
 			"college": "Marshall",
-			"ranking": "309",
+			"ranking": 309,
 			"firstName": "Gator",
 			"lastName": "Hoskins",
 			"position": {
@@ -5056,7 +9577,7 @@
 		},
 		{
 			"college": "Florida",
-			"ranking": "310",
+			"ranking": 310,
 			"firstName": "Solomon",
 			"lastName": "Patton",
 			"position": {
@@ -5068,7 +9589,7 @@
 		},
 		{
 			"college": "Georgia",
-			"ranking": "311",
+			"ranking": 311,
 			"firstName": "Kenarious",
 			"lastName": "Gates",
 			"position": {
@@ -5080,7 +9601,7 @@
 		},
 		{
 			"college": "Ohio State",
-			"ranking": "312",
+			"ranking": 312,
 			"firstName": "Kenny",
 			"lastName": "Guiton",
 			"position": {
@@ -5092,7 +9613,7 @@
 		},
 		{
 			"college": "California",
-			"ranking": "313",
+			"ranking": 313,
 			"firstName": "Kameron",
 			"lastName": "Jackson",
 			"position": {
@@ -5104,7 +9625,7 @@
 		},
 		{
 			"college": "Colorado",
-			"ranking": "314",
+			"ranking": 314,
 			"firstName": "Chidera",
 			"lastName": "Uzo-Diribe",
 			"position": {
@@ -5116,7 +9637,7 @@
 		},
 		{
 			"college": "Louisville",
-			"ranking": "315",
+			"ranking": 315,
 			"firstName": "Michael",
 			"lastName": "Dyer",
 			"position": {
@@ -5128,7 +9649,7 @@
 		},
 		{
 			"college": "Florida State",
-			"ranking": "316",
+			"ranking": 316,
 			"firstName": "Chad",
 			"lastName": "Abram",
 			"position": {
@@ -5140,7 +9661,7 @@
 		},
 		{
 			"college": "Western Kentucky",
-			"ranking": "317",
+			"ranking": 317,
 			"firstName": "Xavius",
 			"lastName": "Boyd",
 			"position": {
@@ -5152,7 +9673,7 @@
 		},
 		{
 			"college": "Clemson",
-			"ranking": "318",
+			"ranking": 318,
 			"firstName": "Roderick",
 			"lastName": "McDowell",
 			"position": {
@@ -5164,7 +9685,7 @@
 		},
 		{
 			"college": "Iowa State",
-			"ranking": "319",
+			"ranking": 319,
 			"firstName": "Kirby",
 			"lastName": "Van",
 			"position": {
@@ -5176,7 +9697,7 @@
 		},
 		{
 			"college": "Mississippi",
-			"ranking": "320",
+			"ranking": 320,
 			"firstName": "Charles",
 			"lastName": "Sawyer",
 			"position": {
@@ -5188,7 +9709,7 @@
 		},
 		{
 			"college": "San Diego State",
-			"ranking": "321",
+			"ranking": 321,
 			"firstName": "Adam",
 			"lastName": "Muema",
 			"position": {
@@ -5200,7 +9721,7 @@
 		},
 		{
 			"college": "Boise State",
-			"ranking": "322",
+			"ranking": 322,
 			"firstName": "Charles",
 			"lastName": "Leno",
 			"position": {
@@ -5212,7 +9733,7 @@
 		},
 		{
 			"college": "Indiana",
-			"ranking": "323",
+			"ranking": 323,
 			"firstName": "Stephen",
 			"lastName": "Houston",
 			"position": {
@@ -5224,7 +9745,7 @@
 		},
 		{
 			"college": "Oklahoma",
-			"ranking": "324",
+			"ranking": 324,
 			"firstName": "Jaz",
 			"lastName": "Reynolds",
 			"position": {
@@ -5236,7 +9757,7 @@
 		},
 		{
 			"college": "North Carolina",
-			"ranking": "325",
+			"ranking": 325,
 			"firstName": "Bryn",
 			"lastName": "Renner",
 			"position": {
@@ -5248,7 +9769,7 @@
 		},
 		{
 			"college": "James Madison",
-			"ranking": "326",
+			"ranking": 326,
 			"firstName": "Stephon",
 			"lastName": "Robertson",
 			"position": {
@@ -5260,7 +9781,7 @@
 		},
 		{
 			"college": "Ohio State",
-			"ranking": "327",
+			"ranking": 327,
 			"firstName": "Andrew",
 			"lastName": "Norwell",
 			"position": {
@@ -5272,7 +9793,7 @@
 		},
 		{
 			"college": "Tennessee State",
-			"ranking": "328",
+			"ranking": 328,
 			"firstName": "A.C.",
 			"lastName": "Leonard",
 			"position": {
@@ -5284,7 +9805,7 @@
 		},
 		{
 			"college": "Stanford",
-			"ranking": "329",
+			"ranking": 329,
 			"firstName": "Ben",
 			"lastName": "Gardner",
 			"position": {
@@ -5296,7 +9817,7 @@
 		},
 		{
 			"college": "Purdue",
-			"ranking": "330",
+			"ranking": 330,
 			"firstName": "Gabe",
 			"lastName": "Holmes",
 			"position": {
@@ -5308,7 +9829,7 @@
 		},
 		{
 			"college": "Wisconsin",
-			"ranking": "331",
+			"ranking": 331,
 			"firstName": "Beau",
 			"lastName": "Allen",
 			"position": {
@@ -5320,7 +9841,7 @@
 		},
 		{
 			"college": "Virginia Tech",
-			"ranking": "332",
+			"ranking": 332,
 			"firstName": "D.J.",
 			"lastName": "Coles",
 			"position": {
@@ -5332,7 +9853,7 @@
 		},
 		{
 			"college": "Louisiana Tech",
-			"ranking": "333",
+			"ranking": 333,
 			"firstName": "IK",
 			"lastName": "Enemkpali",
 			"position": {
@@ -5344,7 +9865,7 @@
 		},
 		{
 			"college": "Bellhaven",
-			"ranking": "334",
+			"ranking": 334,
 			"firstName": "Matt",
 			"lastName": "Hall",
 			"position": {
@@ -5356,7 +9877,7 @@
 		},
 		{
 			"college": "Oregon",
-			"ranking": "335",
+			"ranking": 335,
 			"firstName": "Avery",
 			"lastName": "Patterson",
 			"position": {
@@ -5368,7 +9889,7 @@
 		},
 		{
 			"college": "San Diego State",
-			"ranking": "336",
+			"ranking": 336,
 			"firstName": "Bryce",
 			"lastName": "Quigley",
 			"position": {
@@ -5380,7 +9901,7 @@
 		},
 		{
 			"college": "Oklahoma State",
-			"ranking": "337",
+			"ranking": 337,
 			"firstName": "Blake",
 			"lastName": "Jackson",
 			"position": {
@@ -5392,7 +9913,7 @@
 		},
 		{
 			"college": "Wake Forrest",
-			"ranking": "338",
+			"ranking": 338,
 			"firstName": "Nikita",
 			"lastName": "Whitlock",
 			"position": {
@@ -5404,7 +9925,7 @@
 		},
 		{
 			"college": "Coastal Carolina",
-			"ranking": "339",
+			"ranking": 339,
 			"firstName": "Lorenzo",
 			"lastName": "Taliaferro",
 			"position": {
@@ -5416,7 +9937,7 @@
 		},
 		{
 			"college": "Florida",
-			"ranking": "340",
+			"ranking": 340,
 			"firstName": "Jonotthan",
 			"lastName": "Harrison",
 			"position": {
@@ -5428,7 +9949,7 @@
 		},
 		{
 			"college": "BYU",
-			"ranking": "341",
+			"ranking": 341,
 			"firstName": "Kaneakua",
 			"lastName": "Friel",
 			"position": {
@@ -5440,7 +9961,7 @@
 		},
 		{
 			"college": "Northern Illinois",
-			"ranking": "342",
+			"ranking": 342,
 			"firstName": "Ken",
 			"lastName": "Bishop",
 			"position": {
@@ -5452,7 +9973,7 @@
 		},
 		{
 			"college": "Memphis",
-			"ranking": "343",
+			"ranking": 343,
 			"firstName": "Tom",
 			"lastName": "Hornsey",
 			"position": {
@@ -5464,7 +9985,7 @@
 		},
 		{
 			"college": "Arizona State",
-			"ranking": "344",
+			"ranking": 344,
 			"firstName": "Alden",
 			"lastName": "Darby",
 			"position": {
@@ -5476,7 +9997,7 @@
 		},
 		{
 			"college": "Southern Mississippi",
-			"ranking": "345",
+			"ranking": 345,
 			"firstName": "Khyri",
 			"lastName": "Thornton",
 			"position": {
@@ -5488,7 +10009,7 @@
 		},
 		{
 			"college": "Miami",
-			"ranking": "346",
+			"ranking": 346,
 			"firstName": "Pat",
 			"lastName": "O’Donnell",
 			"position": {
@@ -5500,7 +10021,7 @@
 		},
 		{
 			"college": "Oklahoma State",
-			"ranking": "347",
+			"ranking": 347,
 			"firstName": "Jeremy",
 			"lastName": "Smith",
 			"position": {
@@ -5512,13 +10033,19 @@
 		},
 		{
 			"college": "Alabama",
-			"ranking": "348",
+			"ranking": 348,
 			"firstName": "Kenny",
-			"lastName": "Bell"
+			"lastName": "Bell",
+			"position": {
+				"name": "Wide Receiver",
+				"shortName": "WR",
+				"group": "WR",
+				"phase": "Offense"			
+			}
 		},
 		{
 			"college": "Memphis",
-			"ranking": "349",
+			"ranking": 349,
 			"firstName": "Johnnie",
 			"lastName": "Farms",
 			"position": {
@@ -5530,7 +10057,7 @@
 		},
 		{
 			"college": "Cincinnati",
-			"ranking": "350",
+			"ranking": 350,
 			"firstName": "Greg",
 			"lastName": "Blair",
 			"position": {
@@ -5542,7 +10069,7 @@
 		},
 		{
 			"college": "Rutgers",
-			"ranking": "351",
+			"ranking": 351,
 			"firstName": "Jeremy",
 			"lastName": "Deering",
 			"position": {
@@ -5554,7 +10081,7 @@
 		},
 		{
 			"college": "Maryland",
-			"ranking": "352",
+			"ranking": 352,
 			"firstName": "Dexter",
 			"lastName": "McDougle",
 			"position": {
@@ -5566,7 +10093,7 @@
 		},
 		{
 			"college": "Northwestern",
-			"ranking": "353",
+			"ranking": 353,
 			"firstName": "Venric",
 			"lastName": "Mark",
 			"position": {
@@ -5578,7 +10105,7 @@
 		},
 		{
 			"college": "Florida State",
-			"ranking": "354",
+			"ranking": 354,
 			"firstName": "Demonte",
 			"lastName": "McAllister",
 			"position": {
@@ -5590,7 +10117,7 @@
 		},
 		{
 			"college": "Fresno State",
-			"ranking": "355",
+			"ranking": 355,
 			"firstName": "Isaiah",
 			"lastName": "Burse",
 			"position": {
@@ -5602,7 +10129,7 @@
 		},
 		{
 			"college": "Nebraska",
-			"ranking": "356",
+			"ranking": 356,
 			"firstName": "Quincy",
 			"lastName": "Enunwa",
 			"position": {
@@ -5614,7 +10141,7 @@
 		},
 		{
 			"college": "California",
-			"ranking": "357",
+			"ranking": 357,
 			"firstName": "Brendan",
 			"lastName": "Bigelow",
 			"position": {
@@ -5626,7 +10153,7 @@
 		},
 		{
 			"college": "Ohio State",
-			"ranking": "358",
+			"ranking": 358,
 			"firstName": "Christian",
 			"lastName": "Bryant",
 			"position": {
@@ -5638,7 +10165,7 @@
 		},
 		{
 			"college": "Grand Valley State",
-			"ranking": "359",
+			"ranking": 359,
 			"firstName": "Matt",
 			"lastName": "Armstrong",
 			"position": {
@@ -5650,7 +10177,7 @@
 		},
 		{
 			"college": "San Jose State",
-			"ranking": "360",
+			"ranking": 360,
 			"firstName": "Noel",
 			"lastName": "Grisby",
 			"position": {
@@ -5662,7 +10189,7 @@
 		},
 		{
 			"college": "Oregon",
-			"ranking": "361",
+			"ranking": 361,
 			"firstName": "Brian",
 			"lastName": "Jackson",
 			"position": {
@@ -5674,7 +10201,7 @@
 		},
 		{
 			"college": "Auburn",
-			"ranking": "362",
+			"ranking": 362,
 			"firstName": "Steven",
 			"lastName": "Clark",
 			"position": {
@@ -5686,7 +10213,7 @@
 		},
 		{
 			"college": "Georgia",
-			"ranking": "363",
+			"ranking": 363,
 			"firstName": "Garrison",
 			"lastName": "Smith",
 			"position": {
@@ -5698,7 +10225,7 @@
 		},
 		{
 			"college": "Arizona",
-			"ranking": "364",
+			"ranking": 364,
 			"firstName": "Marquis",
 			"lastName": "Flowers",
 			"position": {
@@ -5710,7 +10237,7 @@
 		},
 		{
 			"college": "Baylor",
-			"ranking": "365",
+			"ranking": 365,
 			"firstName": "Glasco",
 			"lastName": "Martin",
 			"position": {
@@ -5722,7 +10249,7 @@
 		},
 		{
 			"college": "McNeese State",
-			"ranking": "366",
+			"ranking": 366,
 			"firstName": "Nic",
 			"lastName": "Jacobs",
 			"position": {
@@ -5734,7 +10261,7 @@
 		},
 		{
 			"college": "Penn State",
-			"ranking": "367",
+			"ranking": 367,
 			"firstName": "Glenn",
 			"lastName": "Carson",
 			"position": {
@@ -5746,7 +10273,7 @@
 		},
 		{
 			"college": "Miami",
-			"ranking": "368",
+			"ranking": 368,
 			"firstName": "Asante",
 			"lastName": "Cleveland",
 			"position": {
@@ -5758,7 +10285,7 @@
 		},
 		{
 			"college": "North Dakota",
-			"ranking": "369",
+			"ranking": 369,
 			"firstName": "Gregory",
 			"lastName": "Hardin",
 			"position": {
@@ -5770,7 +10297,7 @@
 		},
 		{
 			"college": "Colorado",
-			"ranking": "370",
+			"ranking": 370,
 			"firstName": "Gus",
 			"lastName": "Handler",
 			"position": {
@@ -5782,7 +10309,7 @@
 		},
 		{
 			"college": "Illinois",
-			"ranking": "371",
+			"ranking": 371,
 			"firstName": "Ryan",
 			"lastName": "Lankford",
 			"position": {
@@ -5794,7 +10321,7 @@
 		},
 		{
 			"college": "Minnesota",
-			"ranking": "372",
+			"ranking": 372,
 			"firstName": "Brock",
 			"lastName": "Vereen",
 			"position": {
@@ -5806,7 +10333,7 @@
 		},
 		{
 			"college": "Rice",
-			"ranking": "373",
+			"ranking": 373,
 			"firstName": "Chris",
 			"lastName": "Boswell",
 			"position": {
@@ -5818,7 +10345,7 @@
 		},
 		{
 			"college": "Illinois State",
-			"ranking": "374",
+			"ranking": 374,
 			"firstName": "Colton",
 			"lastName": "Underwood",
 			"position": {
@@ -5830,7 +10357,7 @@
 		},
 		{
 			"college": "Louisiana Monroe",
-			"ranking": "375",
+			"ranking": 375,
 			"firstName": "Isaiah",
 			"lastName": "Newsome",
 			"position": {
@@ -5842,7 +10369,7 @@
 		},
 		{
 			"college": "Syracuse",
-			"ranking": "376",
+			"ranking": 376,
 			"firstName": "Keon",
 			"lastName": "Lyn",
 			"position": {
@@ -5854,7 +10381,7 @@
 		},
 		{
 			"college": "Arizona State",
-			"ranking": "377",
+			"ranking": 377,
 			"firstName": "Kevin",
 			"lastName": "Ozier",
 			"position": {
@@ -5866,7 +10393,7 @@
 		},
 		{
 			"college": "Montana State",
-			"ranking": "378",
+			"ranking": 378,
 			"firstName": "Brad",
 			"lastName": "Daly",
 			"position": {
@@ -5878,7 +10405,7 @@
 		},
 		{
 			"college": "Mississippi",
-			"ranking": "379",
+			"ranking": 379,
 			"firstName": "Tyler",
 			"lastName": "Campbell",
 			"position": {
@@ -5890,7 +10417,7 @@
 		},
 		{
 			"college": "Stanford",
-			"ranking": "380",
+			"ranking": 380,
 			"firstName": "Khalil",
 			"lastName": "Wilkes",
 			"position": {
@@ -5902,7 +10429,7 @@
 		},
 		{
 			"college": "San Diego State",
-			"ranking": "381",
+			"ranking": 381,
 			"firstName": "Nat",
 			"lastName": "Berhe",
 			"position": {
@@ -5914,7 +10441,7 @@
 		},
 		{
 			"college": "Oklahoma",
-			"ranking": "382",
+			"ranking": 382,
 			"firstName": "Corey",
 			"lastName": "Nelson",
 			"position": {
@@ -5926,7 +10453,7 @@
 		},
 		{
 			"college": "Ole Miss",
-			"ranking": "383",
+			"ranking": 383,
 			"firstName": "Jeff",
 			"lastName": "Scott",
 			"position": {
@@ -5938,7 +10465,7 @@
 		},
 		{
 			"college": "North Carolina",
-			"ranking": "384",
+			"ranking": 384,
 			"firstName": "Tim",
 			"lastName": "Jackson",
 			"position": {
@@ -5950,7 +10477,7 @@
 		},
 		{
 			"college": "Baylor",
-			"ranking": "385",
+			"ranking": 385,
 			"firstName": "Jerod",
 			"lastName": "Monk",
 			"position": {
@@ -5962,7 +10489,7 @@
 		},
 		{
 			"college": "Virginia Tech",
-			"ranking": "386",
+			"ranking": 386,
 			"firstName": "J.R.",
 			"lastName": "Collins",
 			"position": {
@@ -5974,7 +10501,7 @@
 		},
 		{
 			"college": "Clemson",
-			"ranking": "387",
+			"ranking": 387,
 			"firstName": "Chandler",
 			"lastName": "Catanzaro",
 			"position": {
@@ -5986,7 +10513,7 @@
 		},
 		{
 			"college": "Bowling Green",
-			"ranking": "388",
+			"ranking": 388,
 			"firstName": "Brian",
 			"lastName": "Schmiedebusch",
 			"position": {
@@ -5998,7 +10525,7 @@
 		},
 		{
 			"college": "North Carolina State",
-			"ranking": "389",
+			"ranking": 389,
 			"firstName": "Rob",
 			"lastName": "Crisp",
 			"position": {
@@ -6010,7 +10537,7 @@
 		},
 		{
 			"college": "Toledo",
-			"ranking": "390",
+			"ranking": 390,
 			"firstName": "Zac",
 			"lastName": "Kerin",
 			"position": {
@@ -6022,7 +10549,7 @@
 		},
 		{
 			"college": "Nebraska",
-			"ranking": "391",
+			"ranking": 391,
 			"firstName": "C.J.",
 			"lastName": "Zimmerer",
 			"position": {
@@ -6034,7 +10561,7 @@
 		},
 		{
 			"college": "Nebraska",
-			"ranking": "392",
+			"ranking": 392,
 			"firstName": "Jake",
 			"lastName": "Long",
 			"position": {
@@ -6046,7 +10573,7 @@
 		},
 		{
 			"college": "Penn State",
-			"ranking": "393",
+			"ranking": 393,
 			"firstName": "John",
 			"lastName": "Urschel",
 			"position": {
@@ -6058,7 +10585,7 @@
 		},
 		{
 			"college": "Alabama",
-			"ranking": "394",
+			"ranking": 394,
 			"firstName": "Cade",
 			"lastName": "Foster",
 			"position": {
@@ -6070,7 +10597,7 @@
 		},
 		{
 			"college": "Kansas",
-			"ranking": "395",
+			"ranking": 395,
 			"firstName": "James",
 			"lastName": "Sims",
 			"position": {
@@ -6082,7 +10609,7 @@
 		},
 		{
 			"college": "Washington",
-			"ranking": "396",
+			"ranking": 396,
 			"firstName": "Keith",
 			"lastName": "Price",
 			"position": {
@@ -6094,7 +10621,7 @@
 		},
 		{
 			"college": "Arkansas",
-			"ranking": "397",
+			"ranking": 397,
 			"firstName": "Byran",
 			"lastName": "Jones",
 			"position": {
@@ -6106,7 +10633,7 @@
 		},
 		{
 			"college": "Rutgers",
-			"ranking": "398",
+			"ranking": 398,
 			"firstName": "Antwan",
 			"lastName": "Lowery",
 			"position": {
@@ -6118,7 +10645,7 @@
 		},
 		{
 			"college": "Maryland",
-			"ranking": "399",
+			"ranking": 399,
 			"firstName": "Marcus",
 			"lastName": "Whitfield",
 			"position": {
@@ -6130,7 +10657,7 @@
 		},
 		{
 			"college": "Appalachian State",
-			"ranking": "400",
+			"ranking": 400,
 			"firstName": "Tony",
 			"lastName": "Washington",
 			"position": {
@@ -6142,7 +10669,7 @@
 		},
 		{
 			"college": "North Carolina",
-			"ranking": "401",
+			"ranking": 401,
 			"firstName": "Jabari",
 			"lastName": "Price",
 			"position": {
@@ -6154,7 +10681,7 @@
 		},
 		{
 			"college": "Stony Brook",
-			"ranking": "402",
+			"ranking": 402,
 			"firstName": "Marcus",
 			"lastName": "Coker",
 			"position": {
@@ -6166,7 +10693,7 @@
 		},
 		{
 			"college": "Pittsburgh",
-			"ranking": "403",
+			"ranking": 403,
 			"firstName": "Matt",
 			"lastName": "Yoklic",
 			"position": {
@@ -6178,7 +10705,7 @@
 		},
 		{
 			"college": "Miami",
-			"ranking": "404",
+			"ranking": 404,
 			"firstName": "Allen",
 			"lastName": "Hurns",
 			"position": {
@@ -6190,7 +10717,7 @@
 		},
 		{
 			"college": "Baylor",
-			"ranking": "405",
+			"ranking": 405,
 			"firstName": "Kelvin",
 			"lastName": "Palmer",
 			"position": {
@@ -6202,7 +10729,7 @@
 		},
 		{
 			"college": "Cincinnati",
-			"ranking": "406",
+			"ranking": 406,
 			"firstName": "Austen",
 			"lastName": "Bujnoch",
 			"position": {
@@ -6214,7 +10741,7 @@
 		},
 		{
 			"college": "Texas A&M",
-			"ranking": "407",
+			"ranking": 407,
 			"firstName": "Nehemiah",
 			"lastName": "Hicks",
 			"position": {
@@ -6226,7 +10753,7 @@
 		},
 		{
 			"college": "Boston College",
-			"ranking": "408",
+			"ranking": 408,
 			"firstName": "Alex",
 			"lastName": "Amidon",
 			"position": {
@@ -6238,7 +10765,7 @@
 		},
 		{
 			"college": "Vanderbilt",
-			"ranking": "409",
+			"ranking": 409,
 			"firstName": "Wesley",
 			"lastName": "Tate",
 			"position": {
@@ -6250,7 +10777,7 @@
 		},
 		{
 			"college": "Bowling Green",
-			"ranking": "410",
+			"ranking": 410,
 			"firstName": "Jerry",
 			"lastName": "Gates",
 			"position": {
@@ -6262,7 +10789,7 @@
 		},
 		{
 			"college": "South Florida",
-			"ranking": "411",
+			"ranking": 411,
 			"firstName": "Ryne",
 			"lastName": "Giddins",
 			"position": {
@@ -6274,7 +10801,7 @@
 		},
 		{
 			"college": "South Carolina",
-			"ranking": "412",
+			"ranking": 412,
 			"firstName": "Jimmy",
 			"lastName": "Legree",
 			"position": {
@@ -6286,7 +10813,7 @@
 		},
 		{
 			"college": "Purdue",
-			"ranking": "413",
+			"ranking": 413,
 			"firstName": "Cody",
 			"lastName": "Webster",
 			"position": {
@@ -6298,7 +10825,7 @@
 		},
 		{
 			"college": "Vanderbilt",
-			"ranking": "414",
+			"ranking": 414,
 			"firstName": "Chris",
 			"lastName": "Boyd",
 			"position": {
@@ -6310,7 +10837,7 @@
 		},
 		{
 			"college": "Texas",
-			"ranking": "415",
+			"ranking": 415,
 			"firstName": "Trey",
 			"lastName": "Hopkins",
 			"position": {
@@ -6322,7 +10849,7 @@
 		},
 		{
 			"college": "Rutgers",
-			"ranking": "416",
+			"ranking": 416,
 			"firstName": "Jamal",
 			"lastName": "Merrell",
 			"position": {
@@ -6334,7 +10861,7 @@
 		},
 		{
 			"college": "Oklahoma State",
-			"ranking": "417",
+			"ranking": 417,
 			"firstName": "Daytawion",
 			"lastName": "Lowe",
 			"position": {
@@ -6346,7 +10873,7 @@
 		},
 		{
 			"college": "Boston College",
-			"ranking": "418",
+			"ranking": 418,
 			"firstName": "Kaleb",
 			"lastName": "Ramsey",
 			"position": {
@@ -6358,7 +10885,7 @@
 		},
 		{
 			"college": "Ohio State",
-			"ranking": "419",
+			"ranking": 419,
 			"firstName": "Corey",
 			"lastName": "Brown",
 			"position": {
@@ -6370,7 +10897,7 @@
 		},
 		{
 			"college": "Marshall",
-			"ranking": "420",
+			"ranking": 420,
 			"firstName": "Devon",
 			"lastName": "Smith",
 			"position": {
@@ -6382,7 +10909,7 @@
 		},
 		{
 			"college": "North Dakota State",
-			"ranking": "421",
+			"ranking": 421,
 			"firstName": "Marcus",
 			"lastName": "Williams",
 			"position": {
@@ -6394,7 +10921,7 @@
 		},
 		{
 			"college": "Kentucky",
-			"ranking": "422",
+			"ranking": 422,
 			"firstName": "Donte",
 			"lastName": "Rumph",
 			"position": {
@@ -6406,7 +10933,7 @@
 		},
 		{
 			"college": "Mississippi State",
-			"ranking": "423",
+			"ranking": 423,
 			"firstName": "Tyler",
 			"lastName": "Russell",
 			"position": {
@@ -6418,7 +10945,7 @@
 		},
 		{
 			"college": "JMU",
-			"ranking": "424",
+			"ranking": 424,
 			"firstName": "Josh",
 			"lastName": "Wells",
 			"position": {
@@ -6430,7 +10957,7 @@
 		},
 		{
 			"college": "Missouri",
-			"ranking": "425",
+			"ranking": 425,
 			"firstName": "Eric",
 			"lastName": "Waters",
 			"position": {
@@ -6442,7 +10969,7 @@
 		},
 		{
 			"college": "Georgia",
-			"ranking": "426",
+			"ranking": 426,
 			"firstName": "Dallas",
 			"lastName": "Lee",
 			"position": {
@@ -6454,7 +10981,7 @@
 		},
 		{
 			"college": "Buffalo",
-			"ranking": "427",
+			"ranking": 427,
 			"firstName": "Branden",
 			"lastName": "Oliver",
 			"position": {
@@ -6466,7 +10993,7 @@
 		},
 		{
 			"college": "Rutgers",
-			"ranking": "428",
+			"ranking": 428,
 			"firstName": "Jamil",
 			"lastName": "Merrell",
 			"position": {
@@ -6478,7 +11005,7 @@
 		},
 		{
 			"college": "Penn State",
-			"ranking": "429",
+			"ranking": 429,
 			"firstName": "Malcolm",
 			"lastName": "Willis",
 			"position": {
@@ -6490,7 +11017,7 @@
 		},
 		{
 			"college": "Washington State",
-			"ranking": "430",
+			"ranking": 430,
 			"firstName": "Damante",
 			"lastName": "Horton",
 			"position": {
@@ -6502,7 +11029,7 @@
 		},
 		{
 			"college": "Ohio State",
-			"ranking": "431",
+			"ranking": 431,
 			"firstName": "Jordan",
 			"lastName": "Hall",
 			"position": {
@@ -6514,7 +11041,7 @@
 		},
 		{
 			"college": "USC",
-			"ranking": "432",
+			"ranking": 432,
 			"firstName": "Demetrius",
 			"lastName": "Wright",
 			"position": {
@@ -6526,7 +11053,7 @@
 		},
 		{
 			"college": "California (Pa)",
-			"ranking": "433",
+			"ranking": 433,
 			"firstName": "Mike",
 			"lastName": "Williams",
 			"position": {
@@ -6538,7 +11065,7 @@
 		},
 		{
 			"college": "Houston",
-			"ranking": "434",
+			"ranking": 434,
 			"firstName": "Richie",
 			"lastName": "Leone",
 			"position": {
@@ -6550,7 +11077,7 @@
 		},
 		{
 			"college": "Buffalo",
-			"ranking": "435",
+			"ranking": 435,
 			"firstName": "Colby",
 			"lastName": "Way",
 			"position": {
@@ -6562,7 +11089,7 @@
 		},
 		{
 			"college": "USC",
-			"ranking": "436",
+			"ranking": 436,
 			"firstName": "John",
 			"lastName": "Martinez",
 			"position": {
@@ -6574,7 +11101,7 @@
 		},
 		{
 			"college": "Oregon State",
-			"ranking": "437",
+			"ranking": 437,
 			"firstName": "Michael",
 			"lastName": "Philipp",
 			"position": {
@@ -6586,7 +11113,7 @@
 		},
 		{
 			"college": "Wake Forrest",
-			"ranking": "438",
+			"ranking": 438,
 			"firstName": "Mike",
 			"lastName": "Olson",
 			"position": {
@@ -6598,7 +11125,7 @@
 		},
 		{
 			"college": "Tulsa",
-			"ranking": "439",
+			"ranking": 439,
 			"firstName": "Trey",
 			"lastName": "Watts",
 			"position": {
@@ -6610,7 +11137,7 @@
 		},
 		{
 			"college": "Notre Dame",
-			"ranking": "440",
+			"ranking": 440,
 			"firstName": "Dan",
 			"lastName": "Fox",
 			"position": {
@@ -6622,7 +11149,7 @@
 		},
 		{
 			"college": "Northwestern",
-			"ranking": "441",
+			"ranking": 441,
 			"firstName": "Jeff",
 			"lastName": "Budzien",
 			"position": {
@@ -6634,7 +11161,7 @@
 		},
 		{
 			"college": "Auburn",
-			"ranking": "442",
+			"ranking": 442,
 			"firstName": "Jeffery",
 			"lastName": "Whitaker",
 			"position": {
@@ -6646,7 +11173,7 @@
 		},
 		{
 			"college": "Oklahoma State",
-			"ranking": "443",
+			"ranking": 443,
 			"firstName": "Shamiel",
 			"lastName": "Gary",
 			"position": {
@@ -6658,7 +11185,7 @@
 		},
 		{
 			"college": "Ohio State",
-			"ranking": "444",
+			"ranking": 444,
 			"firstName": "Marcus",
 			"lastName": "Hall",
 			"position": {
@@ -6670,7 +11197,7 @@
 		},
 		{
 			"college": "Oklahoma State",
-			"ranking": "445",
+			"ranking": 445,
 			"firstName": "Shaun",
 			"lastName": "Lewis",
 			"position": {
@@ -6682,7 +11209,7 @@
 		},
 		{
 			"college": "Alabama",
-			"ranking": "446",
+			"ranking": 446,
 			"firstName": "Cody",
 			"lastName": "Mandell",
 			"position": {
@@ -6694,7 +11221,7 @@
 		},
 		{
 			"college": "Texas Tech",
-			"ranking": "447",
+			"ranking": 447,
 			"firstName": "Tre’",
 			"lastName": "Porter",
 			"position": {
@@ -6706,7 +11233,7 @@
 		},
 		{
 			"college": "Virginia Tech",
-			"ranking": "448",
+			"ranking": 448,
 			"firstName": "Derrick",
 			"lastName": "Hopkins",
 			"position": {
@@ -6718,7 +11245,7 @@
 		},
 		{
 			"college": "Arkansas",
-			"ranking": "449",
+			"ranking": 449,
 			"firstName": "David",
 			"lastName": "Hurd",
 			"position": {
@@ -6730,7 +11257,7 @@
 		},
 		{
 			"college": "Southeastern Louisiana",
-			"ranking": "450",
+			"ranking": 450,
 			"firstName": "Todd",
 			"lastName": "Washington",
 			"position": {
@@ -6742,7 +11269,7 @@
 		},
 		{
 			"college": "Miami",
-			"ranking": "451",
+			"ranking": 451,
 			"firstName": "Luther",
 			"lastName": "Robinson",
 			"position": {
@@ -6754,7 +11281,7 @@
 		},
 		{
 			"college": "Oregon",
-			"ranking": "452",
+			"ranking": 452,
 			"firstName": "Wade",
 			"lastName": "Keliikipi",
 			"position": {
@@ -6766,7 +11293,7 @@
 		},
 		{
 			"college": "South Florida",
-			"ranking": "453",
+			"ranking": 453,
 			"firstName": "Mark",
 			"lastName": "Joyce",
 			"position": {
@@ -6778,7 +11305,7 @@
 		},
 		{
 			"college": "Texas",
-			"ranking": "454",
+			"ranking": 454,
 			"firstName": "Mason",
 			"lastName": "Walters",
 			"position": {
@@ -6790,7 +11317,7 @@
 		},
 		{
 			"college": "Nebraska",
-			"ranking": "455",
+			"ranking": 455,
 			"firstName": "Jason",
 			"lastName": "Ankrah",
 			"position": {
@@ -6802,7 +11329,7 @@
 		},
 		{
 			"college": "Georgia Tech",
-			"ranking": "456",
+			"ranking": 456,
 			"firstName": "Isaiah",
 			"lastName": "Johnson",
 			"position": {
@@ -6814,7 +11341,7 @@
 		},
 		{
 			"college": "Tulane",
-			"ranking": "457",
+			"ranking": 457,
 			"firstName": "Chris",
 			"lastName": "Davenport",
 			"position": {
@@ -6826,7 +11353,7 @@
 		},
 		{
 			"college": "Oklahoma",
-			"ranking": "458",
+			"ranking": 458,
 			"firstName": "Brennan",
 			"lastName": "Clay",
 			"position": {
@@ -6838,7 +11365,7 @@
 		},
 		{
 			"college": "Boston College",
-			"ranking": "459",
+			"ranking": 459,
 			"firstName": "Steele",
 			"lastName": "Divitto",
 			"position": {
@@ -6850,7 +11377,7 @@
 		},
 		{
 			"college": "TCU",
-			"ranking": "460",
+			"ranking": 460,
 			"firstName": "Elisha",
 			"lastName": "Olabode",
 			"position": {
@@ -6862,7 +11389,7 @@
 		},
 		{
 			"college": "Georgia",
-			"ranking": "461",
+			"ranking": 461,
 			"firstName": "Jordan",
 			"lastName": "Love",
 			"position": {
@@ -6874,7 +11401,7 @@
 		},
 		{
 			"college": "San Jose State",
-			"ranking": "462",
+			"ranking": 462,
 			"firstName": "Harrison",
 			"lastName": "Waid",
 			"position": {
@@ -6886,7 +11413,7 @@
 		},
 		{
 			"college": "Texas Tech",
-			"ranking": "463",
+			"ranking": 463,
 			"firstName": "Terrence",
 			"lastName": "Lewis",
 			"position": {
@@ -6898,7 +11425,7 @@
 		},
 		{
 			"college": "Oklahoma State",
-			"ranking": "464",
+			"ranking": 464,
 			"firstName": "Parker",
 			"lastName": "Graham",
 			"position": {
@@ -6910,7 +11437,7 @@
 		},
 		{
 			"college": "Richmond",
-			"ranking": "465",
+			"ranking": 465,
 			"firstName": "Ben",
 			"lastName": "Edwards",
 			"position": {
@@ -6922,7 +11449,7 @@
 		},
 		{
 			"college": "Nebraska",
-			"ranking": "466",
+			"ranking": 466,
 			"firstName": "Andrew",
 			"lastName": "Rodriguez",
 			"position": {
@@ -6934,7 +11461,7 @@
 		},
 		{
 			"college": "Wake Forest",
-			"ranking": "467",
+			"ranking": 467,
 			"firstName": "A.J.",
 			"lastName": "Marshall",
 			"position": {
@@ -6946,7 +11473,7 @@
 		},
 		{
 			"college": "Pittsburgh",
-			"ranking": "468",
+			"ranking": 468,
 			"firstName": "Jason",
 			"lastName": "Hendricks",
 			"position": {
@@ -6958,7 +11485,7 @@
 		},
 		{
 			"college": "UNC",
-			"ranking": "469",
+			"ranking": 469,
 			"firstName": "A.J.",
 			"lastName": "Blue",
 			"position": {
@@ -6970,7 +11497,7 @@
 		},
 		{
 			"college": "Temple",
-			"ranking": "470",
+			"ranking": 470,
 			"firstName": "Kamal",
 			"lastName": "Johnson",
 			"position": {
@@ -6982,7 +11509,7 @@
 		},
 		{
 			"college": "Nebraska",
-			"ranking": "471",
+			"ranking": 471,
 			"firstName": "Ciante",
 			"lastName": "Evans",
 			"position": {
@@ -6994,7 +11521,7 @@
 		},
 		{
 			"college": "Indiana (Pa)",
-			"ranking": "472",
+			"ranking": 472,
 			"firstName": "Carl",
 			"lastName": "Fleming",
 			"position": {
@@ -7006,7 +11533,7 @@
 		},
 		{
 			"college": "Iowa State",
-			"ranking": "473",
+			"ranking": 473,
 			"firstName": "Jacques",
 			"lastName": "Washington",
 			"position": {
@@ -7018,7 +11545,7 @@
 		},
 		{
 			"college": "Ball State",
-			"ranking": "474",
+			"ranking": 474,
 			"firstName": "Zane",
 			"lastName": "Fakes",
 			"position": {
@@ -7030,7 +11557,7 @@
 		},
 		{
 			"college": "Tennessee",
-			"ranking": "475",
+			"ranking": 475,
 			"firstName": "Corey",
 			"lastName": "Miller",
 			"position": {
@@ -7042,7 +11569,7 @@
 		},
 		{
 			"college": "Ohio",
-			"ranking": "476",
+			"ranking": 476,
 			"firstName": "Travis",
 			"lastName": "Carrie",
 			"position": {
@@ -7054,7 +11581,7 @@
 		},
 		{
 			"college": "Northern Illinois",
-			"ranking": "477",
+			"ranking": 477,
 			"firstName": "Jordan",
 			"lastName": "Lynch",
 			"position": {
@@ -7066,7 +11593,7 @@
 		},
 		{
 			"college": "UCF",
-			"ranking": "478",
+			"ranking": 478,
 			"firstName": "E.J.",
 			"lastName": "Dunston",
 			"position": {
@@ -7078,7 +11605,7 @@
 		},
 		{
 			"college": "Mississippi State",
-			"ranking": "479",
+			"ranking": 479,
 			"firstName": "Baker",
 			"lastName": "Swedenburg",
 			"position": {
@@ -7090,7 +11617,7 @@
 		},
 		{
 			"college": "Bloomsburg",
-			"ranking": "480",
+			"ranking": 480,
 			"firstName": "Brian",
 			"lastName": "Clarke",
 			"position": {
@@ -7102,7 +11629,7 @@
 		},
 		{
 			"college": "Boise State",
-			"ranking": "481",
+			"ranking": 481,
 			"firstName": "Matt",
 			"lastName": "Paradis",
 			"position": {
@@ -7114,7 +11641,7 @@
 		},
 		{
 			"college": "Alabama",
-			"ranking": "482",
+			"ranking": 482,
 			"firstName": "Nick",
 			"lastName": "Perry",
 			"position": {
@@ -7126,7 +11653,7 @@
 		},
 		{
 			"college": "Fresno State",
-			"ranking": "483",
+			"ranking": 483,
 			"firstName": "L.J.",
 			"lastName": "Jones",
 			"position": {
@@ -7138,7 +11665,7 @@
 		},
 		{
 			"college": "Nebraska",
-			"ranking": "484",
+			"ranking": 484,
 			"firstName": "Brent",
 			"lastName": "Qvale",
 			"position": {
@@ -7150,7 +11677,7 @@
 		},
 		{
 			"college": "LSU",
-			"ranking": "485",
+			"ranking": 485,
 			"firstName": "Tahj",
 			"lastName": "Jones",
 			"position": {
@@ -7162,7 +11689,7 @@
 		},
 		{
 			"college": "California",
-			"ranking": "486",
+			"ranking": 486,
 			"firstName": "Vincenzo",
 			"lastName": "D’Amato",
 			"position": {
@@ -7174,7 +11701,7 @@
 		},
 		{
 			"college": "Florida",
-			"ranking": "487",
+			"ranking": 487,
 			"firstName": "Damien",
 			"lastName": "Jacobs",
 			"position": {
@@ -7186,7 +11713,7 @@
 		},
 		{
 			"college": "Alabama",
-			"ranking": "488",
+			"ranking": 488,
 			"firstName": "John",
 			"lastName": "Fulton",
 			"position": {
@@ -7198,7 +11725,7 @@
 		},
 		{
 			"college": "Ball State",
-			"ranking": "489",
+			"ranking": 489,
 			"firstName": "Jonathan",
 			"lastName": "Newsome",
 			"position": {
@@ -7210,7 +11737,7 @@
 		},
 		{
 			"college": "Georgia Tech",
-			"ranking": "490",
+			"ranking": 490,
 			"firstName": "Will",
 			"lastName": "Jackson",
 			"position": {
@@ -7222,7 +11749,7 @@
 		},
 		{
 			"college": "Michigan State",
-			"ranking": "491",
+			"ranking": 491,
 			"firstName": "Fou",
 			"lastName": "Fonoti",
 			"position": {
@@ -7234,7 +11761,7 @@
 		},
 		{
 			"college": "Valdosta State",
-			"ranking": "492",
+			"ranking": 492,
 			"firstName": "Lawrence",
 			"lastName": "Virgil",
 			"position": {
@@ -7246,7 +11773,7 @@
 		},
 		{
 			"college": "Maine",
-			"ranking": "493",
+			"ranking": 493,
 			"firstName": "Kendall",
 			"lastName": "James",
 			"position": {
@@ -7258,7 +11785,7 @@
 		},
 		{
 			"college": "Northwestern",
-			"ranking": "494",
+			"ranking": 494,
 			"firstName": "Tyler",
 			"lastName": "Scott",
 			"position": {
@@ -7270,7 +11797,7 @@
 		},
 		{
 			"college": "Eastern Kentucky",
-			"ranking": "495",
+			"ranking": 495,
 			"firstName": "Matt",
 			"lastName": "Lengel",
 			"position": {
@@ -7282,7 +11809,7 @@
 		},
 		{
 			"college": "Florida",
-			"ranking": "496",
+			"ranking": 496,
 			"firstName": "Jeremy",
 			"lastName": "Brown",
 			"position": {
@@ -7294,7 +11821,7 @@
 		},
 		{
 			"college": "Miami",
-			"ranking": "497",
+			"ranking": 497,
 			"firstName": "Maurice",
 			"lastName": "Hagens",
 			"position": {
@@ -7306,7 +11833,7 @@
 		},
 		{
 			"college": "Florida",
-			"ranking": "498",
+			"ranking": 498,
 			"firstName": "Darrin",
 			"lastName": "Kitchens",
 			"position": {
@@ -7318,7 +11845,7 @@
 		},
 		{
 			"college": "Florida",
-			"ranking": "499",
+			"ranking": 499,
 			"firstName": "Andre",
 			"lastName": "Debose",
 			"position": {
@@ -7330,7 +11857,7 @@
 		},
 		{
 			"college": "San Jose State",
-			"ranking": "500",
+			"ranking": 500,
 			"firstName": "Keith",
 			"lastName": "Smith",
 			"position": {
@@ -7342,7 +11869,7 @@
 		},
 		{
 			"college": "Louisville",
-			"ranking": "501",
+			"ranking": 501,
 			"firstName": "Senorise",
 			"lastName": "Perry",
 			"position": {
@@ -7354,7 +11881,7 @@
 		},
 		{
 			"college": "Georgia Tech",
-			"ranking": "502",
+			"ranking": 502,
 			"firstName": "Louis",
 			"lastName": "Young",
 			"position": {
@@ -7366,7 +11893,7 @@
 		},
 		{
 			"college": "Iowa",
-			"ranking": "503",
+			"ranking": 503,
 			"firstName": "Tanner",
 			"lastName": "Miller",
 			"position": {
@@ -7378,7 +11905,7 @@
 		},
 		{
 			"college": "Tennessee",
-			"ranking": "504",
+			"ranking": 504,
 			"firstName": "Maurice",
 			"lastName": "Couch",
 			"position": {
@@ -7390,7 +11917,7 @@
 		},
 		{
 			"college": "Cincinnati",
-			"ranking": "505",
+			"ranking": 505,
 			"firstName": "Brendon",
 			"lastName": "Kay",
 			"position": {
@@ -7402,7 +11929,7 @@
 		},
 		{
 			"college": "Baylor",
-			"ranking": "506",
+			"ranking": 506,
 			"firstName": "Eddie",
 			"lastName": "Lackey",
 			"position": {
@@ -7414,7 +11941,7 @@
 		},
 		{
 			"college": "SMU",
-			"ranking": "507",
+			"ranking": 507,
 			"firstName": "Kenneth",
 			"lastName": "Acker",
 			"position": {
@@ -7426,7 +11953,7 @@
 		},
 		{
 			"college": "Michigan",
-			"ranking": "508",
+			"ranking": 508,
 			"firstName": "Quinton",
 			"lastName": "Washington",
 			"position": {
@@ -7438,7 +11965,7 @@
 		},
 		{
 			"college": "Arkansas",
-			"ranking": "509",
+			"ranking": 509,
 			"firstName": "Javontee",
 			"lastName": "Herndon",
 			"position": {
@@ -7450,7 +11977,7 @@
 		},
 		{
 			"college": "Clemson",
-			"ranking": "510",
+			"ranking": 510,
 			"firstName": "Spencer",
 			"lastName": "Shuey",
 			"position": {
@@ -7462,7 +11989,7 @@
 		},
 		{
 			"college": "Clemson",
-			"ranking": "511",
+			"ranking": 511,
 			"firstName": "Tyler",
 			"lastName": "Shatley",
 			"position": {
@@ -7474,7 +12001,7 @@
 		},
 		{
 			"college": "North Carolina State",
-			"ranking": "512",
+			"ranking": 512,
 			"firstName": "Darryl",
 			"lastName": "Cato-Bishop",
 			"position": {
@@ -7486,7 +12013,7 @@
 		},
 		{
 			"college": "Iowa State",
-			"ranking": "513",
+			"ranking": 513,
 			"firstName": "Kyle",
 			"lastName": "Lichtenberg",
 			"position": {
@@ -7498,7 +12025,7 @@
 		},
 		{
 			"college": "Arizona State",
-			"ranking": "514",
+			"ranking": 514,
 			"firstName": "Chris",
 			"lastName": "Young",
 			"position": {
@@ -7510,7 +12037,7 @@
 		},
 		{
 			"college": "South Florida",
-			"ranking": "515",
+			"ranking": 515,
 			"firstName": "Tevin",
 			"lastName": "Mims",
 			"position": {
@@ -7522,7 +12049,7 @@
 		},
 		{
 			"college": "Iowa",
-			"ranking": "516",
+			"ranking": 516,
 			"firstName": "B.J.",
 			"lastName": "Lowery",
 			"position": {
@@ -7534,7 +12061,7 @@
 		},
 		{
 			"college": "Texas",
-			"ranking": "517",
+			"ranking": 517,
 			"firstName": "Adrian",
 			"lastName": "Phillips",
 			"position": {
@@ -7546,7 +12073,7 @@
 		},
 		{
 			"college": "Arkansas",
-			"ranking": "518",
+			"ranking": 518,
 			"firstName": "Robert",
 			"lastName": "Thomas",
 			"position": {
@@ -7558,7 +12085,7 @@
 		},
 		{
 			"college": "Towson",
-			"ranking": "519",
+			"ranking": 519,
 			"firstName": "Jordan",
 			"lastName": "Love",
 			"position": {
@@ -7570,7 +12097,7 @@
 		},
 		{
 			"college": "East Carolina",
-			"ranking": "520",
+			"ranking": 520,
 			"firstName": "Will",
 			"lastName": "Simmons",
 			"position": {
@@ -7582,7 +12109,7 @@
 		},
 		{
 			"college": "New Mexico State",
-			"ranking": "521",
+			"ranking": 521,
 			"firstName": "Davonte",
 			"lastName": "Wallace",
 			"position": {
@@ -7594,7 +12121,7 @@
 		},
 		{
 			"college": "Georgia Tech",
-			"ranking": "522",
+			"ranking": 522,
 			"firstName": "Brandon",
 			"lastName": "Watts",
 			"position": {
@@ -7606,7 +12133,7 @@
 		},
 		{
 			"college": "Temple",
-			"ranking": "523",
+			"ranking": 523,
 			"firstName": "Abdul",
 			"lastName": "Smith",
 			"position": {
@@ -7618,7 +12145,7 @@
 		},
 		{
 			"college": "Oklahoma State",
-			"ranking": "524",
+			"ranking": 524,
 			"firstName": "Caleb",
 			"lastName": "Lavey",
 			"position": {
@@ -7630,7 +12157,7 @@
 		},
 		{
 			"college": "Baylor",
-			"ranking": "525",
+			"ranking": 525,
 			"firstName": "Sam",
 			"lastName": "Holl",
 			"position": {
@@ -7642,7 +12169,7 @@
 		},
 		{
 			"college": "Miami",
-			"ranking": "526",
+			"ranking": 526,
 			"firstName": "David",
 			"lastName": "Gilbert",
 			"position": {
@@ -7654,7 +12181,7 @@
 		},
 		{
 			"college": "Temple",
-			"ranking": "527",
+			"ranking": 527,
 			"firstName": "Paul",
 			"lastName": "Layton",
 			"position": {
@@ -7666,7 +12193,7 @@
 		},
 		{
 			"college": "Texas A&M",
-			"ranking": "528",
+			"ranking": 528,
 			"firstName": "Steven",
 			"lastName": "Jenkins",
 			"position": {
@@ -7678,7 +12205,7 @@
 		},
 		{
 			"college": "Missouri",
-			"ranking": "529",
+			"ranking": 529,
 			"firstName": "James",
 			"lastName": "Franklin",
 			"position": {
@@ -7690,7 +12217,7 @@
 		},
 		{
 			"college": "Syracuse",
-			"ranking": "530",
+			"ranking": 530,
 			"firstName": "Marquis",
 			"lastName": "Spruill",
 			"position": {
@@ -7702,7 +12229,7 @@
 		},
 		{
 			"college": "Washington State",
-			"ranking": "531",
+			"ranking": 531,
 			"firstName": "Andrew",
 			"lastName": "Furney",
 			"position": {
@@ -7714,7 +12241,7 @@
 		},
 		{
 			"college": "Stanford",
-			"ranking": "532",
+			"ranking": 532,
 			"firstName": "Barry",
 			"lastName": "Browning",
 			"position": {
@@ -7726,7 +12253,7 @@
 		},
 		{
 			"college": "South Carolina",
-			"ranking": "533",
+			"ranking": 533,
 			"firstName": "Ronald",
 			"lastName": "Patrick",
 			"position": {
@@ -7738,7 +12265,7 @@
 		},
 		{
 			"college": "WVU",
-			"ranking": "534",
+			"ranking": 534,
 			"firstName": "Shaq",
 			"lastName": "Rowell",
 			"position": {
@@ -7750,7 +12277,7 @@
 		},
 		{
 			"college": "Shippensburg",
-			"ranking": "535",
+			"ranking": 535,
 			"firstName": "Jake",
 			"lastName": "Metz",
 			"position": {
@@ -7762,7 +12289,7 @@
 		},
 		{
 			"college": "Delaware",
-			"ranking": "536",
+			"ranking": 536,
 			"firstName": "David",
 			"lastName": "Mackall",
 			"position": {
@@ -7774,7 +12301,7 @@
 		},
 		{
 			"college": "SMU",
-			"ranking": "537",
+			"ranking": 537,
 			"firstName": "Garrett",
 			"lastName": "Gilbert",
 			"position": {
@@ -7786,7 +12313,7 @@
 		},
 		{
 			"college": "Virginia Tech",
-			"ranking": "538",
+			"ranking": 538,
 			"firstName": "Jack",
 			"lastName": "Tyler",
 			"position": {
@@ -7798,7 +12325,7 @@
 		},
 		{
 			"college": "Georgia",
-			"ranking": "539",
+			"ranking": 539,
 			"firstName": "T.J.",
 			"lastName": "Stripling",
 			"position": {
@@ -7810,7 +12337,7 @@
 		},
 		{
 			"college": "Vanderbilt",
-			"ranking": "540",
+			"ranking": 540,
 			"firstName": "Walker",
 			"lastName": "May",
 			"position": {
@@ -7822,7 +12349,7 @@
 		},
 		{
 			"college": "Boise State",
-			"ranking": "541",
+			"ranking": 541,
 			"firstName": "Gabe",
 			"lastName": "Linehan",
 			"position": {
@@ -7834,7 +12361,7 @@
 		},
 		{
 			"college": "San Jose State",
-			"ranking": "542",
+			"ranking": 542,
 			"firstName": "Nicholas",
 			"lastName": "Kaspar",
 			"position": {
@@ -7846,7 +12373,7 @@
 		},
 		{
 			"college": "Oklahoma State",
-			"ranking": "543",
+			"ranking": 543,
 			"firstName": "Tyler",
 			"lastName": "Patmon",
 			"position": {
@@ -7858,7 +12385,7 @@
 		},
 		{
 			"college": "Miami",
-			"ranking": "544",
+			"ranking": 544,
 			"firstName": "A.J.",
 			"lastName": "Highsmith",
 			"position": {
@@ -7870,7 +12397,7 @@
 		},
 		{
 			"college": "Mississippi",
-			"ranking": "545",
+			"ranking": 545,
 			"firstName": "D.T.",
 			"lastName": "Shackelford",
 			"position": {
@@ -7882,7 +12409,7 @@
 		},
 		{
 			"college": "Syracuse",
-			"ranking": "546",
+			"ranking": 546,
 			"firstName": "Beckett",
 			"lastName": "Wales",
 			"position": {
@@ -7894,7 +12421,7 @@
 		},
 		{
 			"college": "USC",
-			"ranking": "547",
+			"ranking": 547,
 			"firstName": "Kevin",
 			"lastName": "Greene",
 			"position": {
@@ -7906,7 +12433,7 @@
 		},
 		{
 			"college": "Oregon State",
-			"ranking": "548",
+			"ranking": 548,
 			"firstName": "Grant",
 			"lastName": "Enger",
 			"position": {
@@ -7918,7 +12445,7 @@
 		},
 		{
 			"college": "Florida State",
-			"ranking": "549",
+			"ranking": 549,
 			"firstName": "Jacobbi",
 			"lastName": "McDaniel",
 			"position": {
@@ -7930,7 +12457,7 @@
 		},
 		{
 			"college": "Illinois",
-			"ranking": "550",
+			"ranking": 550,
 			"firstName": "Nathan",
 			"lastName": "Scheelhaase",
 			"position": {
@@ -7942,7 +12469,7 @@
 		},
 		{
 			"college": "Tennessee",
-			"ranking": "551",
+			"ranking": 551,
 			"firstName": "Jacques",
 			"lastName": "Smith",
 			"position": {
@@ -7954,7 +12481,7 @@
 		},
 		{
 			"college": "Texas",
-			"ranking": "552",
+			"ranking": 552,
 			"firstName": "Anthony",
 			"lastName": "Fera",
 			"position": {
@@ -7966,7 +12493,7 @@
 		},
 		{
 			"college": "Uconn",
-			"ranking": "553",
+			"ranking": 553,
 			"firstName": "Jimmy",
 			"lastName": "Bennett",
 			"position": {
@@ -7978,7 +12505,7 @@
 		},
 		{
 			"college": "Buffalo",
-			"ranking": "554",
+			"ranking": 554,
 			"firstName": "Najja",
 			"lastName": "Johnson",
 			"position": {
@@ -7990,7 +12517,7 @@
 		},
 		{
 			"college": "Arkansas",
-			"ranking": "555",
+			"ranking": 555,
 			"firstName": "Zach",
 			"lastName": "Hocker",
 			"position": {
@@ -8002,7 +12529,7 @@
 		},
 		{
 			"college": "Mississippi State",
-			"ranking": "556",
+			"ranking": 556,
 			"firstName": "Denico",
 			"lastName": "Autry",
 			"position": {
@@ -8015,7 +12542,7 @@
 	],
 	"teams": [
 		{	
-			"id": "1",
+			"id": 1,
 			"city": "Buffalo",
 			"name": "Bills",
 			"shortName": "BUF",
@@ -8036,7 +12563,7 @@
 			]
 		},
 		{
-			"id": "2",
+			"id": 2,
 			"city": "Miami",
 			"name": "Dolphins",
 			"shortName": "MIA",
@@ -8057,7 +12584,7 @@
 			]
 		},
 		{
-			"id": "3",
+			"id": 3,
 			"city": "New York",
 			"name": "Jets",
 			"shortName": "NYJ",
@@ -8079,7 +12606,7 @@
 			]
 		},
 		{
-			"id": "4",
+			"id": 4,
 			"city": "New England",
 			"name": "Patriots",
 			"shortName": "NWE",
@@ -8100,7 +12627,7 @@
 			]
 		},
 		{
-			"id": "5",
+			"id": 5,
 			"city": "Baltimore",
 			"name": "Ravens",
 			"shortName": "BAL",
@@ -8122,7 +12649,7 @@
 			]
 		},
 		{
-			"id": "6",
+			"id": 6,
 			"city": "Cleveland",
 			"name": "Browns",
 			"shortName": "CLE",
@@ -8145,7 +12672,7 @@
 			]
 		},
 		{
-			"id": "7",
+			"id": 7,
 			"city": "Cincinnati",
 			"name": "Bengals",
 			"shortName": "CIN",
@@ -8166,7 +12693,7 @@
 			]
 		},
 		{
-			"id": "8",
+			"id": 8,
 			"city": "Pittsburgh",
 			"name": "Steelers",
 			"shortName": "PIT",
@@ -8187,7 +12714,7 @@
 			]
 		},
 		{
-			"id": "9",
+			"id": 9,
 			"city": "Houston",
 			"name": "Texans",
 			"shortName": "HOU",
@@ -8208,7 +12735,7 @@
 			]
 		},
 		{
-			"id": "10",
+			"id": 10,
 			"city": "Indianapolis",
 			"name": "Colts",
 			"shortName": "IND",
@@ -8228,7 +12755,7 @@
 			]
 		},
 		{
-			"id": "11",
+			"id": 11,
 			"city": "Jacksonville",
 			"name": "Jaguars",
 			"shortName": "JAX",
@@ -8254,7 +12781,7 @@
 			]
 		},
 		{
-			"id": "12",
+			"id": 12,
 			"city": "Tennessee",
 			"name": "Titans",
 			"shortName": "TEN",
@@ -8276,7 +12803,7 @@
 			]
 		},
 		{
-			"id": "13",
+			"id": 13,
 			"city": "Denver",
 			"name": "Broncos",
 			"shortName": "DEN",
@@ -8297,7 +12824,7 @@
 			]
 		},
 		{
-			"id": "14",
+			"id": 14,
 			"city": "Kansas City",
 			"name": "Chiefs",
 			"shortName": "KAN",
@@ -8317,7 +12844,7 @@
 			]
 		},
 		{
-			"id": "15",
+			"id": 15,
 			"city": "Oakland",
 			"name": "Raiders",
 			"shortName": "OAK",
@@ -8344,7 +12871,7 @@
 			]
 		},
 		{
-			"id": "16",
+			"id": 16,
 			"city": "San Diego",
 			"name": "Chargers",
 			"shortName": "SDG",
@@ -8365,7 +12892,7 @@
 			]
 		},
 		{
-			"id": "17",
+			"id": 17,
 			"city": "Dallas",
 			"name": "Cowboys",
 			"shortName": "DAL",
@@ -8387,7 +12914,7 @@
 			]
 		},
 		{
-			"id": "18",
+			"id": 18,
 			"city": "New York",
 			"name": "Giants",
 			"shortName": "NYG",
@@ -8409,7 +12936,7 @@
 			]
 		},
 		{
-			"id": "19",
+			"id": 19,
 			"city": "Philadelphia",
 			"name": "Eagles",
 			"shortName": "PHI",
@@ -8430,7 +12957,7 @@
 			]
 		},
 		{
-			"id": "20",
+			"id": 20,
 			"city": "Washington",
 			"name": "Redtails",
 			"shortName": "WAS",
@@ -8456,7 +12983,7 @@
 			]
 		},
 		{
-			"id": "21",
+			"id": 21,
 			"city": "Chicago",
 			"name": "Bears",
 			"shortName": "CHI",
@@ -8476,7 +13003,7 @@
 			]
 		},
 		{
-			"id": "22",
+			"id": 22,
 			"city": "Detroit",
 			"name": "Lions",
 			"shortName": "DET",
@@ -8498,7 +13025,7 @@
 			]
 		},
 		{
-			"id": "23",
+			"id": 23,
 			"city": "Green Bay",
 			"name": "Packers",
 			"shortName": "GNB",
@@ -8519,7 +13046,7 @@
 			]
 		},
 		{
-			"id": "24",
+			"id": 24,
 			"city": "Minnesota",
 			"name": "Vikings",
 			"shortName": "MIN",
@@ -8541,10 +13068,10 @@
 			]
 		},
 		{
-			"id": "25",
+			"id": 25,
 			"city": "Atlanta",
 			"name": "Falcons",
-			"shortName": "ATl",
+			"shortName": "ATL",
 			"conference": "NFC",
 			"division": "South",
 			"needs": [
@@ -8564,7 +13091,7 @@
 			]
 		},
 		{
-			"id": "26",
+			"id": 26,
 			"city": "Carolina",
 			"name": "Panthers",
 			"shortName": "CAR",
@@ -8585,7 +13112,7 @@
 			]
 		},
 		{
-			"id": "27",
+			"id": 27,
 			"city": "New Orleans",
 			"name": "Saints",
 			"shortName": "NOR",
@@ -8607,7 +13134,7 @@
 			]
 		},
 		{
-			"id": "28",
+			"id": 28,
 			"city": "Tampa Bay",
 			"name": "Buccaneers",
 			"shortName": "TAM",
@@ -8629,7 +13156,7 @@
 			]
 		},
 		{
-			"id": "29",
+			"id": 29,
 			"city": "Arizona",
 			"name": "Cardinals",
 			"shortName": "ARI",
@@ -8652,7 +13179,7 @@
 			]
 		},
 		{
-			"id": "30",
+			"id": 30,
 			"city": "Seattle",
 			"name": "Seahawks",
 			"shortName": "SEA",
@@ -8673,7 +13200,7 @@
 			]
 		},
 		{
-			"id": "31",
+			"id": 31,
 			"city": "San Francisco",
 			"name": "49ers",
 			"shortName": "SFO",
@@ -8695,7 +13222,7 @@
 			]
 		},
 		{
-			"id": "32",
+			"id": 32,
 			"city": "St. Louis",
 			"name": "Rams",
 			"shortName": "STL",

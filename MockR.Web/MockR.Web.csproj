@@ -15,7 +15,7 @@
     <RootNamespace>MockR.Web</RootNamespace>
     <AssemblyName>MockR.Web</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -89,11 +89,47 @@
       <DependentUpon>Main.less</DependentUpon>
     </Content>
     <Content Include="app\app.js" />
+    <Content Include="app\css\Teams.css">
+      <DependentUpon>Teams.less</DependentUpon>
+    </Content>
+    <Content Include="app\img\logo\49ers.png" />
+    <Content Include="app\img\logo\Bears.png" />
+    <Content Include="app\img\logo\Bengals.png" />
+    <Content Include="app\img\logo\Bills.png" />
+    <Content Include="app\img\logo\Broncos.png" />
+    <Content Include="app\img\logo\Browns.png" />
+    <Content Include="app\img\logo\Buccaneers.png" />
+    <Content Include="app\img\logo\Cardinals.png" />
+    <Content Include="app\img\logo\Chargers.png" />
+    <Content Include="app\img\logo\Chiefs.png" />
+    <Content Include="app\img\logo\Colts.png" />
+    <Content Include="app\img\logo\Cowboys.png" />
+    <Content Include="app\img\logo\Dolphins.png" />
+    <Content Include="app\img\logo\Eagles.png" />
+    <Content Include="app\img\logo\Falcons.png" />
+    <Content Include="app\img\logo\Giants.png" />
+    <Content Include="app\img\logo\Jaguars.png" />
+    <Content Include="app\img\logo\Jets.png" />
+    <Content Include="app\img\logo\Lions.png" />
+    <Content Include="app\img\logo\Packers.png" />
+    <Content Include="app\img\logo\Panthers.png" />
+    <Content Include="app\img\logo\Patriots.png" />
+    <Content Include="app\img\logo\Raiders.png" />
+    <Content Include="app\img\logo\Rams.png" />
+    <Content Include="app\img\logo\Ravens.png" />
+    <Content Include="app\img\logo\Redtails.png" />
+    <Content Include="app\img\logo\Saints.png" />
+    <Content Include="app\img\logo\Seahawks.png" />
+    <Content Include="app\img\logo\Steelers.png" />
+    <Content Include="app\img\logo\Texans.png" />
+    <Content Include="app\img\logo\Titans.png" />
+    <Content Include="app\img\logo\Vikings.png" />
     <Content Include="app\js\angular-animate.js" />
     <Content Include="app\js\angular-route.js" />
     <Content Include="app\js\angular-scrollglue.js" />
     <Content Include="app\js\angular-ui-bootstrap-tpls-0.10.0.js" />
     <Content Include="app\js\angular.js" />
+    <Content Include="app\js\underscore.js" />
     <Content Include="app\templates\index.html" />
     <Content Include="app\templates\sim.html" />
     <Content Include="Global.asax" />
@@ -120,6 +156,13 @@
     <Content Include="app\data\prospects.json" />
     <Content Include="app\data\teams.json" />
     <Content Include="app\data\2014.json" />
+    <Content Include="app\css\Main.css.map">
+      <DependentUpon>Main.css</DependentUpon>
+    </Content>
+    <Content Include="app\css\Teams.less" />
+    <Content Include="app\css\Teams.css.map">
+      <DependentUpon>Teams.css</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -128,7 +171,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="app\img\" />
     <Folder Include="app\models\" />
   </ItemGroup>
   <PropertyGroup>
@@ -147,7 +189,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>56477</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:56477/</IISUrl>
+          <IISUrl>http://localhost/MockR</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

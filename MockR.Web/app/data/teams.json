@@ -1,6 +1,6 @@
 [
     {	
-        "id": "1",
+        "id": 1,
         "city": "Buffalo",
         "name": "Bills",
 		"shortName": "BUF",
@@ -21,7 +21,7 @@
         ]
     },
     {
-        "id": "2",
+        "id": 2,
         "city": "Miami",
         "name": "Dolphins",
 		"shortName": "MIA",
@@ -42,7 +42,7 @@
         ]
     },
     {
-        "id": "3",
+        "id": 3,
         "city": "New York",
         "name": "Jets",
 		"shortName": "NYJ",
@@ -64,7 +64,7 @@
         ]
     },
     {
-        "id": "4",
+        "id": 4,
         "city": "New England",
         "name": "Patriots",
 		"shortName": "NWE",
@@ -85,7 +85,7 @@
         ]
     },
     {
-        "id": "5",
+        "id": 5,
         "city": "Baltimore",
 		"name": "Ravens",
         "shortName": "BAL",
@@ -107,7 +107,7 @@
         ]
     },
     {
-        "id": "6",
+        "id": 6,
 		"city": "Cleveland",
         "name": "Browns",
         "shortName": "CLE",
@@ -130,7 +130,7 @@
         ]
     },
     {
-        "id": "7",
+        "id": 7,
 		"city": "Cincinnati",
         "name": "Bengals",
         "shortName": "CIN",
@@ -151,7 +151,7 @@
         ]
     },
     {
-        "id": "8",
+        "id": 8,
 		"city": "Pittsburgh",
         "name": "Steelers",
         "shortName": "PIT",
@@ -172,7 +172,7 @@
         ]
     },
     {
-        "id": "9",
+        "id": 9,
 		"city": "Houston",
         "name": "Texans",
         "shortName": "HOU",
@@ -193,7 +193,7 @@
         ]
     },
     {
-        "id": "10",
+        "id": 10,
 		"city": "Indianapolis",
         "name": "Colts",
         "shortName": "IND",
@@ -213,7 +213,7 @@
         ]
     },
     {
-        "id": "11",
+        "id": 11,
 		"city": "Jacksonville",
         "name": "Jaguars",
         "shortName": "JAX",
@@ -239,7 +239,7 @@
         ]
     },
     {
-        "id": "12",
+        "id": 12,
 		"city": "Tennessee",
         "name": "Titans",
         "shortName": "TEN",
@@ -261,7 +261,7 @@
         ]
     },
     {
-        "id": "13",
+        "id": 13,
 		"city": "Denver",
         "name": "Broncos",
         "shortName": "DEN",
@@ -282,7 +282,7 @@
         ]
     },
     {
-        "id": "14",
+        "id": 14,
 		"city": "Kansas City",
         "name": "Chiefs",
         "shortName": "KAN",
@@ -302,7 +302,7 @@
         ]
     },
     {
-        "id": "15",
+        "id": 15,
 		"city": "Oakland",
         "name": "Raiders",
         "shortName": "OAK",
@@ -329,7 +329,7 @@
         ]
     },
     {
-        "id": "16",
+        "id": 16,
 		"city": "San Diego",
         "name": "Chargers",
         "shortName": "SDG",
@@ -350,7 +350,7 @@
         ]
     },
     {
-        "id": "17",
+        "id": 17,
 		"city": "Dallas",
         "name": "Cowboys",
         "shortName": "DAL",
@@ -372,7 +372,7 @@
         ]
     },
     {
-        "id": "18",
+        "id": 18,
 		"city": "New York",
         "name": "Giants",
         "shortName": "NYG",
@@ -394,7 +394,7 @@
         ]
     },
     {
-        "id": "19",
+        "id": 19,
 		"city": "Philadelphia",
         "name": "Eagles",
         "shortName": "PHI",
@@ -415,7 +415,7 @@
         ]
     },
     {
-        "id": "20",
+        "id": 20,
 		"city": "Washington",
         "name": "Redtails",
         "shortName": "WAS",
@@ -441,7 +441,7 @@
         ]
     },
     {
-        "id": "21",
+        "id": 21,
 		"city": "Chicago",
         "name": "Bears",
         "shortName": "CHI",
@@ -461,7 +461,7 @@
         ]
     },
     {
-        "id": "22",
+        "id": 22,
 		"city": "Detroit",
         "name": "Lions",
         "shortName": "DET",
@@ -483,7 +483,7 @@
         ]
     },
     {
-        "id": "23",
+        "id": 23,
 		"city": "Green Bay",
         "name": "Packers",
         "shortName": "GNB",
@@ -504,7 +504,7 @@
         ]
     },
     {
-        "id": "24",
+        "id": 24,
 		"city": "Minnesota",
         "name": "Vikings",
         "shortName": "MIN",
@@ -526,7 +526,7 @@
         ]
     },
     {
-        "id": "25",
+        "id": 25,
 		"city": "Atlanta",
         "name": "Falcons",
         "shortName": "ATl",
@@ -549,7 +549,7 @@
         ]
     },
     {
-        "id": "26",
+        "id": 26,
 		"city": "Carolina",
         "name": "Panthers",
         "shortName": "CAR",
@@ -570,7 +570,7 @@
         ]
     },
     {
-        "id": "27",
+        "id": 27,
 		"city": "New Orleans",
         "name": "Saints",
         "shortName": "NOR",
@@ -592,7 +592,7 @@
         ]
     },
     {
-        "id": "28",
+        "id": 28,
 		"city": "Tampa Bay",
         "name": "Buccaneers",
         "shortName": "TAM",
@@ -614,7 +614,7 @@
         ]
     },
     {
-        "id": "29",
+        "id": 29,
 		"city": "Arizona",
         "name": "Cardinals",
         "shortName": "ARI",
@@ -637,7 +637,7 @@
         ]
     },
     {
-        "id": "30",
+        "id": 30,
 		"city": "Seattle",
         "name": "Seahawks",
         "shortName": "SEA",
@@ -658,7 +658,7 @@
         ]
     },
     {
-        "id": "31",
+        "id": 31,
 		"city": "San Francisco",
         "name": "49ers",
         "shortName": "SFO",
@@ -680,7 +680,7 @@
         ]
     },
     {
-        "id": "32",
+        "id": 32,
 		"city": "St. Louis",
         "name": "Rams",
         "shortName": "STL",

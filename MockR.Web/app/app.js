@@ -1,4 +1,4 @@
-﻿var MockR = angular.module('mockr', ['ngRoute', 'mockrControllers']);
+﻿var MockR = angular.module('mockr', ['ui.bootstrap', 'ngRoute', 'mockrControllers']);
 
 MockR.config(['$routeProvider',
 	function($routeProvider) {

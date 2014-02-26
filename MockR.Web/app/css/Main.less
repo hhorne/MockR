@@ -1,6 +1,331 @@
-﻿body {
+﻿@import 'Teams.less';
+
+@spaceStandard: 12px;
+@darkGray: #212121;
+@lightGray: #555555;
+@offWhite: #eeeeee;
+
+html, body {
+	font-family: 'Segoe UI';
+	height: 100%;
 }
 
-@media (orientation: landscape) and (min-width: 1920px) and (min-height: 1080px) {
+body {
+	background: #d3d3d3; /* Old browsers */
+	background: -moz-linear-gradient(top,  #eeeeee 0%, #555555 25%, #212121 60%, #eeeeee 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(25%,#555555), color-stop(60%,#212121), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d3d3d3 0%,#a0a0a0 25%,#555555 60%,#afafaf 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #eeeeee 0%,#a0a0a0 25%,#555555 60%,#afafaf 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #eeeeee 0%,#a0a0a0 25%,#555555 60%,#afafaf 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #eeeeee 0%,#a0a0a0 25%,#555555 60%,#afafaf 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#afafaf',GradientType=0 ); /* IE6-9 */
+	text-align: center;
+}
 
+header {
+	background-color: black;
+	color: white;
+	visibility: collapse;
+	text-align: left;
+	min-width: 1280px;
+}
+
+#main {
+	width:  1280px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+}
+
+@media (max-height: 1200px) {
+	header {
+		height: @spaceStandard * 4;
+		line-height: @spaceStandard * 4;
+		visibility: visible;
+
+		#title {
+			display: inline-block;
+			font-weight: bold;
+			padding-left: @spaceStandard;
+		}
+	}
+}
+
+@media (max-height: 720px) {
+	header {
+		height: @spaceStandard * 2;
+		line-height: @spaceStandard * 2;
+		visibility: visible;
+
+		#title {
+			display: inline-block;
+			padding-left: @spaceStandard / 4;
+		}
+	}
+}
+
+#draftSim {
+	#controls {
+		background-color: @darkGray;
+		color: @offWhite;
+		font-size: 16px;
+		margin: 0;
+		padding: 0;
+		height: 64px;
+
+		button {
+			color: @darkGray;
+			height: 64px;
+		}
+
+		#team {
+			float: left;
+			button {				
+				width: 300px;
+			}
+		}
+
+		.dropdown-menu {
+			border-radius: 0;
+			margin-top: -1px;
+			padding: 0;
+			margin-left: -1px;
+			max-height: 962px;
+			overflow-y: scroll;
+			top: 0;
+
+			li {
+				height: 64px;
+				width: 300px;
+			}
+		}
+
+		#status {
+			display: inline-block;
+			font-size: 24px;
+			line-height: 64px;
+			text-align: right;
+			width: 770px;
+
+			label {
+				font-weight: bold;
+				margin-right: 6px;
+			}
+
+			ul {
+				display: inline;
+				list-style: none;
+				margin: 0 @spaceStandard 0 0;
+				padding: 0;
+
+				li {
+					display: inline;
+					margin-right: 4px;
+				}
+			}
+
+			#pickNum {
+				display: inline-block;
+				width: 18px;
+				margin-right: @spaceStandard;
+			}
+		}
+
+		button#toggle {
+			float: right;
+			width: 200px;
+		}
+	}
+
+	#picks {
+		display: inline-block;
+		height: 896px;
+		overflow-y: scroll;
+		padding: 0;
+		text-align: left;
+		width: 300px;
+
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+
+			li {
+				display: block;
+				height: 64px;
+				line-height: 64px;
+				padding-left: @spaceStandard;
+
+				.overall {
+					font-size: x-large;
+					text-align: right;
+					display: inline-block;
+					width: 24px;
+				}
+			}
+		}
+	}
+
+	#players {
+		margin-left: -4px;
+		text-indent: 6px;
+
+		h3 {
+			color: @offWhite;
+			background-color: @darkGray;
+			font-weight: bold;
+			margin: 0;
+			padding: 4px 0;
+		}
+
+		display: inline-block;
+		vertical-align: top;
+
+		table {
+			display: block;
+			width: 780px;
+			font-size: large;
+			
+			tr, td {
+				padding: 2px 0;
+			}
+			
+			thead {
+				tr {
+					background-color: @darkGray;
+					display: block;
+					position: relative;
+
+					th {
+						color: @offWhite;
+					}
+
+						th:hover {
+							cursor: pointer;
+						}
+				}
+			}
+
+			tbody {
+				display: block;
+				overflow-y: auto;
+				height: 376px;
+				width: 100%;
+
+				tr {
+					background-color: @darkGray;
+					color: @offWhite;
+				}
+
+				tr:nth-child(odd){
+					background-color: @offWhite;
+					color: @darkGray;
+				}
+			}
+		}
+
+		#undrafted {
+			th:nth-child(1), td:nth-child(1) {
+				min-width: 55px;
+				text-align: right;
+				padding-right: 16px;
+			}
+
+			th:nth-child(2), td:nth-child(2) {
+				min-width: 200px;
+			}
+
+			th:nth-child(3), td:nth-child(3) {
+				min-width: 200px;
+			}
+
+			th:nth-child(4), td:nth-child(4) {
+				min-width: 100px;
+			}
+
+			th:nth-child(5), td:nth-child(5) {
+				width: 225px;
+			}
+		}
+
+		#drafted {
+			th:nth-child(1), td:nth-child(1) {
+				padding-right: 16px;
+				text-align: right;
+				min-width: 48px;
+			}
+
+			th:nth-child(2), td:nth-child(2) {
+				min-width: 200px;
+			}
+
+			th:nth-child(3), td:nth-child(3) {
+				min-width: 220px;
+			}
+
+			th:nth-child(4), td:nth-child(4) {
+				min-width: 211px;
+			}
+
+			th:nth-child(5), td:nth-child(5) {
+				width: 110px;
+			}
+		}
+	}
+
+	#positionFilter {
+		background: @lightGray;
+		display: inline-block;
+		height: 896px;
+		margin-left: -5px;
+		width: 200px;
+		vertical-align: top;
+
+		.phase {
+			margin: 0 0 24px 0;
+			padding: 0;
+			
+			&>span {
+				background-color: @darkGray;
+				color: @offWhite;
+				display: inline-block;
+				font-weight: bold;
+				margin: 0;
+				padding: 6px 0;
+				text-indent: @spaceStandard;
+				width: 100%;
+			}
+		}
+
+        ul {
+			background: @lightGray;
+			color: @offWhite;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+
+            li {
+				margin: 0;
+                padding: 6px 0;
+				text-indent: @spaceStandard;
+									
+                &:hover {
+                    background: @darkGray;
+                    color: @offWhite;
+                    cursor: pointer;
+                }
+
+				&.selected {
+					background: @darkGray;
+					color: @offWhite;
+				}
+
+				&.selected:after {
+					content: 'X';
+					float: right;
+					margin-right: @spaceStandard;
+				}
+            }
+        }
+	}
 }

@@ -1,3 +1,139 @@
-﻿<div ng-controller="simCtrl">
-	{{message}}
+﻿<div id="draftSim">
+	<div id="controls">
+		<div id="team" class="dropdown">
+			<button class="dropdown-toggle">Click Here To Select Team</button>
+			<ul class="dropdown-menu">
+				<li class="teamLogo" ng-class="team.shortName" ng-repeat="team in teams"></li>
+			</ul>
+		</div>
+		<div id="status">
+			<label>Round</label>
+			<ul>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+				<li>6</li>
+				<li>7</li>
+			</ul>
+
+			<label>Pick</label> <span id="pickNum">32</span>
+		</div>
+		<button id="toggle">
+			Start Draft
+		</button>
+	</div>
+
+	<div id="picks">
+		<ul>
+			<li class="teamLogo" ng-class="pick.team.shortName" ng-repeat="pick in picks">
+				<span class="overall">{{pick.overall}}</span>
+			</li>
+		</ul>
+	</div>
+
+	<div id="players">
+		<div id="undrafted">
+			<h3>Available</h3>
+			<table>
+				<thead>
+					<tr>
+						<th ng-click="prospects.orderBy.set('ranking')">#</th>
+						<th ng-click="prospects.orderBy.set('lastName')">Last Name</th>
+						<th ng-click="prospects.orderBy.set('firstName')">First Name</th>
+						<th ng-click="prospects.orderBy.set('position.shortName')">Position</th>
+						<th ng-click="prospects.orderBy.set('college')">College</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="player in prospects | orderBy: prospects.orderBy.getField():prospects.orderBy.isReversed() | filter: prospects.filter.match">
+						<td>
+							{{player.ranking}}
+						</td>
+						<td>
+							{{player.lastName}}
+						</td>
+						<td>
+							{{player.firstName}}
+						</td>
+						<td>
+							{{player.position.shortName}}
+						</td>
+						<td>
+							{{player.college}}
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div id="drafted">
+			<h3>Drafted Players</h3>
+			<table>
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Team</th>
+						<th>Last Name</th>
+						<th>First Name</th>
+						<th>Position</th>
+					</tr>
+				</thead>
+				<tbody scroll-glue>
+					<tr ng-repeat="player in drafted">
+						<td>
+							{{player.overall}}
+						</td>
+						<td>
+							{{player.team.name}}
+						</td>
+						<td>
+							{{player.lastName}}
+						</td>
+						<td>
+							{{player.firstName}}
+						</td>
+						<td>
+							{{player.position.shortName}}
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div id="positionFilter">
+		<div class="phase">
+			<span>Offense</span>
+			<ul>
+				<li ng-click="prospects.filter.set('QB')" ng-class="prospects.filter.style('QB')">Quarterback</li>
+				<li ng-click="prospects.filter.set('RB')" ng-class="prospects.filter.style('RB')">Runningback</li>
+				<li ng-click="prospects.filter.set('FB')" ng-class="prospects.filter.style('FB')">Fullback</li>
+				<li ng-click="prospects.filter.set('WR')" ng-class="prospects.filter.style('WR')">Wide Reciever</li>
+				<li ng-click="prospects.filter.set('TE')" ng-class="prospects.filter.style('TE')">Tight End</li>
+				<li ng-click="prospects.filter.set('C')" ng-class="prospects.filter.style('C')">Center</li>
+				<li ng-click="prospects.filter.set('OG')" ng-class="prospects.filter.style('OG')">Offensive Guards</li>
+				<li ng-click="prospects.filter.set('OT')" ng-class="prospects.filter.style('OT')">Offensive Tackle</li>
+			</ul>
+		</div>
+
+		<div class="phase">
+			<span>Defense</span>
+			<ul>
+				<li ng-click="prospects.filter.set('DE')" ng-class="prospects.filter.style('DE')">Defensive End</li>
+				<li ng-click="prospects.filter.set('DT')" ng-class="prospects.filter.style('DT')">Defensive Tackle</li>
+				<li ng-click="prospects.filter.set('ILB')" ng-class="prospects.filter.style('ILB')">Inside Linebacker</li>
+				<li ng-click="prospects.filter.set('OLB')" ng-class="prospects.filter.style('OLB')">Outside Linebacker</li>
+				<li ng-click="prospects.filter.set('CB')" ng-class="prospects.filter.style('CB')">Cornerback</li>
+				<li ng-click="prospects.filter.set('S')" ng-class="prospects.filter.style('S')">Safety</li>
+			</ul>
+		</div>
+
+		<div class="phase">
+			<span>Special Teams</span>
+			<ul>
+				<li ng-click="prospects.filter.set('K')" ng-class="prospects.filter.style('K')">Kicker</li>
+				<li ng-click="prospects.filter.set('P')" ng-class="prospects.filter.style('P')">Punter</li>
+			</ul>
+		</div>
+	</div>
 </div>
