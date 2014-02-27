@@ -469,12 +469,21 @@ header {
 #draftSim #players table tbody {
   display: block;
   overflow-y: auto;
-  height: 376px;
+  height: 300px;
   width: 100%;
 }
 #draftSim #players table tbody tr {
   background-color: #212121;
   color: #eeeeee;
+  height: 30px !important;
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+}
+#draftSim #players table tbody td {
+  height: 30px !important;
+  margin: 0;
+  padding: 0;
 }
 #draftSim #players table tbody tr:nth-child(odd) {
   background-color: #eeeeee;

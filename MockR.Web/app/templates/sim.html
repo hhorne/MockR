@@ -1,9 +1,11 @@
 ﻿<div id="draftSim">
 	<div id="controls">
 		<div id="team" class="dropdown">
-			<button class="dropdown-toggle">Click Here To Select Team</button>
+			<button ng-class="sim.userTeam.shortName" class="teamLogo dropdown-toggle">
+				{{ 'Click Here To Select Team' }}
+			</button>
 			<ul class="dropdown-menu">
-				<li class="teamLogo" ng-class="team.shortName" ng-repeat="team in teams"></li>
+				<li ng-repeat="team in sim.teams" ng-class="team.shortName" ng-click="sim.selectTeam(team.shortName)" class="teamLogo"></li>
 			</ul>
 		</div>
 		<div id="status">
@@ -27,7 +29,7 @@
 
 	<div id="picks">
 		<ul>
-			<li class="teamLogo" ng-class="pick.team.shortName" ng-repeat="pick in picks">
+			<li class="teamLogo" ng-class="pick.team.shortName" ng-repeat="pick in sim.picks">
 				<span class="overall">{{pick.overall}}</span>
 			</li>
 		</ul>
@@ -39,15 +41,15 @@
 			<table>
 				<thead>
 					<tr>
-						<th ng-click="prospects.orderBy.set('ranking')">#</th>
-						<th ng-click="prospects.orderBy.set('lastName')">Last Name</th>
-						<th ng-click="prospects.orderBy.set('firstName')">First Name</th>
-						<th ng-click="prospects.orderBy.set('position.shortName')">Position</th>
-						<th ng-click="prospects.orderBy.set('college')">College</th>
+						<th ng-click="sim.prospects.orderBy.set('ranking')">#</th>
+						<th ng-click="sim.prospects.orderBy.set('lastName')">Last Name</th>
+						<th ng-click="sim.prospects.orderBy.set('firstName')">First Name</th>
+						<th ng-click="sim.prospects.orderBy.set('position.shortName')">Position</th>
+						<th ng-click="sim.prospects.orderBy.set('college')">College</th>
 					</tr>
 				</thead>
 				<tbody>
-					<tr ng-repeat="player in prospects | orderBy: prospects.orderBy.getField():prospects.orderBy.isReversed() | filter: prospects.filter.match">
+					<tr ng-repeat="player in sim.prospects | orderBy: sim.prospects.orderBy.getField():sim.prospects.orderBy.isReversed() | filter: sim.prospects.filter.match">
 						<td>
 							{{player.ranking}}
 						</td>
@@ -105,34 +107,34 @@
 		<div class="phase">
 			<span>Offense</span>
 			<ul>
-				<li ng-click="prospects.filter.set('QB')" ng-class="prospects.filter.style('QB')">Quarterback</li>
-				<li ng-click="prospects.filter.set('RB')" ng-class="prospects.filter.style('RB')">Runningback</li>
-				<li ng-click="prospects.filter.set('FB')" ng-class="prospects.filter.style('FB')">Fullback</li>
-				<li ng-click="prospects.filter.set('WR')" ng-class="prospects.filter.style('WR')">Wide Reciever</li>
-				<li ng-click="prospects.filter.set('TE')" ng-class="prospects.filter.style('TE')">Tight End</li>
-				<li ng-click="prospects.filter.set('C')" ng-class="prospects.filter.style('C')">Center</li>
-				<li ng-click="prospects.filter.set('OG')" ng-class="prospects.filter.style('OG')">Offensive Guards</li>
-				<li ng-click="prospects.filter.set('OT')" ng-class="prospects.filter.style('OT')">Offensive Tackle</li>
+				<li ng-click="sim.prospects.filter.set('QB')" ng-class="sim.prospects.filter.style('QB')">Quarterback</li>
+				<li ng-click="sim.prospects.filter.set('RB')" ng-class="sim.prospects.filter.style('RB')">Runningback</li>
+				<li ng-click="sim.prospects.filter.set('FB')" ng-class="sim.prospects.filter.style('FB')">Fullback</li>
+				<li ng-click="sim.prospects.filter.set('WR')" ng-class="sim.prospects.filter.style('WR')">Wide Reciever</li>
+				<li ng-click="sim.prospects.filter.set('TE')" ng-class="sim.prospects.filter.style('TE')">Tight End</li>
+				<li ng-click="sim.prospects.filter.set('C')" ng-class="sim.prospects.filter.style('C')">Center</li>
+				<li ng-click="sim.prospects.filter.set('OG')" ng-class="sim.prospects.filter.style('OG')">Offensive Guards</li>
+				<li ng-click="sim.prospects.filter.set('OT')" ng-class="sim.prospects.filter.style('OT')">Offensive Tackle</li>
 			</ul>
 		</div>
 
 		<div class="phase">
 			<span>Defense</span>
 			<ul>
-				<li ng-click="prospects.filter.set('DE')" ng-class="prospects.filter.style('DE')">Defensive End</li>
-				<li ng-click="prospects.filter.set('DT')" ng-class="prospects.filter.style('DT')">Defensive Tackle</li>
-				<li ng-click="prospects.filter.set('ILB')" ng-class="prospects.filter.style('ILB')">Inside Linebacker</li>
-				<li ng-click="prospects.filter.set('OLB')" ng-class="prospects.filter.style('OLB')">Outside Linebacker</li>
-				<li ng-click="prospects.filter.set('CB')" ng-class="prospects.filter.style('CB')">Cornerback</li>
-				<li ng-click="prospects.filter.set('S')" ng-class="prospects.filter.style('S')">Safety</li>
+				<li ng-click="sim.prospects.filter.set('DE')" ng-class="sim.prospects.filter.style('DE')">Defensive End</li>
+				<li ng-click="sim.prospects.filter.set('DT')" ng-class="sim.prospects.filter.style('DT')">Defensive Tackle</li>
+				<li ng-click="sim.prospects.filter.set('ILB')" ng-class="sim.prospects.filter.style('ILB')">Inside Linebacker</li>
+				<li ng-click="sim.prospects.filter.set('OLB')" ng-class="sim.prospects.filter.style('OLB')">Outside Linebacker</li>
+				<li ng-click="sim.prospects.filter.set('CB')" ng-class="sim.prospects.filter.style('CB')">Cornerback</li>
+				<li ng-click="sim.prospects.filter.set('S')" ng-class="sim.prospects.filter.style('S')">Safety</li>
 			</ul>
 		</div>
 
 		<div class="phase">
 			<span>Special Teams</span>
 			<ul>
-				<li ng-click="prospects.filter.set('K')" ng-class="prospects.filter.style('K')">Kicker</li>
-				<li ng-click="prospects.filter.set('P')" ng-class="prospects.filter.style('P')">Punter</li>
+				<li ng-click="sim.prospects.filter.set('K')" ng-class="sim.prospects.filter.style('K')">Kicker</li>
+				<li ng-click="sim.prospects.filter.set('P')" ng-class="sim.prospects.filter.style('P')">Punter</li>
 			</ul>
 		</div>
 	</div>

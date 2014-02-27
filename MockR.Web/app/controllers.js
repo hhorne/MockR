@@ -3,18 +3,31 @@
 
 function simCtrl($scope, $http, $interval) {
 	$http.get('/mockr/app/data/2014.json').success(function (data) {
-		$scope.drafted = [];
-
-		$scope.draft = data;
-		$scope.picks = data.picks;
-		$scope.teams = data.teams;
-		$scope.positions = data.positions;
-		$scope.prospects = data.prospects;
-
-		$scope.prospects.orderBy = new OrderBy('ranking');
-		$scope.prospects.filter = new Filter('');
+		$scope.sim = new Simulation({
+			picks: data.picks,
+			teams: data.teams,
+			prospects: data.prospects
+		}, $interval);
 	});
 }
+
+function Simulation(draft, $interval) {
+	this.drafted = [];
+	this.picks = draft.picks;
+	this.teams = draft.teams;
+	this.prospects = draft.prospects;
+	this.prospects.orderBy = new OrderBy('ranking');
+	this.prospects.filter = new Filter('');
+	this.userTeam = null;
+
+	this.selectTeam = function(team) {
+		this.userTeam = _.find(this.teams, function(t) {
+			return t.shortName === team;
+		});
+	};
+
+
+};
 
 function OrderBy(field) {
 	if (field === undefined) {
@@ -34,11 +47,11 @@ function OrderBy(field) {
 		reverse = false;
 	};
 
-	this.getField = function() {
+	this.getField = function () {
 		return orderField;
 	};
 
-	this.isReversed = function() {
+	this.isReversed = function () {
 		return reverse;
 	};
 }
@@ -60,7 +73,7 @@ function Filter(initialField) {
 		return position === filterField;
 	};
 
-	this.set = function(field) {
+	this.set = function (field) {
 		if (filterField === field) {
 			filterField = '';
 			return;
@@ -69,7 +82,7 @@ function Filter(initialField) {
 		filterField = field;
 	};
 
-	this.style = function(field) {
+	this.style = function (field) {
 		if (filterField === field) {
 			return 'selected';
 		}

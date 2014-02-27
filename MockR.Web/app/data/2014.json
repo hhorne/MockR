@@ -412,7 +412,29 @@
 		{
 			"round": 1,
 			"position": 16,
-			"overall": 16
+			"overall": 16,
+			"team": {
+				"id": 17,
+				"city": "Dallas",
+				"name": "Cowboys",
+				"shortName": "DAL",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"DT",
+					"DE",
+					"OG",
+					"OT",
+					"DE",
+					"RB",
+					"WR",
+					"OLB",
+					"DT",
+					"CB",
+					"S",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 1,
@@ -1229,7 +1251,29 @@
 		{
 			"round": 2,
 			"position": 15,
-			"overall": 47
+			"overall": 47,
+			"team": {
+				"id": 17,
+				"city": "Dallas",
+				"name": "Cowboys",
+				"shortName": "DAL",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"DT",
+					"DE",
+					"OG",
+					"OT",
+					"DE",
+					"RB",
+					"WR",
+					"OLB",
+					"DT",
+					"CB",
+					"S",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 2,
@@ -2044,7 +2088,29 @@
 		{
 			"round": 3,
 			"position": 14,
-			"overall": 78
+			"overall": 78,
+			"team": {
+				"id": 17,
+				"city": "Dallas",
+				"name": "Cowboys",
+				"shortName": "DAL",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"DT",
+					"DE",
+					"OG",
+					"OT",
+					"DE",
+					"RB",
+					"WR",
+					"OLB",
+					"DT",
+					"CB",
+					"S",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 3,
@@ -3021,7 +3087,29 @@
 		{
 			"round": 4,
 			"position": 19,
-			"overall": 115
+			"overall": 115,
+			"team": {
+				"id": 17,
+				"city": "Dallas",
+				"name": "Cowboys",
+				"shortName": "DAL",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"DT",
+					"DE",
+					"OG",
+					"OT",
+					"DE",
+					"RB",
+					"WR",
+					"OLB",
+					"DT",
+					"CB",
+					"S",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 4,
@@ -3834,7 +3922,29 @@
 		{
 			"round": 5,
 			"position": 18,
-			"overall": 146
+			"overall": 146,
+			"team": {
+				"id": 17,
+				"city": "Dallas",
+				"name": "Cowboys",
+				"shortName": "DAL",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"DT",
+					"DE",
+					"OG",
+					"OT",
+					"DE",
+					"RB",
+					"WR",
+					"OLB",
+					"DT",
+					"CB",
+					"S",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 5,
@@ -5429,7 +5539,29 @@
 		{
 			"round": 7,
 			"position": 14,
-			"overall": 206
+			"overall": 206,
+			"team": {
+				"id": 17,
+				"city": "Dallas",
+				"name": "Cowboys",
+				"shortName": "DAL",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"DT",
+					"DE",
+					"OG",
+					"OT",
+					"DE",
+					"RB",
+					"WR",
+					"OLB",
+					"DT",
+					"CB",
+					"S",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 7,
@@ -5460,7 +5592,29 @@
 		{
 			"round": 7,
 			"position": 16,
-			"overall": 208
+			"overall": 208,
+			"team": {
+				"id": 17,
+				"city": "Dallas",
+				"name": "Cowboys",
+				"shortName": "DAL",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"DT",
+					"DE",
+					"OG",
+					"OT",
+					"DE",
+					"RB",
+					"WR",
+					"OLB",
+					"DT",
+					"CB",
+					"S",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 7,
@@ -5627,7 +5781,29 @@
 		{
 			"round": 7,
 			"position": 23,
-			"overall": 215
+			"overall": 215,
+			"team": {
+				"id": 17,
+				"city": "Dallas",
+				"name": "Cowboys",
+				"shortName": "DAL",
+				"conference": "NFC",
+				"division": "East",
+				"needs": [
+					"DT",
+					"DE",
+					"OG",
+					"OT",
+					"DE",
+					"RB",
+					"WR",
+					"OLB",
+					"DT",
+					"CB",
+					"S",
+					"WR"
+				]
+			}
 		},
 		{
 			"round": 7,
