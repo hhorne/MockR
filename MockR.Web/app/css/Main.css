@@ -372,6 +372,10 @@ header {
   color: #eeeeee;
   height: 64px;
 }
+#draftSim #controls button[disabled] {
+  color: #555555;
+  background-color: #212121;
+}
 #draftSim #controls #team {
   background-color: #555555;
   cursor: pointer;

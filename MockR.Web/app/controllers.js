@@ -24,7 +24,10 @@ function Simulation(draft, $interval) {
 	this.prospects = draft.prospects;
 	this.prospects.orderBy = new OrderBy('ranking');
 	this.prospects.filter = new Filter('');
-	this.userTeam = null;
+	this.round = 1;
+	this.position = 1;
+	this.started = false;
+	this.inProgress = false;
 
 	this.selectTeam = function(team) {
 		this.userTeam = _.find(this.teams, function(t) {
@@ -32,6 +35,23 @@ function Simulation(draft, $interval) {
 		});
 	};
 
+	var draftLoop = function() {
+		console.log('asdasds');
+	};
+
+	var loopPromise = null;
+	this.toggle = function () {
+		if (this.inProgress) {
+			this.inProgress = false;
+			$interval.cancel(loopPromise);
+		} else {
+			if (this.started === false) {
+				this.started = true;
+			}
+			this.inProgress = true;
+			loopPromise = $interval(draftLoop, 1000);
+		}
+	};
 
 };
 

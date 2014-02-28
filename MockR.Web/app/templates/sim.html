@@ -23,8 +23,8 @@
 			<label>Pick</label>
 			<span id="pickNum">32</span>
 		</div>
-		<button id="toggle">
-			Start Draft
+		<button id="toggle" ng-disabled="sim.userTeam == null" ng-click="sim.toggle()">
+			{{ (!sim.inProgress || !sim.started) && 'Start Draft' || 'Pause Draft' }}
 		</button>
 	</div>
 
