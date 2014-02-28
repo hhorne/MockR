@@ -412,7 +412,7 @@ header {
   width: 200px;
 }
 #draftSim #picks {
-  display: inline-block;
+  float: left;
   height: 896px;
   overflow-y: scroll;
   padding: 0;
@@ -437,7 +437,7 @@ header {
   width: 24px;
 }
 #draftSim #players {
-  margin-left: -4px;
+  float: left;
   text-indent: 6px;
   display: inline-block;
   vertical-align: top;
@@ -450,7 +450,6 @@ header {
   padding: 4px 0;
 }
 #draftSim #players table {
-  display: block;
   width: 780px;
   font-size: large;
 }
@@ -473,7 +472,6 @@ header {
   display: block;
   overflow-y: auto;
   height: 300px;
-  width: 100%;
 }
 #draftSim #players table tbody tr {
   background-color: #212121;
@@ -512,7 +510,7 @@ header {
 }
 #draftSim #players #undrafted th:nth-child(5),
 #draftSim #players #undrafted td:nth-child(5) {
-  width: 225px;
+  width: 224px;
 }
 #draftSim #players #drafted th:nth-child(1),
 #draftSim #players #drafted td:nth-child(1) {
@@ -530,7 +528,7 @@ header {
 }
 #draftSim #players #drafted th:nth-child(4),
 #draftSim #players #drafted td:nth-child(4) {
-  min-width: 211px;
+  min-width: 210px;
 }
 #draftSim #players #drafted th:nth-child(5),
 #draftSim #players #drafted td:nth-child(5) {
@@ -538,9 +536,8 @@ header {
 }
 #draftSim #positionFilter {
   background: #555555;
-  display: inline-block;
+  float: left;
   height: 896px;
-  margin-left: -5px;
   width: 200px;
   vertical-align: top;
 }

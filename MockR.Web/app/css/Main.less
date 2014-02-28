@@ -146,7 +146,7 @@ header {
 	}
 
 	#picks {
-		display: inline-block;
+		float: left;
 		height: 896px;
 		overflow-y: scroll;
 		padding: 0;
@@ -175,7 +175,7 @@ header {
 	}
 
 	#players {
-		margin-left: -4px;
+		float: left;
 		text-indent: 6px;
 
 		h3 {
@@ -189,8 +189,7 @@ header {
 		display: inline-block;
 		vertical-align: top;
 
-		table {
-			display: block;
+		table {			
 			width: 780px;
 			font-size: large;
 			
@@ -218,7 +217,6 @@ header {
 				display: block;
 				overflow-y: auto;
 				height: 300px;
-				width: 100%;
 
 				tr {
 					background-color: @darkGray;
@@ -262,7 +260,7 @@ header {
 			}
 
 			th:nth-child(5), td:nth-child(5) {
-				width: 225px;
+				width: 224px;
 			}
 		}
 
@@ -282,7 +280,7 @@ header {
 			}
 
 			th:nth-child(4), td:nth-child(4) {
-				min-width: 211px;
+				min-width: 210px;
 			}
 
 			th:nth-child(5), td:nth-child(5) {
@@ -293,9 +291,8 @@ header {
 
 	#positionFilter {
 		background: @lightGray;
-		display: inline-block;
+		float: left;
 		height: 896px;
-		margin-left: -5px;
 		width: 200px;
 		vertical-align: top;
 
