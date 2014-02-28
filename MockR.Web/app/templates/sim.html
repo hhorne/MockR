@@ -1,17 +1,17 @@
 ﻿<div id="draftSim">
-	<div id="controls">
+	<div id="controls" class="dropdown">
 		<div id="team" class="dropdown">
-			<button ng-class="sim.userTeam.shortName" class="teamLogo dropdown-toggle">
-				{{ 'Click Here To Select Team' }}
-			</button>
+			<div id="selectedTeam" ng-class="sim.userTeam.shortName" class="teamLogo dropdown-toggle">
+				{{ selectTeamText }}
+			</div>
 			<ul class="dropdown-menu">
-				<li ng-repeat="team in sim.teams" ng-class="team.shortName" ng-click="sim.selectTeam(team.shortName)" class="teamLogo"></li>
+				<li ng-repeat="team in sim.teams" ng-class="team.shortName" ng-click="selectTeam(team.shortName)" class="teamLogo"></li>
 			</ul>
 		</div>
 		<div id="status">
 			<label>Round</label>
 			<ul>
-				<li>1</li>
+				<li class="reached">1</li>
 				<li>2</li>
 				<li>3</li>
 				<li>4</li>
@@ -20,7 +20,8 @@
 				<li>7</li>
 			</ul>
 
-			<label>Pick</label> <span id="pickNum">32</span>
+			<label>Pick</label>
+			<span id="pickNum">32</span>
 		</div>
 		<button id="toggle">
 			Start Draft

@@ -9,6 +9,12 @@ function simCtrl($scope, $http, $interval) {
 			prospects: data.prospects
 		}, $interval);
 	});
+
+	$scope.selectTeamText = 'Click Here To Select Team';
+	$scope.selectTeam = function (team) {
+		$scope.sim.selectTeam(team);
+		$scope.selectTeamText = ''; 
+	};
 }
 
 function Simulation(draft, $interval) {

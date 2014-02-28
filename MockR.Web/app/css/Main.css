@@ -347,65 +347,68 @@ header {
     padding-left: 3px;
   }
 }
-#draftSim #controls {
-  background-color: #212121;
-  color: #eeeeee;
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
-  height: 64px;
-}
-#draftSim #controls button {
-  color: #212121;
-  height: 64px;
-}
-#draftSim #controls #team {
-  float: left;
-}
-#draftSim #controls #team button {
-  width: 300px;
-}
-#draftSim #controls .dropdown-menu {
+.dropdown-menu {
   border-radius: 0;
-  margin-top: -1px;
   padding: 0;
   margin-left: -1px;
   max-height: 962px;
   overflow-y: scroll;
   top: 0;
+  margin-top: -1px;
 }
-#draftSim #controls .dropdown-menu li {
+.dropdown-menu li {
+  height: 64px;
+  width: 300px;
+}
+#draftSim #controls {
+  background-color: #212121;
+  color: #eeeeee;
+  height: 64px;
+  line-height: 64px;
+}
+#draftSim #controls button {
+  color: #212121;
+}
+#draftSim #controls #team {
+  background-color: #555555;
+  cursor: pointer;
+  float: left;
+  height: 64px;
+  text-align: center;
+}
+#draftSim #controls #team #selectedTeam {
   height: 64px;
   width: 300px;
 }
 #draftSim #controls #status {
   display: inline-block;
-  font-size: 24px;
-  line-height: 64px;
+  font-size: x-large;
   text-align: right;
-  width: 770px;
+  width: 776px;
 }
 #draftSim #controls #status label {
-  font-weight: bold;
-  margin-right: 6px;
+  margin: 0 12px;
 }
 #draftSim #controls #status ul {
   display: inline;
   list-style: none;
-  margin: 0 12px 0 0;
+  margin: 0;
   padding: 0;
 }
 #draftSim #controls #status ul li {
   display: inline;
-  margin-right: 4px;
+  margin: 0 8px;
+}
+#draftSim #controls #status ul li.reached {
+  cursor: pointer;
 }
 #draftSim #controls #status #pickNum {
-  display: inline-block;
-  width: 18px;
-  margin-right: 12px;
+  margin-right: 8px;
 }
 #draftSim #controls button#toggle {
+  border: 0;
   float: right;
+  height: 64px;
   width: 200px;
 }
 #draftSim #picks {

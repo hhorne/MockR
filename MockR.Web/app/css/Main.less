@@ -64,37 +64,41 @@ header {
 	}
 }
 
+
+
+.dropdown-menu {
+	border-radius: 0;
+	padding: 0;
+	margin-left: -1px;
+	max-height: 962px;
+	overflow-y: scroll;
+	top: 0;
+	margin-top: -1px;
+
+	li {
+		height: 64px;
+		width: 300px;
+	}
+}
+
 #draftSim {
+
 	#controls {
 		background-color: @darkGray;
 		color: @offWhite;
-		font-size: 16px;
-		margin: 0;
-		padding: 0;
 		height: 64px;
-
+		line-height: 64px;
 		button {
 			color: @darkGray;
-			height: 64px;
 		}
 
 		#team {
+			background-color: @lightGray;
+			cursor: pointer;
 			float: left;
-			button {				
-				width: 300px;
-			}
-		}
-
-		.dropdown-menu {
-			border-radius: 0;
-			margin-top: -1px;
-			padding: 0;
-			margin-left: -1px;
-			max-height: 962px;
-			overflow-y: scroll;
-			top: 0;
-
-			li {
+			height: 64px;
+			text-align: center;
+			#selectedTeam {				
 				height: 64px;
 				width: 300px;
 			}
@@ -102,37 +106,40 @@ header {
 
 		#status {
 			display: inline-block;
-			font-size: 24px;
-			line-height: 64px;
+			font-size: x-large;
 			text-align: right;
-			width: 770px;
+			width: 776px;
+
 
 			label {
-				font-weight: bold;
-				margin-right: 6px;
+				margin: 0 12px;
 			}
 
 			ul {
 				display: inline;
 				list-style: none;
-				margin: 0 @spaceStandard 0 0;
+				margin: 0;
 				padding: 0;
 
 				li {
 					display: inline;
-					margin-right: 4px;
+					margin: 0 8px;
+
+					&.reached {
+						cursor: pointer;
+					}
 				}
 			}
 
 			#pickNum {
-				display: inline-block;
-				width: 18px;
-				margin-right: @spaceStandard;
+				margin-right: 8px;
 			}
 		}
 
 		button#toggle {
+			border: 0;
 			float: right;
+			height: 64px;
 			width: 200px;
 		}
 	}
