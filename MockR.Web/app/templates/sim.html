@@ -1,9 +1,9 @@
 ﻿<div id="draftSim">
 	<div id="controls" class="dropdown">
 		<div id="team" class="dropdown">
-			<div id="selectedTeam" ng-class="sim.userTeam.shortName" class="teamLogo dropdown-toggle">
+			<button id="selectedTeam" ng-class="sim.userTeam.shortName" class="teamLogo dropdown-toggle">
 				{{ selectTeamText }}
-			</div>
+			</button>
 			<ul class="dropdown-menu">
 				<li ng-repeat="team in sim.teams" ng-class="team.shortName" ng-click="selectTeam(team.shortName)" class="teamLogo"></li>
 			</ul>

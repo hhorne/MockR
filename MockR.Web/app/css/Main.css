@@ -367,7 +367,9 @@ header {
   line-height: 64px;
 }
 #draftSim #controls button {
+  border: 0;
   color: #212121;
+  height: 64px;
 }
 #draftSim #controls #team {
   background-color: #555555;
@@ -377,7 +379,6 @@ header {
   text-align: center;
 }
 #draftSim #controls #team #selectedTeam {
-  height: 64px;
   width: 300px;
 }
 #draftSim #controls #status {
@@ -406,9 +407,7 @@ header {
   margin-right: 8px;
 }
 #draftSim #controls button#toggle {
-  border: 0;
   float: right;
-  height: 64px;
   width: 200px;
 }
 #draftSim #picks {
