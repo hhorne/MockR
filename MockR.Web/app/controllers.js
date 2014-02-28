@@ -35,8 +35,7 @@ function Simulation(draft, $interval) {
 		});
 	};
 
-	var draftLoop = function() {
-		console.log('asdasds');
+	var draftLoop = function() {		
 	};
 
 	var loopPromise = null;
