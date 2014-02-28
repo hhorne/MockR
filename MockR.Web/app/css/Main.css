@@ -516,7 +516,7 @@ header {
 #draftSim #players #drafted td:nth-child(1) {
   padding-right: 16px;
   text-align: right;
-  min-width: 48px;
+  min-width: 55px;
 }
 #draftSim #players #drafted th:nth-child(2),
 #draftSim #players #drafted td:nth-child(2) {
@@ -524,7 +524,7 @@ header {
 }
 #draftSim #players #drafted th:nth-child(3),
 #draftSim #players #drafted td:nth-child(3) {
-  min-width: 220px;
+  min-width: 210px;
 }
 #draftSim #players #drafted th:nth-child(4),
 #draftSim #players #drafted td:nth-child(4) {
@@ -532,7 +532,7 @@ header {
 }
 #draftSim #players #drafted th:nth-child(5),
 #draftSim #players #drafted td:nth-child(5) {
-  width: 110px;
+  width: 107px;
 }
 #draftSim #positionFilter {
   background: #555555;
