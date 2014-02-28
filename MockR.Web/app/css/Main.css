@@ -368,7 +368,8 @@ header {
 }
 #draftSim #controls button {
   border: 0;
-  color: #212121;
+  background-color: #555555;
+  color: #eeeeee;
   height: 64px;
 }
 #draftSim #controls #team {
