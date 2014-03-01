@@ -445,6 +445,26 @@ header {
   display: inline-block;
   width: 24px;
 }
+#draftSim #picks ul li.ng-enter,
+#draftSim #picks ul li.ng-leave {
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+#draftSim #picks ul li.ng-enter {
+  opacity: 0;
+  height: 0;
+}
+#draftSim #picks ul li.ng-leave {
+  z-index: -1;
+}
+#draftSim #picks ul li.ng-leave.ng-leave-active {
+  height: 0;
+}
+#draftSim #picks ul li.ng-leave.ng-leave-active .overall {
+  opacity: 0;
+}
 #draftSim #players {
   float: left;
   text-indent: 6px;
@@ -494,6 +514,25 @@ header {
   height: 30px !important;
   margin: 0;
   padding: 0;
+}
+#draftSim #players table tbody td.ng-enter,
+#draftSim #players table tbody td.ng-leave {
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+#draftSim #players table tbody td.ng-enter {
+  height: 30px !important;
+}
+#draftSim #players table tbody td.ng-leave {
+  height: 0;
+}
+#draftSim #players table tbody td.ng-enter.ng-enter-active {
+  height: 30px !important;
+}
+#draftSim #players table tbody td.ng-leave.ng-leave-active {
+  height: 0;
 }
 #draftSim #players table tbody tr:nth-child(odd) {
   background-color: #eeeeee;

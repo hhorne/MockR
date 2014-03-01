@@ -179,6 +179,35 @@ header {
 					display: inline-block;
 					width: 24px;
 				}
+
+				&.ng-enter,
+				&.ng-leave {
+					-webkit-transition: 0.2s;
+					-moz-transition: 0.2s;
+					-o-transition: 0.2s;
+					transition: 0.2s;
+				}
+
+				&.ng-enter {
+					opacity: 0;
+					height: 0;
+				}
+
+				&.ng-leave {
+					z-index: -1;
+				}
+
+				&.ng-enter.ng-enter-active {
+  
+				}
+
+				&.ng-leave.ng-leave-active {
+					.overall {
+						opacity: 0;
+					}
+
+					height: 0;
+				}
 			}
 		}
 	}
@@ -240,6 +269,30 @@ header {
 					height: 30px !important;
 					margin: 0;
 					padding: 0;
+					
+					&.ng-enter,
+					&.ng-leave {
+						-webkit-transition: 0.2s;
+						-moz-transition: 0.2s;
+						-o-transition: 0.2s;
+						transition: 0.2s;
+					}
+
+					&.ng-enter {
+						height: 30px !important;
+					}
+
+					&.ng-leave {
+						height: 0;
+					}
+
+					&.ng-enter.ng-enter-active {  
+						height: 30px !important;
+					}
+
+					&.ng-leave.ng-leave-active {		
+						height: 0;
+					}
 				}
 
 				tr:nth-child(odd){
