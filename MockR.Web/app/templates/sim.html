@@ -75,15 +75,15 @@
 			<table>
 				<thead>
 					<tr>
-						<th>#</th>
-						<th>Team</th>
-						<th>Last Name</th>
-						<th>First Name</th>
-						<th>Position</th>
+						<th ng-click="draft.drafted.orderBy.set('overall')">#</th>
+						<th ng-click="draft.drafted.orderBy.set('team.name')">Team</th>
+						<th ng-click="draft.drafted.orderBy.set('lastName')">Last Name</th>
+						<th ng-click="draft.drafted.orderBy.set('firstName')">First Name</th>
+						<th ng-click="draft.drafted.orderBy.set('position.shortName')">Position</th>
 					</tr>
 				</thead>
 				<tbody scroll-glue>
-					<tr ng-repeat="player in draft.drafted | filter: { round: draft.drafted.filter.round }">
+					<tr ng-repeat="player in draft.drafted | orderBy: draft.drafted.orderBy.getField():draft.drafted.orderBy.isReversed() | filter: { round: draft.drafted.filter.round }">
 						<td>
 							{{player.overall}}
 						</td>

@@ -61,6 +61,7 @@ function Simulation($scope, $interval) {
 	$scope.draft.prospects.filter = new Filter('');
 	$scope.draft.drafted = [];
 	$scope.draft.drafted.filter = { round: 1 };
+	$scope.draft.drafted.orderBy = new OrderBy('overall');
 	$scope.sim = this;
 	$scope.sim.round = 1;
 	$scope.sim.position = 1;
