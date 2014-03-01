@@ -57,8 +57,21 @@ function Simulation($scope, $interval) {
 	};
 
 	this.draftLoop = function () {
-		var draftingTeam = new DraftingTeam($scope.draft.picks[0].team);
+		var team = _.findWhere($scope.draft.teams, { shortName: $scope.draft.picks[0].team.shortName });
+		var draftingTeam = new DraftingTeam(team);
 		var selectedPlayer = draftingTeam.selectPlayer($scope.draft.prospects);
+
+		var needIndex = -1;
+
+		for (var i in team.needs) {
+			if (team.needs[i].shortName === selectedPlayer.position.shortName) {
+				needIndex = i;
+				break;
+			}
+		}
+
+		team.needs.splice(needIndex, 1);
+
 		selectedPlayer.team = $scope.draft.picks[0].team;
 		selectedPlayer.overall = $scope.sim.overall;
 		selectedPlayer.round = $scope.sim.round;
