@@ -11,13 +11,13 @@
 		<div id="status">
 			<label>Round</label>
 			<ul>
-				<li class="reached">1</li>
-				<li>2</li>
-				<li>3</li>
-				<li>4</li>
-				<li>5</li>
-				<li>6</li>
-				<li>7</li>
+				<li ng-click="filterByRound(1)" ng-class="roundIndicator(1)">1</li>
+				<li ng-click="filterByRound(2)" ng-class="roundIndicator(2)">2</li>
+				<li ng-click="filterByRound(3)" ng-class="roundIndicator(3)">3</li>
+				<li ng-click="filterByRound(4)" ng-class="roundIndicator(4)">4</li>
+				<li ng-click="filterByRound(5)" ng-class="roundIndicator(5)">5</li>
+				<li ng-click="filterByRound(6)" ng-class="roundIndicator(6)">6</li>
+				<li ng-click="filterByRound(7)" ng-class="roundIndicator(7)">7</li>
 			</ul>
 
 			<label>Pick</label>
@@ -83,7 +83,7 @@
 					</tr>
 				</thead>
 				<tbody scroll-glue>
-					<tr ng-repeat="player in draft.drafted">
+					<tr ng-repeat="player in draft.drafted | filter: { round: sim.round }">
 						<td>
 							{{player.overall}}
 						</td>

@@ -21,8 +21,24 @@ function simCtrl($scope, $http, $interval) {
 		$scope.selectTeamText = '';
 	};
 
-	$scope.toggleDraft = function() {
+	$scope.toggleDraft = function () {
 		$scope.sim.toggle();
+	};
+
+	$scope.roundIndicator = function (round) {
+		if ($scope.sim.round === round) {
+			return 'active reached';
+		}
+
+		if ($scope.sim.round > round) {
+			return 'reached';
+		}
+
+		return undefined;
+	};
+
+	$scope.filterByRound = function(round) {
+		$scope.draft.drafted.filter.set(round);
 	};
 }
 
@@ -35,6 +51,8 @@ function Simulation($scope, $interval) {
 	$scope.sim.overall = 1;
 	$scope.sim.started = false;
 	$scope.sim.inProgress = false;
+	$scope.draft.drafted = [];
+	$scope.draft.drafted.filter = new Filter('round');
 
 	this.selectTeam = function(team) {
 		$scope.sim.userTeam = _.find($scope.draft.teams, function (t) {
