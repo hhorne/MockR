@@ -413,6 +413,9 @@ header {
   color: #212121;
   font-weight: bold;
 }
+#draftSim #controls #status ul li.current {
+  border-bottom: solid 1px #eeeeee;
+}
 #draftSim #controls #status #pickNum {
   margin-right: 8px;
 }

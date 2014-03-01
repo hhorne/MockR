@@ -26,12 +26,22 @@ function simCtrl($scope, $http, $interval) {
 	};
 
 	$scope.roundIndicator = function (round) {
+		var styles = [];
+
 		if ($scope.sim.round === round) {
-			return 'active reached';
+			styles.push('current');
 		}
 
-		if ($scope.sim.round > round) {
-			return 'reached';
+		if ($scope.sim.round >= round) {
+			styles.push('reached');
+		}
+
+		if ($scope.draft.drafted.filter.round === round) {
+			styles.push('active');
+		}
+
+		if (styles.length) {
+			return styles.join(' ');
 		}
 
 		return undefined;

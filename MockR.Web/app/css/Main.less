@@ -131,6 +131,7 @@ header {
 				li {
 					display: inline;
 					padding: 2px 8px;
+
 					&.reached {
 						cursor: pointer;
 					}
@@ -139,6 +140,10 @@ header {
 						background-color: @offWhite;
 						color: @darkGray;
 						font-weight: bold;
+					}
+
+					&.current {
+						border-bottom: solid 1px @offWhite;
 					}
 				}
 			}
