@@ -1,41 +1,70 @@
-﻿function homeCtrl($scope) {
-}
+﻿var positions = null; // global, not specific to any one draft; seems to fit logically
+
+function homeCtrl($scope) { }
 
 function simCtrl($scope, $http, $interval) {
 	$http.get('/mockr/app/data/2014.json').success(function (data) {
-		$scope.sim = new Simulation({
-			picks: data.picks,
+		positions = data.positions;
+		$scope.draft = {
 			teams: data.teams,
-			prospects: data.prospects
-		}, $interval);
+			picks: data.picks,
+			prospects: data.prospects,
+			drafted: []
+		};
+
+		$scope.sim = new Simulation($scope, $interval);
 	});
 
 	$scope.selectTeamText = 'Click Here To Select Team';
 	$scope.selectTeam = function (team) {
 		$scope.sim.selectTeam(team);
-		$scope.selectTeamText = ''; 
+		$scope.selectTeamText = '';
+	};
+
+	$scope.toggleDraft = function() {
+		$scope.sim.toggle();
 	};
 }
 
-function Simulation(draft, $interval) {
-	this.drafted = [];
-	this.picks = draft.picks;
-	this.teams = draft.teams;
-	this.prospects = draft.prospects;
-	this.prospects.orderBy = new OrderBy('ranking');
-	this.prospects.filter = new Filter('');
-	this.round = 1;
-	this.position = 1;
-	this.started = false;
-	this.inProgress = false;
+function Simulation($scope, $interval) {
+	$scope.draft.prospects.orderBy = new OrderBy('ranking');
+	$scope.draft.prospects.filter = new Filter('');
+	$scope.sim = this;
+	$scope.sim.round = 1;
+	$scope.sim.position = 1;
+	$scope.sim.overall = 1;
+	$scope.sim.started = false;
+	$scope.sim.inProgress = false;
 
 	this.selectTeam = function(team) {
-		this.userTeam = _.find(this.teams, function(t) {
+		$scope.sim.userTeam = _.find($scope.draft.teams, function (t) {
 			return t.shortName === team;
 		});
 	};
 
-	var draftLoop = function() {		
+	this.draftPlayer = function(player) {
+		var playerIndex = $scope.draft.prospects.indexOf(player);
+		$scope.draft.drafted.push(player);
+		$scope.draft.prospects.splice(playerIndex, 1);
+		$scope.draft.picks.splice(0, 1);
+
+		$scope.sim.overall++;
+		$scope.sim.position++;
+		if ($scope.sim.position > 32) {
+			$scope.sim.position = 1;
+			$scope.sim.round++;
+		}
+	};
+
+	this.draftLoop = function () {
+		var draftingTeam = new DraftingTeam($scope.draft.picks[0].team);
+		var selectedPlayer = draftingTeam.selectPlayer($scope.draft.prospects);
+		selectedPlayer.team = $scope.draft.picks[0].team;
+		selectedPlayer.overall = $scope.sim.overall;
+		selectedPlayer.round = $scope.sim.round;
+		selectedPlayer.pick = $scope.sim.position;
+
+		$scope.sim.draftPlayer(selectedPlayer);
 	};
 
 	var loopPromise = null;
@@ -47,11 +76,11 @@ function Simulation(draft, $interval) {
 			if (this.started === false) {
 				this.started = true;
 			}
+
 			this.inProgress = true;
-			loopPromise = $interval(draftLoop, 1000);
+			loopPromise = $interval(this.draftLoop, 1000);
 		}
 	};
-
 };
 
 function OrderBy(field) {

@@ -92,6 +92,7 @@
     <Content Include="app\css\Teams.css">
       <DependentUpon>Teams.less</DependentUpon>
     </Content>
+    <Content Include="app\draftStrategies.js" />
     <Content Include="app\img\logo\49ers.png" />
     <Content Include="app\img\logo\Bears.png" />
     <Content Include="app\img\logo\Bengals.png" />
@@ -151,10 +152,6 @@
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
     <Content Include="app\css\Main.less" />
-    <Content Include="app\data\picks.json" />
-    <Content Include="app\data\positions.json" />
-    <Content Include="app\data\prospects.json" />
-    <Content Include="app\data\teams.json" />
     <Content Include="app\data\2014.json" />
     <Content Include="app\css\Main.css.map">
       <DependentUpon>Main.css</DependentUpon>

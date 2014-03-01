@@ -5,7 +5,7 @@
 				{{ selectTeamText }}
 			</button>
 			<ul class="dropdown-menu">
-				<li ng-repeat="team in sim.teams" ng-class="team.shortName" ng-click="selectTeam(team.shortName)" class="teamLogo"></li>
+				<li ng-repeat="team in draft.teams" ng-class="team.shortName" ng-click="selectTeam(team.shortName)" class="teamLogo"></li>
 			</ul>
 		</div>
 		<div id="status">
@@ -21,16 +21,16 @@
 			</ul>
 
 			<label>Pick</label>
-			<span id="pickNum">32</span>
+			<span id="pickNum">{{ sim.position }}</span>
 		</div>
-		<button id="toggle" ng-disabled="sim.userTeam == null" ng-click="sim.toggle()">
+		<button id="toggle" ng-disabled="sim.userTeam == null" ng-click="toggleDraft()">
 			{{ (!sim.inProgress || !sim.started) && 'Start Draft' || 'Pause Draft' }}
 		</button>
 	</div>
 
 	<div id="picks">
 		<ul>
-			<li class="teamLogo" ng-class="pick.team.shortName" ng-repeat="pick in sim.picks">
+			<li class="teamLogo" ng-class="pick.team.shortName" ng-repeat="pick in draft.picks">
 				<span class="overall">{{pick.overall}}</span>
 			</li>
 		</ul>
@@ -42,15 +42,15 @@
 			<table>
 				<thead>
 					<tr>
-						<th ng-click="sim.prospects.orderBy.set('ranking')">#</th>
-						<th ng-click="sim.prospects.orderBy.set('lastName')">Last Name</th>
-						<th ng-click="sim.prospects.orderBy.set('firstName')">First Name</th>
-						<th ng-click="sim.prospects.orderBy.set('position.shortName')">Position</th>
-						<th ng-click="sim.prospects.orderBy.set('college')">College</th>
+						<th ng-click="draft.prospects.orderBy.set('ranking')">#</th>
+						<th ng-click="draft.prospects.orderBy.set('lastName')">Last Name</th>
+						<th ng-click="draft.prospects.orderBy.set('firstName')">First Name</th>
+						<th ng-click="draft.prospects.orderBy.set('position.shortName')">Position</th>
+						<th ng-click="draft.prospects.orderBy.set('college')">College</th>
 					</tr>
 				</thead>
 				<tbody>
-					<tr ng-repeat="player in sim.prospects | orderBy: sim.prospects.orderBy.getField():sim.prospects.orderBy.isReversed() | filter: sim.prospects.filter.match">
+					<tr ng-repeat="player in draft.prospects | orderBy: draft.prospects.orderBy.getField():draft.prospects.orderBy.isReversed() | filter: draft.prospects.filter.match">
 						<td>
 							{{player.ranking}}
 						</td>
@@ -71,7 +71,7 @@
 			</table>
 		</div>
 		<div id="drafted">
-			<h3>Drafted Players</h3>
+			<h3>Drafted </h3>
 			<table>
 				<thead>
 					<tr>
@@ -83,7 +83,7 @@
 					</tr>
 				</thead>
 				<tbody scroll-glue>
-					<tr ng-repeat="player in drafted">
+					<tr ng-repeat="player in draft.drafted">
 						<td>
 							{{player.overall}}
 						</td>

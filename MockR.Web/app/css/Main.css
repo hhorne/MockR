@@ -1,4 +1,4 @@
-/* Team Draft Pick Logos */
+﻿/* Team Draft Pick Logos */
 .ATL {
   background-color: #b01742 !important;
   color: #ffffff !important;
@@ -478,7 +478,7 @@ header {
   height: 300px;
 }
 #draftSim #players table tbody tr {
-  background-color: #212121;
+  background-color: #555555;
   color: #eeeeee;
   height: 30px !important;
   margin: 0;
