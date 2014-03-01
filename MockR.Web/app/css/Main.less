@@ -236,7 +236,7 @@ header {
 			width: 780px;
 			font-size: large;
 			
-			tr, td {
+			td {
 				padding: 2px 0;
 			}
 			
@@ -248,11 +248,31 @@ header {
 
 					th {
 						color: @offWhite;
+						
+						&.sort {
+							background-color: @offWhite;
+							color: @darkGray;
+							padding-right: 0 !important;
+						}
+
+						&.sort.asc:after, &.sort.dsc:after {
+							float: right;
+							font-weight: 100;
+							margin-right: @spaceStandard;
+						}
+
+						&.sort.asc:after {
+							content: 'v';
+						}
+
+						&.sort.dsc:after {
+							content: '^';
+						}
 					}
 
-						th:hover {
-							cursor: pointer;
-						}
+					th:hover {
+						cursor: pointer;
+					}
 				}
 			}
 
@@ -267,37 +287,13 @@ header {
 					height: 30px !important;
 					margin: 0;
 					padding: 0;
-					line-height: 30px;
+					line-height: 30px !important;
 				}
 
 				td {
 					height: 30px !important;
 					margin: 0;
 					padding: 0;
-					
-					&.ng-enter,
-					&.ng-leave {
-						-webkit-transition: 0.2s;
-						-moz-transition: 0.2s;
-						-o-transition: 0.2s;
-						transition: 0.2s;
-					}
-
-					&.ng-enter {
-						height: 30px !important;
-					}
-
-					&.ng-leave {
-						height: 0;
-					}
-
-					&.ng-enter.ng-enter-active {  
-						height: 30px !important;
-					}
-
-					&.ng-leave.ng-leave-active {		
-						height: 0;
-					}
 				}
 
 				tr:nth-child(odd){
@@ -309,8 +305,8 @@ header {
 
 		#undrafted {
 			th:nth-child(1), td:nth-child(1) {
-				min-width: 55px;
-				text-align: right;
+				min-width: 64px;
+				text-align: center;
 				padding-right: 16px;
 			}
 
@@ -323,23 +319,23 @@ header {
 			}
 
 			th:nth-child(4), td:nth-child(4) {
-				min-width: 100px;
+				min-width: 110px;
 			}
 
 			th:nth-child(5), td:nth-child(5) {
-				width: 224px;
+				width: 210px;
 			}
 		}
 
 		#drafted {
 			th:nth-child(1), td:nth-child(1) {
-				padding-right: 16px;
-				text-align: right;
-				min-width: 55px;
+				padding-right: 16px;				
+				text-align: center;
+				min-width: 64px;
 			}
 
 			th:nth-child(2), td:nth-child(2) {
-				min-width: 200px;
+				min-width: 190px;
 			}
 
 			th:nth-child(3), td:nth-child(3) {
@@ -351,7 +347,7 @@ header {
 			}
 
 			th:nth-child(5), td:nth-child(5) {
-				width: 107px;
+				width: 110px;
 			}
 		}
 	}

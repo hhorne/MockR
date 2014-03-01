@@ -54,6 +54,30 @@ function simCtrl($scope, $http, $interval) {
 
 		$scope.draft.drafted.filter.round = round;
 	};
+
+	$scope.getUndraftedSortStyle = function (field) {
+		if ($scope.draft.prospects.orderBy.getField() === field) {
+			if ($scope.draft.prospects.orderBy.isReversed()) {
+				return 'sort dsc';
+			}
+
+			return 'sort asc';
+		}
+
+		return undefined;
+	};
+
+	$scope.getDraftedSortStyle = function (field) {
+		if ($scope.draft.drafted.orderBy.getField() === field) {
+			if ($scope.draft.drafted.orderBy.isReversed()) {
+				return 'sort dsc';
+			}
+
+			return 'sort asc';
+		}
+
+		return undefined;
+	};
 }
 
 function Simulation($scope, $interval) {

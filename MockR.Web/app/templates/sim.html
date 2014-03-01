@@ -42,11 +42,11 @@
 			<table>
 				<thead>
 					<tr>
-						<th ng-click="draft.prospects.orderBy.set('ranking')">#</th>
-						<th ng-click="draft.prospects.orderBy.set('lastName')">Last Name</th>
-						<th ng-click="draft.prospects.orderBy.set('firstName')">First Name</th>
-						<th ng-click="draft.prospects.orderBy.set('position.shortName')">Position</th>
-						<th ng-click="draft.prospects.orderBy.set('college')">College</th>
+						<th ng-class="getUndraftedSortStyle('ranking')" ng-click="draft.prospects.orderBy.set('ranking')">#</th>
+						<th ng-class="getUndraftedSortStyle('lastName')" ng-click="draft.prospects.orderBy.set('lastName')">Last Name</th>
+						<th ng-class="getUndraftedSortStyle('firstName')" ng-click="draft.prospects.orderBy.set('firstName')">First Name</th>
+						<th ng-class="getUndraftedSortStyle('position.shortName')" ng-click="draft.prospects.orderBy.set('position.shortName')">Position</th>
+						<th ng-class="getUndraftedSortStyle('college')" ng-click="draft.prospects.orderBy.set('college')">College</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -75,11 +75,11 @@
 			<table>
 				<thead>
 					<tr>
-						<th ng-click="draft.drafted.orderBy.set('overall')">#</th>
-						<th ng-click="draft.drafted.orderBy.set('team.name')">Team</th>
-						<th ng-click="draft.drafted.orderBy.set('lastName')">Last Name</th>
-						<th ng-click="draft.drafted.orderBy.set('firstName')">First Name</th>
-						<th ng-click="draft.drafted.orderBy.set('position.shortName')">Position</th>
+						<th ng-class="getDraftedSortStyle('overall')" ng-click="draft.drafted.orderBy.set('overall')">#</th>
+						<th ng-class="getDraftedSortStyle('team.name')" ng-click="draft.drafted.orderBy.set('team.name')">Team</th>
+						<th ng-class="getDraftedSortStyle('lastName')" ng-click="draft.drafted.orderBy.set('lastName')">Last Name</th>
+						<th ng-class="getDraftedSortStyle('firstName')" ng-click="draft.drafted.orderBy.set('firstName')">First Name</th>
+						<th ng-class="getDraftedSortStyle('position.shortName')" ng-click="draft.drafted.orderBy.set('position.shortName')">Position</th>
 					</tr>
 				</thead>
 				<tbody scroll-glue>

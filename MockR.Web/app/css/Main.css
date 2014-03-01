@@ -485,7 +485,6 @@ header {
   width: 780px;
   font-size: large;
 }
-#draftSim #players table tr,
 #draftSim #players table td {
   padding: 2px 0;
 }
@@ -496,6 +495,23 @@ header {
 }
 #draftSim #players table thead tr th {
   color: #eeeeee;
+}
+#draftSim #players table thead tr th.sort {
+  background-color: #eeeeee;
+  color: #212121;
+  padding-right: 0 !important;
+}
+#draftSim #players table thead tr th.sort.asc:after,
+#draftSim #players table thead tr th.sort.dsc:after {
+  float: right;
+  font-weight: 100;
+  margin-right: 12px;
+}
+#draftSim #players table thead tr th.sort.asc:after {
+  content: 'v';
+}
+#draftSim #players table thead tr th.sort.dsc:after {
+  content: '^';
 }
 #draftSim #players table thead tr th:hover {
   cursor: pointer;
@@ -511,31 +527,12 @@ header {
   height: 30px !important;
   margin: 0;
   padding: 0;
-  line-height: 30px;
+  line-height: 30px !important;
 }
 #draftSim #players table tbody td {
   height: 30px !important;
   margin: 0;
   padding: 0;
-}
-#draftSim #players table tbody td.ng-enter,
-#draftSim #players table tbody td.ng-leave {
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-}
-#draftSim #players table tbody td.ng-enter {
-  height: 30px !important;
-}
-#draftSim #players table tbody td.ng-leave {
-  height: 0;
-}
-#draftSim #players table tbody td.ng-enter.ng-enter-active {
-  height: 30px !important;
-}
-#draftSim #players table tbody td.ng-leave.ng-leave-active {
-  height: 0;
 }
 #draftSim #players table tbody tr:nth-child(odd) {
   background-color: #eeeeee;
@@ -543,8 +540,8 @@ header {
 }
 #draftSim #players #undrafted th:nth-child(1),
 #draftSim #players #undrafted td:nth-child(1) {
-  min-width: 55px;
-  text-align: right;
+  min-width: 64px;
+  text-align: center;
   padding-right: 16px;
 }
 #draftSim #players #undrafted th:nth-child(2),
@@ -557,21 +554,21 @@ header {
 }
 #draftSim #players #undrafted th:nth-child(4),
 #draftSim #players #undrafted td:nth-child(4) {
-  min-width: 100px;
+  min-width: 110px;
 }
 #draftSim #players #undrafted th:nth-child(5),
 #draftSim #players #undrafted td:nth-child(5) {
-  width: 224px;
+  width: 210px;
 }
 #draftSim #players #drafted th:nth-child(1),
 #draftSim #players #drafted td:nth-child(1) {
   padding-right: 16px;
-  text-align: right;
-  min-width: 55px;
+  text-align: center;
+  min-width: 64px;
 }
 #draftSim #players #drafted th:nth-child(2),
 #draftSim #players #drafted td:nth-child(2) {
-  min-width: 200px;
+  min-width: 190px;
 }
 #draftSim #players #drafted th:nth-child(3),
 #draftSim #players #drafted td:nth-child(3) {
@@ -583,7 +580,7 @@ header {
 }
 #draftSim #players #drafted th:nth-child(5),
 #draftSim #players #drafted td:nth-child(5) {
-  width: 107px;
+  width: 110px;
 }
 #draftSim #positionFilter {
   background: #555555;
