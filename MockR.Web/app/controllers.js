@@ -47,7 +47,11 @@ function simCtrl($scope, $http, $interval) {
 		return undefined;
 	};
 
-	$scope.filterByRound = function(round) {
+	$scope.filterByRound = function (round) {
+		if ($scope.sim.round < round) {
+			return;
+		}
+
 		$scope.draft.drafted.filter.round = round;
 	};
 }
@@ -55,14 +59,14 @@ function simCtrl($scope, $http, $interval) {
 function Simulation($scope, $interval) {
 	$scope.draft.prospects.orderBy = new OrderBy('ranking');
 	$scope.draft.prospects.filter = new Filter('');
+	$scope.draft.drafted = [];
+	$scope.draft.drafted.filter = { round: 1 };
 	$scope.sim = this;
 	$scope.sim.round = 1;
 	$scope.sim.position = 1;
 	$scope.sim.overall = 1;
 	$scope.sim.started = false;
 	$scope.sim.inProgress = false;
-	$scope.draft.drafted = [];
-	$scope.draft.drafted.filter = { round: 1 };
 
 	this.selectTeam = function(team) {
 		$scope.sim.userTeam = _.find($scope.draft.teams, function (t) {
