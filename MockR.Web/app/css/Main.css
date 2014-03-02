@@ -426,7 +426,7 @@ header {
   width: 200px;
 }
 #draftSim #picks {
-  background-color: #212121;
+  background-color: #555555;
   float: left;
   height: 896px;
   overflow-y: scroll;
@@ -534,7 +534,7 @@ header {
 #draftSim #players table tbody td {
   height: 30px !important;
   margin: 0;
-  padding: 2px 0;
+  padding: 0;
 }
 #draftSim #players table tbody tr:nth-child(odd) {
   background-color: #eeeeee;
