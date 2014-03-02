@@ -37,6 +37,24 @@ header {
 	text-align: left;
 }
 
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
 @media (max-height: 1200px) {
 	header {
 		height: @spaceStandard * 4;
@@ -156,6 +174,7 @@ header {
 		}
 
 		button#toggle {
+			.cf;
 			float: right;
 			width: 200px;
 		}
@@ -389,16 +408,11 @@ header {
                 padding: 6px 0;
 				text-indent: @spaceStandard;
 									
-                &:hover {
-                    background: @darkGray;
-                    color: @offWhite;
+                &.selected, &:hover {
+                    background: @offWhite;
+                    color: @darkGray;
                     cursor: pointer;
                 }
-
-				&.selected {
-					background: @darkGray;
-					color: @offWhite;
-				}
 
 				&.selected:after {
 					content: 'X';

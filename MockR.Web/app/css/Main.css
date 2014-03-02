@@ -324,6 +324,23 @@ header {
   padding: 0;
   text-align: left;
 }
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.cf:after {
+  clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
 @media (max-height: 1200px) {
   header {
     height: 48px;
@@ -422,6 +439,7 @@ header {
   min-width: 24px;
 }
 #draftSim #controls button#toggle {
+  *zoom: 1;
   float: right;
   width: 200px;
 }
@@ -617,14 +635,11 @@ header {
   padding: 6px 0;
   text-indent: 12px;
 }
+#draftSim #positionFilter ul li.selected,
 #draftSim #positionFilter ul li:hover {
-  background: #212121;
-  color: #eeeeee;
+  background: #eeeeee;
+  color: #212121;
   cursor: pointer;
-}
-#draftSim #positionFilter ul li.selected {
-  background: #212121;
-  color: #eeeeee;
 }
 #draftSim #positionFilter ul li.selected:after {
   content: 'X';
