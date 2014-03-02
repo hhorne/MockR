@@ -1,7 +1,7 @@
 ﻿<div id="draftSim">
 	<div id="controls" class="dropdown">
 		<div id="team" class="dropdown">
-			<button id="selectedTeam" ng-class="sim.userTeam.shortName" class="teamLogo dropdown-toggle">
+			<button id="selectedTeam" ng-class="sim.userTeam.shortName" class="teamLogo dropdown-toggle" ng-disabled="sim.started">
 				{{ selectTeamText }}
 			</button>
 			<ul class="dropdown-menu">

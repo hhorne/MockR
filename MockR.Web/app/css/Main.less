@@ -162,6 +162,7 @@ header {
 	}
 
 	#picks {
+		background-color: @darkGray;
 		float: left;
 		height: 896px;
 		overflow-y: scroll;
@@ -220,6 +221,7 @@ header {
 	}
 
 	#players {
+		background-color: @darkGray;
 		float: left;
 		text-indent: 6px;
 
@@ -237,11 +239,7 @@ header {
 		table {			
 			width: 780px;
 			font-size: large;
-			
-			td {
-				padding: 2px 0;
-			}
-			
+						
 			thead {
 				tr {
 					background-color: @darkGray;
@@ -249,7 +247,7 @@ header {
 					position: relative;
 
 					th {
-						padding: 3px 0;
+						padding: 2px 0;
 						color: @offWhite;
 						
 						&.sort {
@@ -296,7 +294,8 @@ header {
 				td {
 					height: 30px !important;
 					margin: 0;
-					padding: 0;
+					padding: 2px 0;
+
 				}
 
 				tr:nth-child(odd){

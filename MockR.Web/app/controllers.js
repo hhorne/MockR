@@ -108,9 +108,15 @@ function Simulation($scope, $interval) {
 		$scope.sim.overall++;
 		$scope.sim.position++;
 		if ($scope.sim.position > 32) {
-			$scope.sim.position = 1;
-			$scope.sim.round++;
-			$scope.draft.drafted.filter.round = $scope.sim.round;
+			if ($scope.sim.round === 7) {
+				this.stop();
+				$scope.sim.position = 32;
+			} else {
+				$scope.sim.round++;
+				$scope.sim.position = 1;
+				$scope.draft.drafted.filter.round = $scope.sim.round;
+				
+			}
 		}
 	};
 
@@ -138,18 +144,26 @@ function Simulation($scope, $interval) {
 		$scope.sim.draftPlayer(selectedPlayer);
 	};
 
+	this.start = function () {
+		if (this.started === false) {
+			this.started = true;
+		}
+
+		this.inProgress = true;
+		loopPromise = $interval(this.draftLoop, 1000);
+	};
+
+	this.stop = function () {
+		this.inProgress = false;
+		$interval.cancel(loopPromise);
+	};
+
 	var loopPromise = null;
 	this.toggle = function () {
 		if (this.inProgress) {
-			this.inProgress = false;
-			$interval.cancel(loopPromise);
+			this.stop();
 		} else {
-			if (this.started === false) {
-				this.started = true;
-			}
-
-			this.inProgress = true;
-			loopPromise = $interval(this.draftLoop, 1000);
+			this.start();
 		}
 	};
 };

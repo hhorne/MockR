@@ -426,6 +426,7 @@ header {
   width: 200px;
 }
 #draftSim #picks {
+  background-color: #212121;
   float: left;
   height: 896px;
   overflow-y: scroll;
@@ -471,6 +472,7 @@ header {
   opacity: 0;
 }
 #draftSim #players {
+  background-color: #212121;
   float: left;
   text-indent: 6px;
   display: inline-block;
@@ -487,16 +489,13 @@ header {
   width: 780px;
   font-size: large;
 }
-#draftSim #players table td {
-  padding: 2px 0;
-}
 #draftSim #players table thead tr {
   background-color: #212121;
   display: block;
   position: relative;
 }
 #draftSim #players table thead tr th {
-  padding: 3px 0;
+  padding: 2px 0;
   color: #eeeeee;
 }
 #draftSim #players table thead tr th.sort {
@@ -535,7 +534,7 @@ header {
 #draftSim #players table tbody td {
   height: 30px !important;
   margin: 0;
-  padding: 0;
+  padding: 2px 0;
 }
 #draftSim #players table tbody tr:nth-child(odd) {
   background-color: #eeeeee;
