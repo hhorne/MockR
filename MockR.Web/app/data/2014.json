@@ -29759,7 +29759,7 @@
             "shortName": "HOU",
             "conference": "AFC",
             "division": "South",
-            "strategy": "PositionOfNeed",
+            "strategy": "BestPlayerAvailable",
             "needs": [
                 {
                     "name": "Quarterback",
