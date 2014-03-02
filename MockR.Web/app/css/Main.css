@@ -417,7 +417,9 @@ header {
   border-bottom: solid 1px #eeeeee;
 }
 #draftSim #controls #status #pickNum {
+  display: inline-block;
   margin-right: 8px;
+  min-width: 24px;
 }
 #draftSim #controls button#toggle {
   float: right;
@@ -494,6 +496,7 @@ header {
   position: relative;
 }
 #draftSim #players table thead tr th {
+  padding: 3px 0;
   color: #eeeeee;
 }
 #draftSim #players table thead tr th.sort {
