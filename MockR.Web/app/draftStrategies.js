@@ -15,9 +15,20 @@ BestPlayerAvailable.prototype.selectPlayer = function (team, players) {
 	var positionPlayers = _.filter(players, function(player) {
 		return _.contains(needs, player.position.shortName);
 	});
+	var position = {};
 
-	var topPlayer = _.min(positionPlayers, function (player) {		
-		return player.ranking;
+	var topPlayer = _.min(positionPlayers, function (player) {
+		position = _.find(positions, function(p) {
+			return p.shortName === player.position.shortName;
+		});
+
+		var positionAdjustedValue = Math.max(0, player.ranking - position.importance);
+		
+		if (positionAdjustedValue === 0) {
+			positionAdjustedValue += (5 - position.importance);
+		}
+
+		return positionAdjustedValue;
 	});
 
 	return topPlayer;
