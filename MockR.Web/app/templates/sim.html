@@ -23,8 +23,8 @@
 			<label>Pick</label>
 			<span id="pickNum">{{ sim.position }}</span>
 		</div>
-		<button id="toggle" ng-disabled="sim.userTeam == null || (sim.round === 7 && sim.position === 32)" ng-click="toggleDraft()">
-			{{ (!sim.inProgress || !sim.started) && 'Start Draft' || 'Pause Draft' }}
+		<button id="toggle" ng-disabled="disableToggle()" ng-click="toggleDraft()">
+			{{ toggleText() }}
 		</button>
 	</div>
 
@@ -50,7 +50,8 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr ng-repeat="player in draft.prospects | orderBy: draft.prospects.orderBy.getField():draft.prospects.orderBy.isReversed() | filter: draft.prospects.filter.match">
+					<tr ng-repeat="player in draft.prospects | orderBy: draft.prospects.orderBy.getField():draft.prospects.orderBy.isReversed() | filter: draft.prospects.filter.match"
+						ng-click="userPick(player)" ng-class="getUndraftedRowStyle()">
 						<td>
 							{{player.ranking}}
 						</td>

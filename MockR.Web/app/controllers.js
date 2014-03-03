@@ -25,7 +25,34 @@ function simCtrl($scope, $http, $interval) {
 		$scope.sim.toggle();
 	};
 
+	$scope.disableToggle = function() {
+		if ($scope.sim.userOnTheClock())
+			return true;
+
+		if ($scope.sim.userTeam === null)
+			return true;
+
+		if ($scope.sim.round === 7 && $scope.sim.position === 32)
+			return true;
+
+		return false;
+	};
+
+	$scope.toggleText = function () {
+		if ($scope.sim != null || $scope.sim != undefined) {
+			if (!$scope.sim.inProgress || !$scope.sim.started) {
+				return 'Start Draft';
+			}
+		}
+
+		return 'Pause Draft';
+	};
+
 	$scope.roundIndicator = function (round) {
+		if ($scope.sim === null || $scope.sim === undefined) {
+			return undefined;
+		}
+
 		var styles = [];
 
 		if ($scope.sim.round === round) {
@@ -55,13 +82,30 @@ function simCtrl($scope, $http, $interval) {
 		$scope.draft.drafted.filter.round = round;
 	};
 
+	$scope.userPick = function (player) {
+		if ($scope.sim.userOnTheClock()) {
+			$scope.sim.draftPlayer(player);
+			$scope.sim.start();
+		}
+	};
+
 	$scope.getUndraftedSortStyle = function (field) {
+
+
 		if ($scope.draft.prospects.orderBy.getField() === field) {
 			if ($scope.draft.prospects.orderBy.isReversed()) {
 				return 'sort dsc';
 			}
 
 			return 'sort asc';
+		}
+
+		return undefined;
+	};
+
+	$scope.getUndraftedRowStyle = function() {
+		if ($scope.sim.userTeam != null && $scope.sim.userOnTheClock()) {
+			return 'userPicking';
 		}
 
 		return undefined;
@@ -79,6 +123,8 @@ function simCtrl($scope, $http, $interval) {
 		return undefined;
 	};
 }
+
+simCtrl.prototype.sim = {};
 
 function Simulation($scope, $interval) {
 	$scope.draft.prospects.orderBy = new OrderBy('ranking');
@@ -99,11 +145,27 @@ function Simulation($scope, $interval) {
 		});
 	};
 
-	this.draftPlayer = function(player) {
+	this.draftPlayer = function (player) {
+		player.team = $scope.draft.picks[0].team;
+		player.overall = $scope.sim.overall;
+		player.round = $scope.sim.round;
+		player.pick = $scope.sim.position;
+
 		var playerIndex = $scope.draft.prospects.indexOf(player);
 		$scope.draft.drafted.push(player);
 		$scope.draft.prospects.splice(playerIndex, 1);
 		$scope.draft.picks.splice(0, 1);
+
+		var needIndex = -1;
+		var team = _.findWhere($scope.draft.teams, { shortName: $scope.draft.picks[0].team.shortName });
+		for (var i in team.needs) {
+			if (team.needs[i].shortName === player.position.shortName) {
+				needIndex = i;
+				break;
+			}
+		}
+
+		team.needs.splice(needIndex, 1);
 
 		$scope.sim.overall++;
 		$scope.sim.position++;
@@ -120,26 +182,18 @@ function Simulation($scope, $interval) {
 		}
 	};
 
+	this.userOnTheClock = function() {
+		return $scope.draft.picks[0].team.shortName === $scope.sim.userTeam.shortName;
+	};
+
 	this.draftLoop = function () {
-		var team = _.findWhere($scope.draft.teams, { shortName: $scope.draft.picks[0].team.shortName });
-		var draftingTeam = new DraftingTeam(team);
-		var selectedPlayer = draftingTeam.selectPlayer($scope.draft.prospects);
-
-		var needIndex = -1;
-
-		for (var i in team.needs) {
-			if (team.needs[i].shortName === selectedPlayer.position.shortName) {
-				needIndex = i;
-				break;
-			}
+		if ($scope.sim.userOnTheClock()) {
+			$scope.sim.stop();
+			return;
 		}
 
-		team.needs.splice(needIndex, 1);
-
-		selectedPlayer.team = $scope.draft.picks[0].team;
-		selectedPlayer.overall = $scope.sim.overall;
-		selectedPlayer.round = $scope.sim.round;
-		selectedPlayer.pick = $scope.sim.position;
+		var draftingTeam = new DraftingTeam($scope.draft.picks[0].team);
+		var selectedPlayer = draftingTeam.selectPlayer($scope.draft.prospects);
 
 		$scope.sim.draftPlayer(selectedPlayer);
 	};

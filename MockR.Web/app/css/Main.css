@@ -580,6 +580,11 @@ header {
 #draftSim #players #undrafted td:nth-child(5) {
   width: 210px;
 }
+#draftSim #players #undrafted .userPicking:hover {
+  background-color: green;
+  color: #eeeeee;
+  cursor: pointer;
+}
 #draftSim #players #drafted th:nth-child(1),
 #draftSim #players #drafted td:nth-child(1) {
   padding-right: 16px;
