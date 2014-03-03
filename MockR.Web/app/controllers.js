@@ -16,7 +16,8 @@ function simCtrl($scope, $http, $interval) {
 	});
 
 	$scope.selectTeamText = 'Click Here To Select Team';
-	$scope.selectTeam = function (team) {
+
+	$scope.selectTeam = function (team) {		
 		$scope.sim.selectTeam(team);
 		$scope.selectTeamText = '';
 	};
@@ -25,16 +26,13 @@ function simCtrl($scope, $http, $interval) {
 		$scope.sim.toggle();
 	};
 
-	$scope.disableToggle = function() {
-		if ($scope.sim.userOnTheClock())
-			return true;
-
-		if ($scope.sim.userTeam === null)
-			return true;
-
-		if ($scope.sim.round === 7 && $scope.sim.position === 32)
-			return true;
-
+	$scope.disableToggle = function () {
+		if ($scope.sim != null) {
+			if ($scope.sim.userOnTheClock() ||
+				$scope.sim.userTeam === null ||
+				($scope.sim.round === 7 && $scope.sim.position === 32))
+				return true;
+		}
 		return false;
 	};
 
@@ -90,41 +88,41 @@ function simCtrl($scope, $http, $interval) {
 	};
 
 	$scope.getUndraftedSortStyle = function (field) {
+		if ($scope.draft != null) {
+			if ($scope.draft.prospects.orderBy.getField() === field) {
+				if ($scope.draft.prospects.orderBy.isReversed()) {
+					return 'sort dsc';
+				}
 
-
-		if ($scope.draft.prospects.orderBy.getField() === field) {
-			if ($scope.draft.prospects.orderBy.isReversed()) {
-				return 'sort dsc';
+				return 'sort asc';
 			}
-
-			return 'sort asc';
 		}
-
 		return undefined;
 	};
 
 	$scope.getUndraftedRowStyle = function() {
-		if ($scope.sim.userTeam != null && $scope.sim.userOnTheClock()) {
-			return 'userPicking';
+		if ($scope.sim != null) {
+			if ($scope.sim.userTeam != null && $scope.sim.userOnTheClock()) {
+				return 'userPicking';
+			}
 		}
-
 		return undefined;
 	};
 
 	$scope.getDraftedSortStyle = function (field) {
-		if ($scope.draft.drafted.orderBy.getField() === field) {
-			if ($scope.draft.drafted.orderBy.isReversed()) {
-				return 'sort dsc';
-			}
+		if ($scope.draft != null) {
+			if ($scope.draft.drafted.orderBy.getField() === field) {
+				if ($scope.draft.drafted.orderBy.isReversed()) {
+					return 'sort dsc';
+				}
 
-			return 'sort asc';
+				return 'sort asc';
+			}
 		}
 
 		return undefined;
 	};
 }
-
-simCtrl.prototype.sim = {};
 
 function Simulation($scope, $interval) {
 	$scope.draft.prospects.orderBy = new OrderBy('ranking');
@@ -147,9 +145,9 @@ function Simulation($scope, $interval) {
 
 	this.draftPlayer = function (player) {
 		player.team = $scope.draft.picks[0].team;
-		player.overall = $scope.sim.overall;
-		player.round = $scope.sim.round;
-		player.pick = $scope.sim.position;
+		player.overall = this.overall;
+		player.round = this.round;
+		player.pick = this.position;
 
 		var playerIndex = $scope.draft.prospects.indexOf(player);
 		$scope.draft.drafted.push(player);
@@ -167,23 +165,31 @@ function Simulation($scope, $interval) {
 
 		team.needs.splice(needIndex, 1);
 
-		$scope.sim.overall++;
-		$scope.sim.position++;
-		if ($scope.sim.position > 32) {
-			if ($scope.sim.round === 7) {
+		this.overall++;
+		this.position++;
+		if (this.position > 32) {
+			if (this.round === 7) {
 				this.stop();
-				$scope.sim.position = 32;
+				this.position = 32;
 			} else {
-				$scope.sim.round++;
-				$scope.sim.position = 1;
-				$scope.draft.drafted.filter.round = $scope.sim.round;
+				this.round++;
+				this.position = 1;
+				$scope.draft.drafted.filter.round = this.round;
 				
 			}
 		}
 	};
 
-	this.userOnTheClock = function() {
-		return $scope.draft.picks[0].team.shortName === $scope.sim.userTeam.shortName;
+	this.userOnTheClock = function () {
+		if (this.started) {
+			if (this.userTeam === null) {
+				return false;
+			}
+
+			return $scope.draft.picks[0].team.shortName === this.userTeam.shortName;
+		}
+
+		return false;
 	};
 
 	this.draftLoop = function () {
@@ -221,6 +227,8 @@ function Simulation($scope, $interval) {
 		}
 	};
 };
+
+Simulation.prototype.userTeam = {};
 
 function OrderBy(field) {
 	if (field === undefined) {
