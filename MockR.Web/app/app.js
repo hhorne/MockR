@@ -11,6 +11,6 @@ MockR.config(['$routeProvider',
 			controller: 'simCtrl'
 		}).
 		otherwise({
-			redirectTo: '/'
+			redirectTo: '/sim'
 	});
 }]);
