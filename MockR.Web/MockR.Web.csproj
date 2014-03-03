@@ -160,6 +160,8 @@
     <Content Include="app\css\Teams.css.map">
       <DependentUpon>Teams.css</DependentUpon>
     </Content>
+    <None Include="Properties\PublishProfiles\mockr - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\mockr - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

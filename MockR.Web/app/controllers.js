@@ -3,7 +3,7 @@
 function homeCtrl($scope) { }
 
 function simCtrl($scope, $http, $interval) {
-	$http.get('/mockr/app/data/2014.json').success(function (data) {
+	$http.get('app/data/2014.json').success(function (data) {
 		positions = data.positions;
 		$scope.draft = {
 			teams: data.teams,
