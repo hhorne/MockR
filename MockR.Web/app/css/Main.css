@@ -409,6 +409,13 @@ header {
   text-align: right;
   width: 776px;
 }
+#draftSim #controls #status.userPicking {
+  background-color: green;
+  -webkit-transition: background-color 0.5s ease-in;
+  -moz-transition: background-color 0.5s ease-in;
+  -o-transition: background-color 0.5s ease-in;
+  transition: background-color 0.5s ease-in;
+}
 #draftSim #controls #status label {
   margin: 0 12px;
 }

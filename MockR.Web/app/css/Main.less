@@ -113,11 +113,11 @@ header {
 			color: @offWhite;
 			height: 64px;
 		}
-		
-		button[disabled] {
-			color: @lightGray;
-			background-color: @darkGray;
-		}
+
+			button[disabled] {
+				color: @lightGray;
+				background-color: @darkGray;
+			}
 
 		#team {
 			background-color: @lightGray;
@@ -125,7 +125,8 @@ header {
 			float: left;
 			height: 64px;
 			text-align: center;
-			#selectedTeam {				
+
+			#selectedTeam {
 				width: 300px;
 			}
 		}
@@ -135,6 +136,14 @@ header {
 			font-size: x-large;
 			text-align: right;
 			width: 776px;
+
+			&.userPicking {
+				background-color: green;				
+				-webkit-transition: background-color 0.5s ease-in;
+				-moz-transition: background-color 0.5s ease-in;
+				-o-transition: background-color 0.5s ease-in;
+				transition: background-color 0.5s ease-in;
+			}
 
 			label {
 				margin: 0 12px;
@@ -225,7 +234,6 @@ header {
 				}
 
 				&.ng-enter.ng-enter-active {
-  
 				}
 
 				&.ng-leave.ng-leave-active {
@@ -255,10 +263,10 @@ header {
 		display: inline-block;
 		vertical-align: top;
 
-		table {			
+		table {
 			width: 780px;
 			font-size: large;
-						
+
 			thead {
 				tr {
 					background-color: @darkGray;
@@ -268,31 +276,31 @@ header {
 					th {
 						padding: 2px 0;
 						color: @offWhite;
-						
+
 						&.sort {
 							background-color: @offWhite;
 							color: @darkGray;
 							padding-right: 0 !important;
 						}
 
-						&.sort.asc:after, &.sort.dsc:after {
-							float: right;
-							font-weight: 100;
-							margin-right: @spaceStandard;
-						}
+							&.sort.asc:after, &.sort.dsc:after {
+								float: right;
+								font-weight: 100;
+								margin-right: @spaceStandard;
+							}
 
-						&.sort.asc:after {
-							content: 'v';
-						}
+							&.sort.asc:after {
+								content: 'v';
+							}
 
-						&.sort.dsc:after {
-							content: '^';
-						}
+							&.sort.dsc:after {
+								content: '^';
+							}
 					}
 
-					th:hover {
-						cursor: pointer;
-					}
+						th:hover {
+							cursor: pointer;
+						}
 				}
 			}
 
@@ -313,11 +321,10 @@ header {
 				td {
 					height: 30px !important;
 					margin: 0;
-					padding:  0;
-
+					padding: 0;
 				}
 
-				tr:nth-child(odd){
+				tr:nth-child(odd) {
 					background-color: @offWhite;
 					color: @darkGray;
 				}
@@ -356,7 +363,7 @@ header {
 
 		#drafted {
 			th:nth-child(1), td:nth-child(1) {
-				padding-right: 16px;				
+				padding-right: 16px;
 				text-align: center;
 				min-width: 64px;
 			}
@@ -389,8 +396,8 @@ header {
 		.phase {
 			margin: 0 0 24px 0;
 			padding: 0;
-			
-			&>span {
+
+			& > span {
 				background-color: @darkGray;
 				color: @offWhite;
 				display: inline-block;
@@ -402,30 +409,30 @@ header {
 			}
 		}
 
-        ul {
+		ul {
 			background: @lightGray;
 			color: @offWhite;
 			list-style: none;
 			margin: 0;
 			padding: 0;
 
-            li {
+			li {
 				margin: 0;
-                padding: 6px 0;
+				padding: 6px 0;
 				text-indent: @spaceStandard;
-									
-                &.selected, &:hover {
-                    background: @offWhite;
-                    color: @darkGray;
-                    cursor: pointer;
-                }
 
-				&.selected:after {
-					content: 'X';
-					float: right;
-					margin-right: @spaceStandard;
+				&.selected, &:hover {
+					background: @offWhite;
+					color: @darkGray;
+					cursor: pointer;
 				}
-            }
-        }
+
+					&.selected:after {
+						content: 'X';
+						float: right;
+						margin-right: @spaceStandard;
+					}
+			}
+		}
 	}
 }
