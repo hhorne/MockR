@@ -92,6 +92,7 @@
     <Content Include="app\css\Teams.css">
       <DependentUpon>Teams.less</DependentUpon>
     </Content>
+    <Content Include="app\Draft.js" />
     <Content Include="app\draftStrategies.js" />
     <Content Include="app\img\logo\49ers.png" />
     <Content Include="app\img\logo\Bears.png" />
@@ -130,7 +131,10 @@
     <Content Include="app\js\angular-scrollglue.js" />
     <Content Include="app\js\angular-ui-bootstrap-tpls-0.10.0.js" />
     <Content Include="app\js\angular.js" />
+    <Content Include="app\lib\ProspectFilter.js" />
+    <Content Include="app\lib\ProspectSort.js" />
     <Content Include="app\js\underscore.js" />
+    <Content Include="app\Simulation.js" />
     <Content Include="app\templates\index.html" />
     <Content Include="app\templates\sim.html" />
     <Content Include="Global.asax" />
