@@ -3,9 +3,11 @@
 	this.picks = picks;
 	this.prospects = prospects;
 	this.prospects.sort = new ProspectSort('ranking');
-	this.prospects.filter = new ProspectFilter('overall');
+	this.prospects.filter = new ProspectFilter();
 	this.drafted = [];
 	this.drafted.sort = new ProspectSort('overall');
+	this.drafted.filter = new ProspectFilter();
+	this.drafted.filter.set('selection.round', 1);
 	this.started = false;
 	this.inProgress = false;
 	this.userTeam = null;
@@ -28,14 +30,20 @@ Draft.prototype = {
 
 		return false;
 	},
+	selectTeam: function(team) {
+		this.userTeam = team;
+	},
 	selectProspect: function(prospect) {
 		var currentPick = this.picks[0];
 		prospect.selection = currentPick;
 
-		var prospectIndex = prospects.indexOf(prospect);
-		prospects.splice(prospectIndex, 1);
-		drafted.push(prospect);
-		picks.splice(0, 1);
+		var prospectIndex = this.prospects.indexOf(prospect);
+		this.prospects.splice(prospectIndex, 1);
+		this.drafted.push(prospect);
+		this.picks.splice(0, 1);
+		if (this.picks[0].round != currentPick.round) {
+			this.drafted.filter.set('selection.round', this.picks[0].round);
+		}
 	},
 	start: function() {
 		if (this.started === false) {
@@ -47,4 +55,11 @@ Draft.prototype = {
 	stop: function() {
 		this.inProgress = false;
 	},
+	toggle: function() {
+		if (this.inProgress) {
+			this.stop();
+		} else {
+			this.start();
+		}
+	}
 };

@@ -436,6 +436,10 @@ header {
   background-color: #eeeeee;
   color: #212121;
   font-weight: bold;
+  -webkit-transition: background-color 0.5s ease-in;
+  -moz-transition: background-color 0.5s ease-in;
+  -o-transition: background-color 0.5s ease-in;
+  transition: background-color 0.5s ease-in;
 }
 #draftSim #controls #status ul li.current {
   border-bottom: solid 1px #eeeeee;

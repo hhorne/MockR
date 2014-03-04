@@ -14,3 +14,9 @@ MockR.config(['$routeProvider',
 			redirectTo: '/sim'
 	});
 }]);
+
+function getDescendantProp(obj, desc) {
+	var arr = desc.split(".");
+	while (arr.length && (obj = obj[arr.shift()]));
+	return obj;
+}

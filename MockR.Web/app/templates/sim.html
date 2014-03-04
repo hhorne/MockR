@@ -1,30 +1,30 @@
 ﻿<div id="draftSim">
 	<div id="controls" class="dropdown">
 		<div id="team" class="dropdown">
-			<button id="selectedTeam" ng-class="sim.userTeam.shortName" class="teamLogo dropdown-toggle" ng-disabled="sim.started">
-				{{ selectTeamText }}
+			<button id="selectedTeam" ng-class="UI.teamSelect.style()" class="teamLogo dropdown-toggle" ng-disabled="UI.teamSelect.disabled()">
+				{{ UI.teamSelect.text }}
 			</button>
 			<ul class="dropdown-menu">
-				<li ng-repeat="team in draft.teams" ng-class="team.shortName" ng-click="selectTeam(team.shortName)" class="teamLogo"></li>
+				<li ng-repeat="team in draft.teams" ng-class="team.shortName" ng-click="UI.teamSelect.click(team)" class="teamLogo"></li>
 			</ul>
 		</div>
-		<div id="status" ng-class="getUndraftedRowStyle()">
+		<div id="status" ng-class="UI.status.isUserActive()">
 			<label>Round</label>
 			<ul>
-				<li ng-click="filterByRound(1)" ng-class="roundIndicator(1)">1</li>
-				<li ng-click="filterByRound(2)" ng-class="roundIndicator(2)">2</li>
-				<li ng-click="filterByRound(3)" ng-class="roundIndicator(3)">3</li>
-				<li ng-click="filterByRound(4)" ng-class="roundIndicator(4)">4</li>
-				<li ng-click="filterByRound(5)" ng-class="roundIndicator(5)">5</li>
-				<li ng-click="filterByRound(6)" ng-class="roundIndicator(6)">6</li>
-				<li ng-click="filterByRound(7)" ng-class="roundIndicator(7)">7</li>
+				<li ng-click="UI.status.filterByRound(1)" ng-class="UI.status.roundIndicator(1)">1</li>
+				<li ng-click="UI.status.filterByRound(2)" ng-class="UI.status.roundIndicator(2)">2</li>
+				<li ng-click="UI.status.filterByRound(3)" ng-class="UI.status.roundIndicator(3)">3</li>
+				<li ng-click="UI.status.filterByRound(4)" ng-class="UI.status.roundIndicator(4)">4</li>
+				<li ng-click="UI.status.filterByRound(5)" ng-class="UI.status.roundIndicator(5)">5</li>
+				<li ng-click="UI.status.filterByRound(6)" ng-class="UI.status.roundIndicator(6)">6</li>
+				<li ng-click="UI.status.filterByRound(7)" ng-class="UI.status.roundIndicator(7)">7</li>
 			</ul>
 
 			<label>Pick</label>
-			<span id="pickNum">{{ sim.position }}</span>
+			<span id="pickNum">{{ draft.picks[0].position }}</span>
 		</div>
-		<button id="toggle" ng-disabled="disableToggle()" ng-click="toggleDraft()">
-			{{ toggleText() }}
+		<button id="toggle" ng-disabled="UI.toggle.disable()" ng-click="UI.toggle.click()">
+			{{ UI.toggle.text() }}
 		</button>
 	</div>
 
@@ -38,34 +38,34 @@
 
 	<div id="players">
 		<div id="undrafted">
-			<h3>{{fart}}</h3>
+			<h3>Undrafted</h3>
 			<table>
 				<thead>
 					<tr>
-						<th ng-class="getUndraftedSortStyle('ranking')" ng-click="draft.prospects.sort.set('ranking')">#</th>
-						<th ng-class="getUndraftedSortStyle('lastName')" ng-click="draft.prospects.sort.set('lastName')">Last Name</th>
-						<th ng-class="getUndraftedSortStyle('firstName')" ng-click="draft.prospects.sort.set('firstName')">First Name</th>
-						<th ng-class="getUndraftedSortStyle('position.shortName')" ng-click="draft.prospects.sort.set('position.shortName')">Position</th>
-						<th ng-class="getUndraftedSortStyle('college')" ng-click="draft.prospects.sort.set('college')">College</th>
+						<th ng-class="UI.undrafted.sort.style('ranking')" ng-click="UI.undrafted.sort.click('ranking')">#</th>
+						<th ng-class="UI.undrafted.sort.style('lastName')" ng-click="UI.undrafted.sort.click('lastName')">Last Name</th>
+						<th ng-class="UI.undrafted.sort.style('firstName')" ng-click="UI.undrafted.sort.click('firstName')">First Name</th>
+						<th ng-class="UI.undrafted.sort.style('position.shortName')" ng-click="UI.undrafted.sort.click('position.shortName')">Position</th>
+						<th ng-class="UI.undrafted.sort.style('college')" ng-click="UI.undrafted.sort.click('college')">College</th>
 					</tr>
 				</thead>
 				<tbody>
-					<tr ng-repeat="player in draft.prospects | orderBy: draft.prospects.sort.field:draft.prospects.sort.reverse | filter: prospectFilter"
-						ng-click="userPick(player)" ng-class="getUndraftedRowStyle()">
+					<tr ng-repeat="prospect in draft.prospects | orderBy: draft.prospects.sort.field:draft.prospects.sort.reverse | filter: UI.undrafted.filter"
+						ng-click="UI.undrafted.prospects.click(prospect)" ng-class="UI.undrafted.prospects.isUserActive()">
 						<td>
-							{{player.ranking}}
+							{{prospect.ranking}}
 						</td>
 						<td>
-							{{player.lastName}}
+							{{prospect.lastName}}
 						</td>
 						<td>
-							{{player.firstName}}
+							{{prospect.firstName}}
 						</td>
 						<td>
-							{{player.position.shortName}}
+							{{prospect.position.shortName}}
 						</td>
 						<td>
-							{{player.college}}
+							{{prospect.college}}
 						</td>
 					</tr>
 				</tbody>
@@ -76,20 +76,20 @@
 			<table>
 				<thead>
 					<tr>
-						<th ng-class="getDraftedSortStyle('overall')" ng-click="draft.drafted.sort.set('overall')">#</th>
-						<th ng-class="getDraftedSortStyle('team.name')" ng-click="draft.drafted.sort.set('team.name')">Team</th>
-						<th ng-class="getDraftedSortStyle('lastName')" ng-click="draft.drafted.sort.set('lastName')">Last Name</th>
-						<th ng-class="getDraftedSortStyle('firstName')" ng-click="draft.drafted.sort.set('firstName')">First Name</th>
-						<th ng-class="getDraftedSortStyle('position.shortName')" ng-click="draft.drafted.sort.set('position.shortName')">Position</th>
+						<th ng-class="UI.drafted.sort.style('selection.overall')" ng-click="UI.drafted.sort.click('selection.overall')">#</th>
+						<th ng-class="UI.drafted.sort.style('selection.team.name')" ng-click="UI.drafted.sort.click('selection.team.name')">Team</th>
+						<th ng-class="UI.drafted.sort.style('lastName')" ng-click="UI.drafted.sort.click('lastName')">Last Name</th>
+						<th ng-class="UI.drafted.sort.style('firstName')" ng-click="UI.drafted.sort.click('firstName')">First Name</th>
+						<th ng-class="UI.drafted.sort.style('position.shortName')" ng-click="UI.drafted.sort.click('position.shortName')">Position</th>
 					</tr>
 				</thead>
 				<tbody scroll-glue>
-					<tr ng-repeat="player in draft.drafted | orderBy: draft.drafted.sort.field:draft.drafted.sort.reverse | filter: { round: draft.drafted.filter.round }">
+					<tr ng-repeat="player in draft.drafted | orderBy: draft.drafted.sort.field:draft.drafted.sort.reverse | filter: UI.drafted.filter">
 						<td>
-							{{player.overall}}
+							{{player.selection.overall}}
 						</td>
 						<td>
-							{{player.team.name}}
+							{{player.selection.team.name}}
 						</td>
 						<td>
 							{{player.lastName}}
@@ -109,34 +109,34 @@
 		<div class="phase">
 			<span>Offense</span>
 			<ul>
-				<li ng-click="draft.prospects.filter.set('position', 'QB')" ng-class="draft.prospects.filter.style('QB')">Quarterback</li>
-				<li ng-click="draft.prospects.filter.set('position', 'RB')" ng-class="draft.prospects.filter.style('RB')">Runningback</li>
-				<li ng-click="draft.prospects.filter.set('position', 'FB')" ng-class="draft.prospects.filter.style('FB')">Fullback</li>
-				<li ng-click="draft.prospects.filter.set('position', 'WR')" ng-class="draft.prospects.filter.style('WR')">Wide Reciever</li>
-				<li ng-click="draft.prospects.filter.set('position', 'TE')" ng-class="draft.prospects.filter.style('TE')">Tight End</li>
-				<li ng-click="draft.prospects.filter.set('position', 'C')" ng-class="draft.prospects.filter.style('C')">Center</li>
-				<li ng-click="draft.prospects.filter.set('position', 'OG')" ng-class="draft.prospects.filter.style('OG')">Offensive Guards</li>
-				<li ng-click="draft.prospects.filter.set('position', 'OT')" ng-class="draft.prospects.filter.style('OT')">Offensive Tackle</li>
+				<li ng-click="UI.positions.filter('QB')" ng-class="UI.positions.style('QB')">Quarterback</li>
+				<li ng-click="UI.positions.filter('RB')" ng-class="UI.positions.style('RB')">Runningback</li>
+				<li ng-click="UI.positions.filter('FB')" ng-class="UI.positions.style('FB')">Fullback</li>
+				<li ng-click="UI.positions.filter('WR')" ng-class="UI.positions.style('WR')">Wide Reciever</li>
+				<li ng-click="UI.positions.filter('TE')" ng-class="UI.positions.style('TE')">Tight End</li>
+				<li ng-click="UI.positions.filter('C')"  ng-class="UI.positions.style('C')">Center</li>
+				<li ng-click="UI.positions.filter('OG')" ng-class="UI.positions.style('OG')">Offensive Guards</li>
+				<li ng-click="UI.positions.filter('OT')" ng-class="UI.positions.style('OT')">Offensive Tackle</li>
 			</ul>
 		</div>
 
 		<div class="phase">
 			<span>Defense</span>
 			<ul>
-				<li ng-click="draft.prospects.filter.set('position', 'DE')" ng-class="draft.prospects.filter.style('DE')">Defensive End</li>
-				<li ng-click="draft.prospects.filter.set('position', 'DT')" ng-class="draft.prospects.filter.style('DT')">Defensive Tackle</li>
-				<li ng-click="draft.prospects.filter.set('position', 'ILB')" ng-class="draft.prospects.filter.style('ILB')">Inside Linebacker</li>
-				<li ng-click="draft.prospects.filter.set('position', 'OLB')" ng-class="draft.prospects.filter.style('OLB')">Outside Linebacker</li>
-				<li ng-click="draft.prospects.filter.set('position', 'CB')" ng-class="draft.prospects.filter.style('CB')">Cornerback</li>
-				<li ng-click="draft.prospects.filter.set('position', 'S')" ng-class="draft.prospects.filter.style('S')">Safety</li>
+				<li ng-click="UI.positions.filter('DE')"  ng-class="UI.positions.style('DE')">Defensive End</li>
+				<li ng-click="UI.positions.filter('DT')"  ng-class="UI.positions.style('DT')">Defensive Tackle</li>
+				<li ng-click="UI.positions.filter('ILB')" ng-class="UI.positions.style('ILB')">Inside Linebacker</li>
+				<li ng-click="UI.positions.filter('OLB')" ng-class="UI.positions.style('OLB')">Outside Linebacker</li>
+				<li ng-click="UI.positions.filter('CB')"  ng-class="UI.positions.style('CB')">Cornerback</li>
+				<li ng-click="UI.positions.filter('S')"   ng-class="UI.positions.style('S')">Safety</li>
 			</ul>
 		</div>
 
 		<div class="phase">
 			<span>Special Teams</span>
 			<ul>
-				<li ng-click="draft.prospects.filter.set('position', 'K')" ng-class="draft.prospects.filter.style('K')">Kicker</li>
-				<li ng-click="draft.prospects.filter.set('position', 'P')" ng-class="draft.prospects.filter.style('P')">Punter</li>
+				<li ng-click="draftUI.positions.filter('position.shortName', 'K')" ng-class="UI.positions.style('K')">Kicker</li>
+				<li ng-click="draftUI.positions.filter('position.shortName', 'P')" ng-class="UI.positions.style('P')">Punter</li>
 			</ul>
 		</div>
 	</div>
