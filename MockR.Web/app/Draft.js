@@ -5,7 +5,7 @@
 	this.prospects.sort = new ProspectSort('ranking');
 	this.prospects.filter = new ProspectFilter();
 	this.drafted = [];
-	this.drafted.sort = new ProspectSort('overall');
+	this.drafted.sort = new ProspectSort('selection.overall');
 	this.drafted.filter = new ProspectFilter();
 	this.drafted.filter.set('selection.round', 1);
 	this.started = false;

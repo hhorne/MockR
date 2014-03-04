@@ -38,10 +38,12 @@ function SimController($scope, $http, $interval) {
 				return false;
 			},
 			sort: {
-				click: function(field) {
-					$scope.draft.drafted.sort.set(field);
+				click: function (field) {
+					if ($scope.draft != null) {
+						$scope.draft.drafted.sort.set(field);
+					}
 				},
-				style: function () {
+				style: function (field) {
 					if ($scope.draft != null) {
 						if ($scope.draft.drafted.sort.field === field) {
 							if ($scope.draft.drafted.sort.reverse) {
@@ -63,16 +65,17 @@ function SimController($scope, $http, $interval) {
 				return false;
 			},
 			sort: {
-				click: function(field) {
-					$scope.draft.prospects.sort.set(field);
+				click: function (field) {
+					if ($scope.draft != null) {
+						$scope.draft.prospects.sort.set(field);
+					}
 				},
-				style: function() {
+				style: function (field) {
 					if ($scope.draft != null) {
 						if ($scope.draft.prospects.sort.field === field) {
 							if ($scope.draft.prospects.sort.reversed) {
 								return 'sort dsc';
 							}
-
 							return 'sort asc';
 						}
 					}
@@ -95,9 +98,11 @@ function SimController($scope, $http, $interval) {
 			filter: function (position) {
 				$scope.draft.prospects.filter.set('position.shortName', position);
 			},
-			style: function(position) {
-				if ($scope.draft.prospects.filter.getFilter() === position) {
-					return 'selected';
+			style: function (position) {
+				if ($scope.draft !== undefined) {
+					if ($scope.draft.prospects.filter.getFilter() === position) {
+						return 'selected';
+					}
 				}
 				return undefined;
 			}
@@ -139,11 +144,13 @@ function SimController($scope, $http, $interval) {
 				$scope.UI.teamSelect.text = '';
 			},
 			disabled: function() {
-				return $scope.draft.started;
+				return ($scope.draft === undefined || $scope.draft.started);
 			},
 			style: function() {
-				if ($scope.draft.userTeam != null) {
-					return $scope.draft.userTeam.shortName;
+				if ($scope.draft !== undefined) {
+					if ($scope.draft.userTeam !== null) {
+						return $scope.draft.userTeam.shortName;
+					}
 				}
 				return undefined;
 			},
@@ -160,12 +167,14 @@ function SimController($scope, $http, $interval) {
 				$scope.draft.toggle();
 			},
 			disable: function () {
-				if ($scope.draft != null) {
-					if ($scope.draft.isUserOnTheClock() ||
-						$scope.draft.userTeam === null ||
-						($scope.draft.picks[0].round === 7 && $scope.draft.picks[0].position === 32))
-						return true;
+				if ($scope.draft === undefined) {
+					return true;
 				}
+
+				if ($scope.draft.isUserOnTheClock() ||
+					$scope.draft.userTeam === null ||
+					($scope.draft.picks[0].round === 7 && $scope.draft.picks[0].position === 32))
+					return true;
 				return false;
 			},
 			text: function () {

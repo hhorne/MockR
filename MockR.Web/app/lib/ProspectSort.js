@@ -7,6 +7,7 @@
 }
 
 ProspectSort.prototype = {
+	field: '',
 	reverse: false,
 
 	set: function (field) {

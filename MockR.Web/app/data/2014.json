@@ -1305,13 +1305,6 @@
                         "importance": 3
                     },
                     {
-                        "name": "Quarterback",
-                        "shortName": "QB",
-                        "group": "QB",
-                        "phase": "Offense",
-                        "importance": 5
-                    },
-                    {
                         "name": "Runningback",
                         "shortName": "RB",
                         "group": "RB",
@@ -4405,13 +4398,6 @@
                         "importance": 3
                     },
                     {
-                        "name": "Quarterback",
-                        "shortName": "QB",
-                        "group": "QB",
-                        "phase": "Offense",
-                        "importance": 5
-                    },
-                    {
                         "name": "Runningback",
                         "shortName": "RB",
                         "group": "RB",
@@ -7496,13 +7482,6 @@
                         "group": "DL",
                         "phase": "Defense",
                         "importance": 3
-                    },
-                    {
-                        "name": "Quarterback",
-                        "shortName": "QB",
-                        "group": "QB",
-                        "phase": "Offense",
-                        "importance": 5
                     },
                     {
                         "name": "Runningback",
@@ -10596,13 +10575,6 @@
                         "group": "DL",
                         "phase": "Defense",
                         "importance": 3
-                    },
-                    {
-                        "name": "Quarterback",
-                        "shortName": "QB",
-                        "group": "QB",
-                        "phase": "Offense",
-                        "importance": 5
                     },
                     {
                         "name": "Runningback",
@@ -17205,13 +17177,6 @@
                         "importance": 3
                     },
                     {
-                        "name": "Quarterback",
-                        "shortName": "QB",
-                        "group": "QB",
-                        "phase": "Offense",
-                        "importance": 5
-                    },
-                    {
                         "name": "Runningback",
                         "shortName": "RB",
                         "group": "RB",
@@ -20261,13 +20226,6 @@
                         "group": "DL",
                         "phase": "Defense",
                         "importance": 3
-                    },
-                    {
-                        "name": "Quarterback",
-                        "shortName": "QB",
-                        "group": "QB",
-                        "phase": "Offense",
-                        "importance": 5
                     },
                     {
                         "name": "Runningback",

@@ -83,17 +83,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\controllers.js" />
+    <Content Include="app\Controllers.js" />
     <Content Include="app\css\bootstrap.css" />
     <Content Include="app\css\Main.css">
       <DependentUpon>Main.less</DependentUpon>
     </Content>
-    <Content Include="app\app.js" />
+    <Content Include="app\App.js" />
     <Content Include="app\css\Teams.css">
       <DependentUpon>Teams.less</DependentUpon>
     </Content>
     <Content Include="app\Draft.js" />
-    <Content Include="app\draftStrategies.js" />
+    <Content Include="app\DraftStrategies.js" />
     <Content Include="app\img\logo\49ers.png" />
     <Content Include="app\img\logo\Bears.png" />
     <Content Include="app\img\logo\Bengals.png" />
@@ -134,7 +134,6 @@
     <Content Include="app\lib\ProspectFilter.js" />
     <Content Include="app\lib\ProspectSort.js" />
     <Content Include="app\js\underscore.js" />
-    <Content Include="app\Simulation.js" />
     <Content Include="app\templates\index.html" />
     <Content Include="app\templates\sim.html" />
     <Content Include="Global.asax" />
