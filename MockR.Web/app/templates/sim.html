@@ -23,7 +23,7 @@
 			<label>Pick</label>
 			<span id="pickNum">{{ draft.picks[0].position }}</span>
 		</div>
-		<button id="toggle" ng-disabled="UI.toggle.disable()" ng-click="UI.toggle.click()">
+		<button id="toggle" ng-class="UI.toggle.style()" ng-disabled="UI.toggle.disable()" ng-click="UI.toggle.click()">
 			{{ UI.toggle.text() }}
 		</button>
 	</div>

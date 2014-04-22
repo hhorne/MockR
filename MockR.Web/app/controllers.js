@@ -148,7 +148,10 @@ function SimController($scope, $http, $interval) {
 			},
 			style: function() {
 				if ($scope.draft !== undefined) {
-					if ($scope.draft.userTeam !== null) {
+					if ($scope.draft.userTeam == null) {
+						return 'green';
+					}
+					else {
 						return $scope.draft.userTeam.shortName;
 					}
 				}
@@ -188,6 +191,19 @@ function SimController($scope, $http, $interval) {
 				}
 				return 'Start Draft';
 			},
+			style: function () {
+				if ($scope.draft !== null) {
+					if ($scope.draft.started) {
+						return undefined
+					}
+
+					if ($scope.draft.userTeam === null) {
+						return undefined;
+					}
+
+					return 'green';
+				}
+			}
 		},
 	};
 }
