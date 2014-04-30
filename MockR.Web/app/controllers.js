@@ -1,7 +1,5 @@
 ﻿var positions = null; // global, not specific to any one draft; seems to fit logically
 
-function HomeController($scope) { }
-
 function SimController($scope, $http, $interval) {	
 	$http.get('app/data/2014.json').success(function (data) {
 		positions = data.positions;
